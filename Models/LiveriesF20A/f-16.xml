@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+ 
+ <PropertyList>
+  <sim>
+   <model>
+    <livery>
+     <name type="string">USAF F-16 style</name>
+     <F-20-texture>LiveriesF20A/f-16.png</F-20-texture>
+     <reflection-map>Models/dull.png</reflection-map>
+    </livery>
+   </model>
+  </sim>
+ </PropertyList>

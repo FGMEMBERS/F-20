@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+ 
+ <path>f-20A-cockpit.ac</path>
+ 
+ 
+ <!-- Main artificial horizon -->
+   <animation>
+  <type>rotate</type>
+    <object-name>Horizon</object-name>
+    <object-name>RollPointer</object-name>
+	<property>orientation/roll-deg</property>    
+  <center>
+   <x-m>-4.00985</x-m>
+   <y-m>0.00411</y-m>
+   <z-m>0.24706</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+  <animation>
+  <type>rotate</type>
+    <object-name>Horizon</object-name>
+	<property>orientation/pitch-deg</property>    
+    <factor>1.5</factor>
+  <center>
+   <x-m>-4.00985</x-m>
+   <y-m>0.00411</y-m>
+   <z-m>0.24706</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+  <!-- Counter measures panel -->
+   <animation>
+  <type>pick</type>
+   <object-name>FlareModeSelector</object-name>
+   <action>
+    <button>3</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.incrementFlareSelector();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>pick</type>
+   <object-name>FlareModeSelector</object-name>
+   <action>
+    <button>4</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.decrementFlareSelector();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>rotate</type>
+    <object-name>FlareModeSelector</object-name>
+	<property>/f-20/CM/flare-selection</property>    
+	<interpolation>
+		<entry><ind>0</ind><dep>32.54</dep></entry>
+		<entry><ind>1</ind><dep>3.37</dep></entry>
+        <entry><ind>2</ind><dep>-27.64</dep></entry>
+	</interpolation>	
+  <center>
+   <x-m>-3.95132</x-m>
+   <y-m>-0.34998</y-m>
+   <z-m>-0.07612</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+ 
+<animation>
+  <type>pick</type>
+   <object-name>ChaffModeSelector</object-name>
+   <action>
+    <button>3</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.incrementChaffSelector();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>pick</type>
+   <object-name>ChaffModeSelector</object-name>
+   <action>
+    <button>4</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.decrementChaffSelector();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>rotate</type>
+    <object-name>ChaffModeSelector</object-name>
+	<property>/f-20/CM/chaff-selection</property>    
+	<interpolation>
+		<entry><ind>0</ind><dep>62.3</dep></entry>
+		<entry><ind>1</ind><dep>22.18</dep></entry>
+        <entry><ind>2</ind><dep>-19.68</dep></entry>
+        <entry><ind>3</ind><dep>-61.64</dep></entry>
+	</interpolation>	
+  <center>
+   <x-m>-3.95132</x-m>
+   <y-m>-0.39754</y-m>
+   <z-m>-0.07612</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+ 
+         
+</PropertyList>

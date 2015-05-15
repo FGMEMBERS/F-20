@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+
+<!--
+T-38 instrument panel.
+David Culp, davidculp2@comcast.net, March 2003
+License:  GPL
+_______________________________________________________________________
+-->
+
+<PropertyList>
+ <name>T38 Panel</name>
+ <background>Aircraft/T38/Panels/Textures/T38-panel.rgb</background>
+ <w>1024</w>
+ <h>512</h>
+ <y-offset>0</y-offset>
+ <view-height>768</view-height>
+
+ <instruments>
+
+  <instrument include="../Instruments/T38-throttle.xml">
+   <name>Throttles and Flap Handle</name>
+   <x>107</x>
+   <y>71</y>
+   <w>80</w>
+   <h>140</h>
+  </instrument>
+
+  <instrument include="../Instruments/T38-gear.xml">
+   <name>Gear Lights and Handle</name>
+   <x>207</x>
+   <y>60</y>
+   <w>80</w>
+   <h>200</h>
+  </instrument>
+
+  <instrument include="../Instruments/T38-flaps.xml">
+   <name>Flaps Indicator</name>
+   <x>322</x>
+   <y>102</y>
+   <w>55</w>
+   <h>55</h>
+  </instrument>
+
+  <instrument include="../Instruments/T38-airspeed.xml">
+   <name>Airspeed Indicator</name>
+   <x>389</x>
+   <y>184</y>
+   <w>90</w>
+   <h>90</h>
+  </instrument>
+
+  <instrument include="../Instruments/T38-HSI.xml">
+   <name>Horizontal Situation Indicator</name>
+   <x>502</x>
+   <y>55</y>
+   <w>122</w>
+   <h>122</h>
+  </instrument>
+
+  <instrument include="../Instruments/T38-ADI.xml">
+   <name>Attitude Director Indicator</name>
+   <x>503</x>
+   <y>183</y>
+   <w>125</w>
+   <h>125</h>
+  </instrument>
+
+  <instrument include="../Instruments/T38-altimeter.xml">
+   <name>Altimeter</name>
+   <x>613</x>
+   <y>187</y>
+   <w>85</w>
+   <h>85</h>
+  </instrument>
+
+  <instrument include="../Instruments/IVSI-6kfpm.xml">
+   <name>Instantaneous Vertical Velocity Indicator</name>
+   <x>613</x>
+   <y>93</y>
+   <w>85</w>
+   <h>85</h>
+  </instrument>
+
+  <instrument include="../Instruments/n1-0.xml">
+   <name>Engine 1 %RPM</name>
+   <x>684</x>
+   <y>175</y>
+   <w>51</w>
+   <h>51</h>
+  </instrument>
+
+  <instrument include="../Instruments/n1-1.xml">
+   <name>Engine 2 %RPM</name>
+   <x>736</x>
+   <y>175</y>
+   <w>51</w>
+   <h>51</h>
+  </instrument>
+
+  <instrument include="../Instruments/egt-0.xml">
+   <name>Engine 1 EGT</name>
+   <x>684</x>
+   <y>126</y>
+   <w>51</w>
+   <h>51</h>
+  </instrument>
+
+  <instrument include="../Instruments/egt-1.xml">
+   <name>Engine 2 EGT</name>
+   <x>736</x>
+   <y>126</y>
+   <w>51</w>
+   <h>51</h>
+  </instrument>
+
+  <instrument include="../Instruments/nozzle-0.xml">
+   <name>Engine 1 Nozzle</name>
+   <x>684</x>
+   <y>77</y>
+   <w>51</w>
+   <h>51</h>
+  </instrument>
+
+  <instrument include="../Instruments/nozzle-1.xml">
+   <name>Engine 2 Nozzle</name>
+   <x>736</x>
+   <y>77</y>
+   <w>51</w>
+   <h>51</h>
+  </instrument>
+
+  <instrument include="../Instruments/ff-0.xml">
+   <name>Engine 1 Fuel Flow</name>
+   <x>684</x>
+   <y>28</y>
+   <w>51</w>
+   <h>51</h>
+  </instrument>
+
+  <instrument include="../Instruments/ff-1.xml">
+   <name>Engine 2 Fuel Flow</name>
+   <x>736</x>
+   <y>28</y>
+   <w>51</w>
+   <h>51</h>
+  </instrument>
+
+  <instrument include="../Instruments/gmeter.xml">
+   <name>G Indicator</name>
+   <x>790</x>
+   <y>146</y>
+   <w>55</w>
+   <h>55</h>
+  </instrument>
+
+  <instrument include="../Instruments/oilpressure-0.xml">
+   <name>Engine 1 Oil Pressure</name>
+   <x>788</x>
+   <y>77</y>
+   <w>51</w>
+   <h>51</h>
+  </instrument>
+
+  <instrument include="../Instruments/oilpressure-1.xml">
+   <name>Engine 2 Oil Pressure</name>
+   <x>840</x>
+   <y>77</y>
+   <w>51</w>
+   <h>51</h>
+  </instrument>
+
+  <instrument include="../Instruments/fuel-0.xml">
+   <name>Fuel Tank 0 Quantity</name>
+   <x>788</x>
+   <y>28</y>
+   <w>51</w>
+   <h>51</h>
+  </instrument>
+
+  <instrument include="../Instruments/fuel-1.xml">
+   <name>Fuel Tank 1 Quantity</name>
+   <x>840</x>
+   <y>28</y>
+   <w>51</w>
+   <h>51</h>
+  </instrument>
+
+  <instrument include="../Instruments/refuel.xml">
+   <name>Refuel Contact Light</name>
+   <x>816</x>
+   <y>48</y>
+   <w>12</w>
+   <h>12</h>
+  </instrument>
+
+
+<!--
+  <instrument include="../Instruments/aero.xml">
+   <name>Aero data</name>
+   <x>765</x>
+   <y>62</y>
+   <w>160</w>
+   <h>140</h>
+  </instrument>
+-->
+<!--
+  <instrument include="../Instruments/engine.xml">
+   <name>Engine data</name>
+   <x>765</x>
+   <y>62</y>
+   <w>160</w>
+   <h>140</h>
+  </instrument>
+-->
+  <instrument include="../../Instruments/radar.xml">
+   <name>Radar</name>
+   <condition>
+    <equals>
+     <property>instrumentation/radar/minimized</property>
+     <value>false</value>
+    </equals>
+   </condition>
+   <x>944</x>
+   <y>110</y>
+   <w>160</w>
+   <h>160</h>
+  </instrument>
+
+  <instrument include="../../Instruments/radar-minimized.xml">
+   <name>Radar-minimized</name>
+   <condition>
+    <equals>
+     <property>instrumentation/radar/minimized</property>
+     <value>true</value>
+    </equals>
+   </condition>
+   <x>850</x>
+   <y>132</y>
+   <w>44</w>
+   <h>16</h>
+  </instrument>
+
+
+ </instruments>
+
+</PropertyList>

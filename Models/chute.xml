@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>chute.ac</path>
+
+  <offsets>
+  <z-m>0.0</z-m> 
+  </offsets>
+  
+  <animation>
+	<type>select</type>
+	<object-name>DeployedChute</object-name>
+    <object-name>ChuteLines</object-name>
+		<condition>
+		 <greater-than>
+				<property>/fdm/jsbsim/fcs/chute-deployement-norm</property>
+				<value>0.05</value>
+         </greater-than>				
+		</condition>
+  </animation>  
+  
+  <animation>
+	<type>translate</type>
+	<object-name>DeployedChute</object-name>
+    <object-name>ChuteLines</object-name>
+	<factor>0.0</factor>
+	<offset-m>5.1987040383</offset-m>
+	<axis>
+		<x>0.9926762443</x>
+		<y>0</y>
+		<z>0.1208051075</z>
+	</axis>
+</animation>  
+
+<animation>
+  <type>rotate</type>
+	<object-name>DeployedChute</object-name>
+    <object-name>ChuteLines</object-name>
+  <property>/f-20/chute/chute-decay-angle</property>
+  <factor>1.0</factor>
+  <center>
+   <x-m>0.0</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+  
+ <animation>
+  <type>rotate</type>
+	<object-name>DeployedChute</object-name>
+    <object-name>ChuteLines</object-name>
+  <property>/f-20/chute/chute-azim-angle</property>
+  <factor>1.0</factor>
+  <center>
+   <x-m>0.0</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </center>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+ 
+ <animation>
+  <type>rotate</type>
+	<object-name>DeployedChute</object-name>
+    <object-name>ChuteLines</object-name>
+  <property>/f-20/chute/chute-elev-angle</property>
+  <factor>1.0</factor>
+  <center>
+   <x-m>0.0</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+    
+ <animation>
+	<type>scale</type>
+	<object-name>DeployedChute</object-name>
+    <object-name>ChuteLines</object-name>
+	<property>/f-20/chute/canopy</property>        
+    
+	<x-factor>0.0</x-factor>
+    <x-offset>1.0</x-offset>
+	<y-factor>1.0</y-factor>
+	<z-factor>1.0</z-factor>    
+</animation>
+
+<!-- canopy original position : 6.71732 -->
+
+<!-- reposition the canopy -->
+
+ <animation>
+  <type>translate</type>
+    <object-name>DeployedChute</object-name>
+	<property>/fdm/jsbsim/fcs/chute-deployement-norm</property>    
+  <factor>6.71732</factor>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+<!-- shorten the line -->
+
+ <animation>
+	<type>scale</type>
+    <object-name>ChuteLines</object-name>
+	<property>/fdm/jsbsim/fcs/chute-deployement-norm</property>    
+               
+	<x-factor>1.0</x-factor>
+    <x-offset>0.0</x-offset>
+	<y-factor>0.0</y-factor>
+    <y-offset>1.0</y-offset>
+	<z-factor>0.0</z-factor>
+    <z-offset>1.0</z-offset>
+</animation>
+
+<!-- lengthen the canopy -->
+
+ <animation>
+	<type>scale</type>
+    <object-name>DeployedChute</object-name>
+	<property>/fdm/jsbsim/fcs/chute-deployement-norm</property>    
+    
+	<x-factor>-0.5</x-factor>
+    <x-offset>1.5</x-offset>
+	<y-factor>0.0</y-factor>
+    <y-offset>1.0</y-offset>
+	<z-factor>0.0</z-factor>
+    <z-offset>1.0</z-offset>
+</animation>
+
+  
+</PropertyList>

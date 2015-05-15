@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+ 
+ <PropertyList>
+  <sim>
+   <model>
+    <livery>
+     <name type="string">Dutch solo demo</name>
+     <F-20-texture>SpecialLiveries/dutch-target.png</F-20-texture>          
+    </livery>
+   </model>
+  </sim>
+ </PropertyList>

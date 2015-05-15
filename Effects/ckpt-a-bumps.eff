@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<PropertyList>
+		<name>Aircraft/F-20/Effects/ckpt-a-bumps</name>
+          <inherits-from>Effects/model-combined</inherits-from>
+		<parameters>
+		<!-- Normal Map -->
+		<normalmap-enabled type="int">1</normalmap-enabled>		
+		<texture n="2">
+			<image>Aircraft/F-20/Effects/protoBumpMap.png</image>
+		</texture>
+
+	</parameters>
+<!-- 	Add normalmap include here if needed -->
+</PropertyList>

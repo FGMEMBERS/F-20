@@ -1,0 +1,486 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <sim>
+
+  <description>Northrop F-20</description>
+  <author>Enrique Laso</author>
+  <status>early production</status>
+
+  <flight-model>jsb</flight-model>
+  <aero>F-20</aero>
+
+  <startup>
+   <splash-texture>Aircraft/F-20/splash.png</splash-texture>
+  </startup>
+
+<!--
+  <virtual-cockpit archive="y">true</virtual-cockpit>
+  <allow-toggle-cockpit archive="y">false</allow-toggle-cockpit>
+
+-->
+
+  <sound>
+   <path>Aircraft/F-20/Sounds/F-20-sound.xml</path>
+  </sound>
+
+  <view n="0">
+   <internal archive="y">true</internal>
+   <config>
+    <pitch-offset-deg>-7.0</pitch-offset-deg>
+    <default-field-of-view-deg>46</default-field-of-view-deg>
+    <x-offset-m archive="y">0.0</x-offset-m>
+    <y-offset-m archive="y">0.55</y-offset-m>
+    <z-offset-m archive="y">-3.42</z-offset-m>
+   </config>
+  </view>
+
+  <view n="100">
+    <name>Wide Angle</name>
+    <type>lookfrom</type>
+    <internal type="bool">true</internal>
+
+    <config>
+
+      <from-model type="bool">true</from-model>
+      <from-model-idx type="int">0</from-model-idx>
+
+      <at-model type="bool">false</at-model>
+
+      <ground-level-nearplane-m type="double">0.5f</ground-level-nearplane-m>
+      <default-field-of-view-deg type="double">80.0</default-field-of-view-deg>
+
+    <x-offset-m archive="y">0.0</x-offset-m>
+    <y-offset-m archive="y">0.55</y-offset-m>
+    <z-offset-m archive="y">-3.42</z-offset-m>
+   </config>
+  </view>
+
+  <model>
+   <path>Aircraft/F-20/Models/f-20prototype.xml</path>
+   <livery>
+    <file type="string">Suisse</file>
+   </livery>
+  </model>
+
+  <chase-distance-m>-21</chase-distance-m>
+
+  <ai>
+   <scenario>refueling_demo</scenario>
+  </ai>
+
+  <!-- turns off GA tower communications -->
+  <ATC>
+   <enabled type="bool">false</enabled>
+  </ATC>
+
+  <!-- turns off GA traffic -->
+  <ai-traffic>
+   <enabled type="bool">false</enabled>
+  </ai-traffic>
+
+  <help>
+   <title>F-20 Tigershark help</title>
+   <key>
+    <name>Shift-Q</name>
+    <desc>Throttle start detent toggle (must be at idle)</desc>
+   </key>
+   <key>
+    <name>Ctrl-F</name>
+    <desc>Release counter measures</desc>
+   </key>
+   <key>
+    <name>E</name>
+    <desc>Extend speed brakes</desc>
+   </key>
+   <key>
+    <name>R</name>
+    <desc>Retract speed brakes</desc>
+   </key>
+   <key>
+    <name>d</name>
+    <desc>flaps switch forward</desc>
+   </key>
+   <key>
+    <name>f</name>
+    <desc>flaps switch forward</desc>
+   </key>
+  </help>
+
+<!--
+ <menubar>
+  <default>
+   <menu n="100">
+    <label>Tigershark</label>
+    <enabled type="bool">true</enabled>
+    <item n="1">
+        <label>Select Livery</label>
+		<binding>
+		   <command>nasal</command>
+			<script>aircraft.livery.dialog.toggle()</script>
+         </binding>
+    </item>
+    <item n="2">
+        <label>Repack drag chute</label>
+		<binding>
+		   <command>nasal</command>
+			<script>f20.repackChute()</script>
+         </binding>
+    </item>
+    <item n="3">
+        <label>Connect start cart</label>
+		<binding>
+		   <command>nasal</command>
+			<script>f20.connectStartCart()</script>
+         </binding>
+    </item>
+    <item n="4">
+        <label>Disconnect start cart</label>
+		<binding>
+		   <command>nasal</command>
+			<script>f20.disconnectStartCart()</script>
+         </binding>
+    </item>
+    <item n="5">
+        <label>Select stores</label>
+		<binding>
+		   <command>nasal</command>
+			<script>f20.showStoresDialog();</script>
+         </binding>
+    </item>
+   </menu>
+  </default>
+ </menubar>
+-->
+
+
+    <rendering>
+        <redout>
+            <parameters>
+                <blackout-complete-g> 11.0 </blackout-complete-g>
+                <blackout-onset-g> 8.5 </blackout-onset-g>
+                <redout-complete-g> -4 </redout-complete-g>
+                <redout-onset-g> -2 </redout-onset-g>
+            </parameters>
+        </redout>
+    </rendering>
+
+ </sim>
+
+<!--Fuel system *****************************************************-->
+ <consumables>
+  <fuel>
+   <tank n="0">
+    <level-gal_us archive="y">257</level-gal_us>
+   </tank>
+   <tank n="1">
+    <level-gal_us archive="y">407</level-gal_us>
+   </tank>
+   <tank n="2">
+    <level-gal_us archive="y">316</level-gal_us>
+   </tank>
+   <tank n="3">
+    <level-gal_us archive="y">302.3</level-gal_us>
+   </tank>
+   <tank n="4">
+    <level-gal_us archive="y">302.3</level-gal_us>
+   </tank>
+</fuel>
+ </consumables>
+
+<!--Controls ********************************************************-->
+ <controls>
+  <flight>
+   <flaps-switch>0</flaps-switch>
+   <flaps-lever>1</flaps-lever>
+   <commanded-le-flaps-deg>0</commanded-le-flaps-deg>
+   <commanded-te-flaps-deg>0</commanded-te-flaps-deg>
+   <chute-handle>0</chute-handle>
+  </flight>
+  <fuel>
+      <center-line-ext-feed> 0 </center-line-ext-feed>
+      <wing-ext-feed> 0 </wing-ext-feed>
+      <auto-feed> 0 </auto-feed>
+      <feed-source> 0 </feed-source>
+      <fwd-xfr-source> 0 </fwd-xfr-source>
+      <fwd-boost-pump> 0 </fwd-boost-pump>
+      <aft-L-boost-pump> 0 </aft-L-boost-pump>
+      <aft-L-boost-pump> 0 </aft-L-boost-pump>
+      <test-in-progress>0</test-in-progress>
+  </fuel>
+  <engines>
+      <engine>
+         <augmentation type="float"> 0.0</augmentation>
+      </engine>
+  </engines>
+  <gear>
+   <gear-handle-pos>0</gear-handle-pos>
+  </gear>
+ </controls>
+
+<!--Engines ********************************************************-->
+ <engines>
+  <engine n="0">
+    <running>true</running>
+  </engine>
+  <engine n="1">
+    <running>true</running>
+  </engine>
+ </engines>
+
+<!--Input ********************************************************-->
+<input>
+ <keyboard>
+
+ <key n="81">
+  <name>Shift-Q</name>
+  <desc>Engine stop detent</desc>
+	<binding>
+		<command>nasal</command>
+		<script>f20.engineIdleToggle();</script>
+	</binding>
+ </key>
+
+  <key n="99">
+	<name>c</name>
+	<desc>Open canopy</desc>
+	<binding>
+		<command>nasal</command>
+		<script>f20.canopyToggle();</script>
+	</binding>
+  </key>
+
+  <key n="114">
+	<name>r</name>
+	<desc>airbrakes switch forward</desc>
+	<repeatable>true</repeatable>
+	<binding>
+		<command>nasal</command>
+		<script>f20.retractSpeedBrakes();</script>
+	</binding>
+  </key>
+
+  <key n="101">
+	<name>e</name>
+	<desc>airbrakes switch backwards</desc>
+	<repeatable>true</repeatable>
+	<binding>
+		<command>nasal</command>
+		<script>f20.extendSpeedBrakes();</script>
+	</binding>
+  </key>
+
+  <key n="100">
+	<name>d</name>
+	<desc>flaps switch backwards</desc>
+	<binding>
+		<command>nasal</command>
+		<script>f20.flapsSwitchBackward();</script>
+	</binding>
+  </key>
+
+   <key n="102">
+	<name>f</name>
+	<desc>flaps switch forward</desc>
+	<binding>
+		<command>nasal</command>
+		<script>f20.flapsSwitchForward();</script>
+	</binding>
+  </key>
+
+    <key n="103">
+	<name>g</name>
+	<desc>Toggle gear</desc>
+	<binding>
+		<command>nasal</command>
+		<script>f20.toggleGear();</script>
+	</binding>
+  </key>
+
+    <key n="111">
+	<name>o</name>
+	<desc>toggle brake chute</desc>
+	<binding>
+		<command>nasal</command>
+		<script>f20.chuteActivate();</script>
+	</binding>
+  </key>
+
+
+ </keyboard>
+</input>
+
+<instrumentation>
+ <radar>
+  <range type="int" archive="y">20</range>
+  <minimized type="bool" archive="y">false</minimized>
+ </radar>
+ <altimeter>
+     <baro-barel-1>0</baro-barel-1>
+     <baro-barel-2>0</baro-barel-2>
+     <baro-barel-3>0</baro-barel-3>
+     <baro-barel-4>0</baro-barel-4>
+     <alt-barel-100>0</alt-barel-100>
+     <alt-barel-1k>0</alt-barel-1k>
+     <alt-barel-10k>0</alt-barel-10k>
+ </altimeter>
+</instrumentation>
+
+<!--Nasal ********************************************************-->
+<nasal>
+  <f20>
+       <file>Aircraft/F-20/Nasal/f20_globals.nas</file>
+        <!-- Electrical system -->
+        <file>Aircraft/F-20/Nasal/Electrical/electrical.nas</file>
+	    <file>Aircraft/F-20/Nasal/Electrical/battery.nas</file>
+	    <file>Aircraft/F-20/Nasal/Electrical/bus.nas</file>
+	    <file>Aircraft/F-20/Nasal/Electrical/breakers.nas</file>
+	    <file>Aircraft/F-20/Nasal/Electrical/transformer.nas</file>
+	    <file>Aircraft/F-20/Nasal/Electrical/generator.nas</file>
+	    <file>Aircraft/F-20/Nasal/Electrical/bus-tie.nas</file>
+	    <file>Aircraft/F-20/Nasal/Electrical/gauge.nas</file>
+	    <file>Aircraft/F-20/Nasal/Electrical/light.nas</file>
+	    <file>Aircraft/F-20/Nasal/Electrical/external.nas</file>
+	    <file>Aircraft/F-20/Nasal/Electrical/switch.nas</file>
+	    <file>Aircraft/F-20/Nasal/Electrical/generic-load.nas</file>
+	   <file>Aircraft/F-20/Nasal/electrical.nas</file>
+	   <file>Aircraft/F-20/Nasal/alerting.nas</file>
+	   <file>Aircraft/F-20/Nasal/electrical-update.nas</file>
+
+	   <!-- Hydraulics -->
+	   <file>Aircraft/F-20/Nasal/Hydraulics/hydraulic.nas</file>
+	   <file>Aircraft/F-20/Nasal/Hydraulics/circuit.nas</file>
+	   <file>Aircraft/F-20/Nasal/Hydraulics/pump.nas</file>
+	   <file>Aircraft/F-20/Nasal/Hydraulics/JSB_actuator.nas</file>
+	   <file>Aircraft/F-20/Nasal/Hydraulics/generic_actuator.nas</file>
+	   <file>Aircraft/F-20/Nasal/Hydraulics/accumulator.nas</file>
+	   <file>Aircraft/F-20/Nasal/hydraulics.nas</file>
+
+       <!--GUI -->
+        <file>Nasal/canvas/api.nas</file>
+        <file>Nasal/canvas/PropertyElement.nas</file>
+        <file>Aircraft/F-20/Nasal/GUI/stores.nas</file>
+        <file>Aircraft/F-20/Nasal/GUI/rounded-buttons.nas</file>
+	    <file>Aircraft/F-20/Nasal/chute.nas</file>
+	    <file>Aircraft/F-20/Nasal/ground-handling.nas</file>
+        <file>Aircraft/F-20/Nasal/GUI/main-f-20-menu.nas</file>
+
+       <file>Aircraft/F-20/Nasal/engines.nas</file>
+       <file>Aircraft/F-20/Nasal/payload.nas</file>
+
+       <file>Aircraft/F-20/Nasal/fuel.nas</file>
+       <file>Aircraft/F-20/Nasal/spd-brk.nas</file>
+       <file>Aircraft/F-20/Nasal/aau-34a.nas</file>
+       <file>Aircraft/F-20/Nasal/enginstr.nas</file>
+       <file>Aircraft/F-20/Nasal/clock.nas</file>
+       <file>Aircraft/F-20/Nasal/HUD/HUD_main.nas</file>
+       <file>Aircraft/F-20/Nasal/DDI/IDX.nas</file>
+       <file>Aircraft/F-20/Nasal/DDI/HSI.nas</file>
+       <file>Aircraft/F-20/Nasal/gear.nas</file>
+       <file>Aircraft/F-20/Nasal/flaps.nas</file>
+       <file>Aircraft/F-20/Nasal/f-20.nas</file>
+       <file>Aircraft/F-20/Nasal/liveriesF20proto.nas</file>
+  </f20>
+</nasal>
+
+<!--FCS ********************************************************-->
+<fdm>
+  <jsbsim>
+      <aero>
+          <drag-index>0.0</drag-index>
+      </aero>
+      <fcs>
+          <le-flap-pos-deg>0.0</le-flap-pos-deg>
+          <te-flap-pos-deg>0.0</te-flap-pos-deg>
+          <chute-deployement-norm>0.0</chute-deployement-norm>
+          <g-integral-term>0.0</g-integral-term>
+          <initial-integral-offset>0.0</initial-integral-offset>
+          <throttle-pos-norm>0.0</throttle-pos-norm>
+          <positive-g-saturation>0.0</positive-g-saturation>
+          <negative-g-saturation>0.0</negative-g-saturation>
+			<g-gear-down-integral-offset>0.0</g-gear-down-integral-offset>
+			<flyable-alpha-exceeded>0.0</flyable-alpha-exceeded>
+			<positive-alpha-dot-saturation>0.0</positive-alpha-dot-saturation>
+			<negative-alpha-dot-saturation>0.0</negative-alpha-dot-saturation>
+			<alpha-target-from-g>0.0</alpha-target-from-g>
+			<alpha-target-from-g>0.0</alpha-target-from-g>
+			<positive-alpha-saturation>0.0</positive-alpha-saturation>
+			<negative-alpha-saturation>0.0</negative-alpha-saturation>
+			<flyable-alpha-exceeded>0.0</flyable-alpha-exceeded>
+			<alpha-dot-target>0.0</alpha-dot-target>
+			<alpha-dot-target>0.0</alpha-dot-target>
+			<positive-alpha-dot-saturation>0.0</positive-alpha-dot-saturation>
+			<negative-alpha-dot-saturation>0.0</negative-alpha-dot-saturation>
+			<cas-pitch-gear-up-input>0.0</cas-pitch-gear-up-input>
+			<cas-pitch-gear-up-input>0.0</cas-pitch-gear-up-input>
+			<negative-roll-saturation>0.0</negative-roll-saturation>
+			<positive-roll-saturation>0.0</positive-roll-saturation>
+			<negative-yaw-saturation>0.0</negative-yaw-saturation>
+			<positive-yaw-saturation>0.0</positive-yaw-saturation>
+			<roll-actuator-rate>0.0</roll-actuator-rate>
+			<pitch-no-pressure>0</pitch-no-pressure>
+			<roll-no-pressure>0</roll-no-pressure>
+			<yaw-no-pressure>0</yaw-no-pressure>
+			<speedbrake-no-pressure>0</speedbrake-no-pressure>
+      </fcs>
+  </jsbsim>
+</fdm>
+
+<!--Aicraft specifics ***********************************************-->
+<f-20>
+  <is-prototype>1</is-prototype>
+  <is-A-version>0</is-A-version>
+  <is-C-version>0</is-C-version>
+  <has-hook>false</has-hook>
+  <glow-factor-burner>0.0</glow-factor-burner>
+  <glow-factor-flame>0.0</glow-factor-flame>
+  <nozzle-pos-norm> 0.0</nozzle-pos-norm>
+  <rotate-flame>1.0</rotate-flame>
+  <alerting>
+	  <continuous-repetitive-chime>1</continuous-repetitive-chime>
+	  <chime>1</chime>
+	  <master-light>0</master-light>
+  </alerting>
+  <chute>
+    <chute-elev-angle>0.0</chute-elev-angle>
+    <chute-azim-angle>0.0</chute-azim-angle>
+    <chute-decay-angle>0.0</chute-decay-angle>
+    <canopy>0.0</canopy>
+  </chute>
+  <start-cart>
+	  <visible>false</visible>
+	  <noise-on>false</noise-on>
+	  <engine-pitch>0.0</engine-pitch>
+  </start-cart>
+  <wing-tanks-present>0</wing-tanks-present>
+  <wing-pylons-present>0</wing-pylons-present>
+  <center-pylon-present>0</center-pylon-present>
+  <center-tank-present>0</center-tank-present>
+  <smoke-generators-present>0</smoke-generators-present>
+  <lights>
+      <beacon>0</beacon>
+      <flood>0</flood>
+      <console>0</console>
+      <nav>0</nav>
+      <fuselage>0</fuselage>
+      <DEP>0</DEP>
+      <formation>0</formation>
+      <engine-instruments>0</engine-instruments>
+      <flight-instruments>0</flight-instruments>
+  </lights>
+  <tuning>
+      <fake-gear-compression>0.0</fake-gear-compression>
+      <fake-gear-extension>0.0</fake-gear-extension>
+      <fake-switch>0</fake-switch>
+  </tuning>
+</f-20>
+
+<gear>
+	<hiking>
+		<switch>0</switch>
+		<hiked>0</hiked>
+	</hiking>
+</gear>
+
+</PropertyList>

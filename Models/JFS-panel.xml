@@ -1,0 +1,89 @@
+<PropertyList>
+
+ <path>JFS-panel.ac</path>
+ 
+  <animation>
+  <type>pick</type>
+   <object-name>JFSswitch</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <binding>
+		<command>nasal</command>
+		<script>f20.toggleJFS();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>rotate</type>
+    <object-name>JFSswitch</object-name>
+	<property>/f-20/JFS/started</property>    
+    <factor>40</factor>
+    <offset-deg>-20</offset-deg>
+  <center>
+   <x-m>-3.97974</x-m>
+   <y-m>-0.33751</y-m>
+   <z-m>0.00719</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>-1</y>
+   <z>0</z>
+  </axis>
+ </animation> 
+ 
+ <animation>
+  <type>pick</type>
+   <object-name>EngCrank</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <binding>
+		<command>nasal</command>
+		<script>f20.engineCrankToggle();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>rotate</type>
+    <object-name>EngCrank</object-name>
+	<property>/controls/engines/engine/crank-lever-on</property>    
+    <factor>40</factor>
+    <offset-deg>-20</offset-deg>
+  <center>
+   <x-m>-3.97988</x-m>
+   <y-m>-0.30131</y-m>
+   <z-m>0.00771</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>-1</y>
+   <z>0</z>
+  </axis>
+ </animation> 
+ 
+   	<animation>
+		<type>textranslate</type>
+		<object-name>JFSlight</object-name>
+		<property>/f-20/JFS/ready</property>
+		<factor>-0.0470</factor>
+		<axis>
+			<x>0</x>
+			<y>1</y>
+		</axis>
+	</animation>
+	
+  <animation> 
+	  <type>material</type> 
+	  <object-name>JFSlight</object-name>	
+	  <emission>
+	   <red>0.25</red>
+	   <green>0.25</green>
+	   <blue>0.25</blue>
+	   <factor-prop>/f-20/JFS/ready</factor-prop>
+	  </emission>
+  </animation>			
+ 
+</PropertyList>

@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>f-20C.ac</path>
+
+  <offsets>
+  <z-m>0.0</z-m> 
+  </offsets>
+  
+ <animation>
+  <type>material</type>
+   <object-name>JFSintake</object-name>
+   <property-base>sim/model/livery</property-base>
+   <texture-prop>F-20-texture</texture-prop>
+ </animation> 
+  
+  <animation>
+	<type>rotate</type>
+	<object-name>JFSintakeInside</object-name>
+    <object-name>JFSintake</object-name>
+	<property>/f-20/JFS/intake-pos</property>
+    <factor>-25.0</factor>
+	<center>
+		<x-m>2.10333</x-m>
+		<y-m>0.60789</y-m>
+		<z-m>-0.73471</z-m>
+	</center>
+	<axis>	
+		<x>0.0</x>
+		<y>1.0</y>
+		<z>0.0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>select</type>
+	<object-name>JFSintakeInside</object-name>
+    <object-name>JFSintake</object-name>
+    <object-name>JFSintakeHole</object-name>
+    <condition>
+    <greater-than-equals>
+	   <property>/f-20/JFS/intake-pos</property>
+	   <value>0.02</value>
+    </greater-than-equals>
+    </condition>
+</animation>
+  
+ <!--spark effect for the CM lauchers -->
+ <model>
+  <name>sparks</name>
+  <path>Aircraft/F-20/Effects/sparks.xml</path>
+  <offsets>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>-0.72</z-m>
+  </offsets>
+ </model>
+ 
+ <animation>
+  <type>translate</type>
+  <object-name>sparks</object-name>
+  <property>/f-20/CM/flare-release-x</property>
+  <factor>1.0</factor>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+ <animation>
+  <type>translate</type>
+  <object-name>sparks</object-name>
+  <property>/f-20/CM/flare-release-y</property>
+  <factor>1.0</factor>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+</PropertyList>

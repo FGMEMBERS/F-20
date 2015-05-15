@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+ 
+ <path>f-20P-cockpit.ac</path>
+ 
+ 
+ <!-- Main artificial horizon -->
+   <animation>
+  <type>rotate</type>
+    <object-name>Horizon.001</object-name>
+	<property>orientation/roll-deg</property>    
+  <center>
+   <x-m>-4.00985</x-m>
+   <y-m>0.00411</y-m>
+   <z-m>0.24706</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+  <animation>
+  <type>rotate</type>
+    <object-name>Horizon.001</object-name>
+	<property>orientation/pitch-deg</property>    
+    <factor>1.5</factor>
+  <center>
+   <x-m>-4.00985</x-m>
+   <y-m>0.00411</y-m>
+   <z-m>0.24706</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+ 
+ <effect>
+  <name>bumps</name>
+   <inherits-from>Aircraft/F-20/Effects/ckpt-a-bumps</inherits-from>
+   <object-name>UHF2plate</object-name>
+   <object-name>CaseCover</object-name>
+</effect>
+ 
+         
+</PropertyList>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>chocks.ac</path>
+
+  <offsets>
+  <z-m>0.0</z-m> 
+  </offsets>
+  
+  <animation>
+	<type>select</type>
+	<object-name>Chocks</object-name>
+		<condition>
+				<property>/f-20/chocks-visible</property>			
+		</condition>
+  </animation>    
+  
+<animation>
+	<type>translate</type>
+	<object-name>Chocks</object-name>
+	<property>gear/gear[1]/compression-norm</property>
+	<interpolation>
+		<entry><ind>0</ind><dep>-0.23</dep></entry>
+		<entry><ind>1</ind><dep>0.08</dep></entry>
+	</interpolation>	
+	<axis>
+		<x>0.0488511549</x>
+		<y>0</y>
+		<z>0.9988060696</z>
+	</axis>
+</animation>  
+  
+</PropertyList>

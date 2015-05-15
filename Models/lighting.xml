@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+
+	<PropertyList>
+
+	<path>external-lights.ac</path>
+
+	<effect>
+		<inherits-from>Effects/model-transparent</inherits-from>
+		<object-name>TaxiHalo</object-name>
+
+		<object-name>CollisionHaloL</object-name>
+		<object-name>CollisionHaloR</object-name>
+		<object-name>CollisionTipHaloL</object-name>
+        <object-name>CollisionTipHaloR</object-name>
+		<object-name>BeaconHalo</object-name>
+        <object-name>TailCollisionLightHalo</object-name>
+        <object-name>CollisionWingL</object-name>
+        <object-name>Slimmer</object-name>
+	</effect>
+
+
+	<light-params>
+		<position-factor>sim/multiplay/generic/int[4]</position-factor>
+		<colision-factor>9</colision-factor>
+	</light-params>
+
+	<animation>
+		<type>select</type>
+        <object-name>TaxiHalo</object-name>
+		<object-name>CollisionTipHaloL</object-name>
+        <object-name>CollisionTipHaloR</object-name>
+        <object-name>LdgLightR</object-name>
+        <object-name>LdgLightL</object-name>
+        <object-name>TipLightRbtL</object-name>
+        <object-name>TipLightRbtR</object-name>
+		<condition>
+			<property>f-20/tuning/fake-switch</property>
+		</condition>
+	</animation> 
+
+	<!-- Nav Lights -->
+	<animation>
+		<type>select</type>
+		<object-name>CollisionHaloL</object-name>
+		<object-name>CollisionWingL</object-name>
+		<object-name>CollisionHaloR</object-name>
+		<object-name>CollisionWingR</object-name>      
+        <object-name>LogoRight</object-name>
+        <object-name>LogoLeft</object-name>
+        <object-name>TailCollisionLight</object-name>
+        <object-name>TailCollisionLightHalo</object-name>
+		<condition>   
+         <greater-than>
+           <property>/f-20/lights/nav</property>
+           <value>0.1</value>
+         </greater-than>		
+		</condition>
+	</animation>
+    
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CollisionHaloL</object-name>
+        <object-name>CollisionHaloR</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>1</dep></entry>
+			<entry><ind>500</ind><dep>1</dep></entry>
+			<entry><ind>50000</ind><dep>1000</dep></entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>light</type>
+		<light-type>point</light-type>
+		<name>CollisionWingL</name>
+		<object-name>CollisionWingL</object-name>
+		<nopreview/>
+		<position><x>1.30201</x><y>-3.315930</y><z>-0.45034</z></position>
+		<ambient><r>1</r><g>0.15</g><b>0</b><a>1.0</a></ambient>
+		<diffuse><r>1</r><g>0.15</g><b>0</b><a>1.0</a></diffuse>
+		<specular><r>1</r><g>0.15</g><b>0</b><a>1.0</a></specular>
+        <dim-factor>
+          <property>/f-20/lights/nav</property>
+          <factor>1</factor>
+          <offset>0</offset>
+          <min>0</min>
+          <max>1</max>
+         </dim-factor>
+		<attenuation><c>1.3</c><l>1.5</l><q>4</q></attenuation>
+		<cutoff>10</cutoff>
+		<near-m>0.01</near-m>
+		<far-m>10</far-m>
+	</animation>
+
+	<animation>
+		<type>light</type>
+		<light-type>spot</light-type>
+		<name>LogoLeft</name>
+		<object-name>LogoLeft</object-name>
+		<nopreview/>
+        <direction><x>0.6</x><y>1.0</y><z>0.5</z></direction>
+		<position><x>1.30201</x><y>-3.315930</y><z>-0.45034</z></position>
+		<ambient><r>1</r><g>1.0</g><b>1.0</b><a>1.0</a></ambient>
+		<diffuse><r>1</r><g>1.0</g><b>1.0</b><a>1.0</a></diffuse>
+		<specular><r>1</r><g>1.0</g><b>1.0</b><a>1.0</a></specular>
+		<attenuation><c>0.5</c><l>0.1</l><q>0</q></attenuation>
+        <dim-factor>
+          <property>/f-20/lights/nav</property>
+          <factor>1</factor>
+          <offset>0</offset>
+          <min>0</min>
+          <max>1</max>
+        </dim-factor>
+        <exponent>250.0</exponent>
+		<cutoff>10.0</cutoff>
+		<near-m>0.01</near-m>
+		<far-m>10</far-m>
+	</animation>
+    
+	<animation>
+		<type>light</type>
+		<light-type>point</light-type>
+		<name>CollisionWingR</name>
+		<object-name>CollisionWingR</object-name>
+		<nopreview/>
+		<position><x>1.30201</x><y>3.315930</y><z>-0.45034</z></position>
+		<ambient><r>0.1</r><g>1.0</g><b>0.1</b><a>1.0</a></ambient>
+		<diffuse><r>0.1</r><g>1.0</g><b>0.1</b><a>1.0</a></diffuse>
+		<specular><r>0.1</r><g>1.0</g><b>0.1</b><a>1.0</a></specular>
+		<attenuation><c>1.3</c><l>1.5</l><q>4</q></attenuation>
+        <dim-factor>
+          <property>/f-20/lights/nav</property>
+          <factor>1</factor>
+          <offset>0</offset>
+          <min>0</min>
+          <max>1</max>
+        </dim-factor>        
+		<cutoff>10</cutoff>
+		<near-m>0.01</near-m>
+		<far-m>10</far-m>
+	</animation>
+
+	<animation>
+		<type>light</type>
+		<light-type>spot</light-type>
+		<name>LogoRight</name>
+		<object-name>LogoRight</object-name>
+		<nopreview/>
+        <direction><x>0.6</x><y>-1.0</y><z>0.5</z></direction>
+		<position><x>1.30201</x><y>-3.315930</y><z>-0.45034</z></position>
+		<ambient><r>1</r><g>1.0</g><b>1.0</b><a>1.0</a></ambient>
+		<diffuse><r>1</r><g>1.0</g><b>1.0</b><a>1.0</a></diffuse>
+		<specular><r>1</r><g>1.0</g><b>1.0</b><a>1.0</a></specular>
+		<attenuation><c>0.5</c><l>0.1</l><q>0</q></attenuation>
+        <dim-factor>
+          <property>/f-20/lights/nav</property>
+          <factor>1</factor>
+          <offset>0</offset>
+          <min>0</min>
+          <max>1</max>
+        </dim-factor>        
+        <exponent>250.0</exponent>
+		<cutoff>10.0</cutoff>
+		<near-m>0.01</near-m>
+		<far-m>10</far-m>
+	</animation>
+    
+    <animation>
+		<type>translate</type>
+		<object-name>TailCollisionLightHalo</object-name>
+		<offset-m>4.5777300207</offset-m>
+		<axis><x>4.04920</x><y>0</y><z>2.13532</z></axis>
+	</animation>
+    
+	<animation>
+		<type>billboard</type>
+		<object-name>TailCollisionLightHalo</object-name>
+	</animation>
+    
+	<animation>
+		<type>dist-scale</type>
+		<object-name>TailCollisionLightHalo</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>1</dep></entry>
+			<entry><ind>350</ind><dep>6</dep></entry>
+			<entry><ind>50000</ind><dep>1000</dep></entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>light</type>
+		<light-type>point</light-type>
+		<name>TailCollisionLight</name>
+		<object-name>TailCollisionLight</object-name>
+		<nopreview/>
+		<position><x>4.04920</x><y>0</y><z>2.13532</z></position>
+		<ambient><r>1</r><g>1.0</g><b>1.0</b><a>1.0</a></ambient>
+		<diffuse><r>1</r><g>1.0</g><b>1.0</b><a>1.0</a></diffuse>
+		<specular><r>1</r><g>1.0</g><b>1.0</b><a>1.0</a></specular>
+        <dim-factor>
+          <property>/f-20/lights/nav</property>
+          <factor>1</factor>
+          <offset>0</offset>
+          <min>0</min>
+          <max>1</max>
+         </dim-factor>
+		<attenuation><c>1.3</c><l>1.5</l><q>4</q></attenuation>
+		<cutoff>10</cutoff>
+		<near-m>0.01</near-m>
+		<far-m>10</far-m>
+	</animation>
+    
+    
+    <!--formation lights*********************************************-->
+	<animation>
+		<type>translate</type>
+		<object-name>CollisionTipHaloL</object-name>
+		<offset-m>4.4173373642</offset-m>
+		<axis><x>1.9489</x><y>-3.93836</y><z>-0.45164</z></axis>        
+	</animation>
+    
+	<animation>
+		<type>billboard</type>
+		<object-name>CollisionTipHaloL</object-name>
+	</animation>
+    
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CollisionTipHaloL</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>1</dep></entry>
+			<entry><ind>350</ind><dep>6</dep></entry>
+			<entry><ind>50000</ind><dep>1000</dep></entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>light</type>
+		<light-type>point</light-type>
+		<name>TipLightRbtL</name>
+		<object-name>TipLightRbtL</object-name>
+		<nopreview/>
+		<position><x>1.9489</x><y>-3.93836</y><z>-0.45164</z></position>
+		<ambient><r>1</r><g>0.15</g><b>0.0</b><a>1.0</a></ambient>
+		<diffuse><r>1</r><g>0.15</g><b>0.0</b><a>1.0</a></diffuse>
+		<specular><r>1</r><g>0.15</g><b>0.0</b><a>1.0</a></specular>
+		<attenuation><c>1.3</c><l>1.5</l><q>4</q></attenuation>
+		<cutoff>10</cutoff>
+		<near-m>0.01</near-m>
+		<far-m>10</far-m>
+	</animation>
+    
+  	<animation>
+		<type>translate</type>
+		<object-name>CollisionTipHaloR</object-name>
+		<offset-m>4.4173373642</offset-m>
+		<axis><x>1.9489</x><y>3.93836</y><z>-0.45164</z></axis>
+	</animation>
+      
+	<animation>
+		<type>billboard</type>
+		<object-name>CollisionTipHaloR</object-name>
+	</animation>
+    
+	<animation>
+		<type>dist-scale</type>
+		<object-name>CollisionTipHaloR</object-name>
+		<interpolation>
+			<entry><ind>0</ind><dep>1</dep></entry>
+			<entry><ind>350</ind><dep>6</dep></entry>
+			<entry><ind>50000</ind><dep>1000</dep></entry>
+		</interpolation>
+	</animation>
+
+	<animation>
+		<type>light</type>
+		<light-type>point</light-type>
+		<name>TipLightRbtR</name>
+		<object-name>TipLightRbtR</object-name>
+		<nopreview/>
+		<position><x>1.9489</x><y>-3.93836</y><z>-0.45164</z></position>
+		<ambient><r>1</r><g>0.15</g><b>0.0</b><a>1.0</a></ambient>
+		<diffuse><r>1</r><g>0.15</g><b>0.0</b><a>1.0</a></diffuse>
+		<specular><r>1</r><g>0.15</g><b>0.0</b><a>1.0</a></specular>
+		<attenuation><c>1.3</c><l>1.5</l><q>4</q></attenuation>
+		<cutoff>10</cutoff>
+		<near-m>0.01</near-m>
+		<far-m>10</far-m>
+	</animation>
+
+	<!-- Beacon  -->
+	<animation>
+		<type>select</type>
+		<object-name>BeaconHalo</object-name>
+		<object-name>Beacon</object-name>
+		<condition>
+            <property>/f-20/lights/beacon</property>
+		</condition>
+	</animation>
+    
+   <animation>
+	<type>spin</type>
+		<object-name>BeaconHalo</object-name>
+        <object-name>Beacon</object-name>
+    <property>/f-20/lights/beacon</property>
+	<factor> -7.0 </factor>
+	<center>
+		<x-m>3.60303</x-m>
+		<y-m>0</y-m>
+		<z-m>1.97344</z-m>
+	</center>
+	<axis>
+		<x>0.0</x>
+		<y>0.0</y>
+		<z>1.0</z>
+	</axis>
+	</animation>
+
+	<animation>
+		<type>light</type>
+		<light-type>point</light-type>
+		<name>Beacon</name>
+		<object-name>Beacon</object-name>
+		<nopreview/>
+		<position><x>4.04920</x><y>0</y><z>2.13532</z></position>
+		<ambient><r>1.0</r><g>0.15</g><b>0.0</b><a>1.0</a></ambient>
+		<diffuse><r>1.0</r><g>0.15</g><b>0.0</b><a>1.0</a></diffuse>
+		<specular><r>1.0</r><g>0.15</g><b>0.0</b><a>1.0</a></specular>
+		<attenuation><c>1.3</c><l>1.5</l><q>4</q></attenuation>
+		<cutoff>10</cutoff>
+		<near-m>0.01</near-m>
+		<far-m>10</far-m>
+	</animation>
+
+
+	<!-- Landing Lights -->
+	<animation>
+		<type>select</type>
+		<object-name>LdgLightL</object-name>
+        <object-name>LdgLightR</object-name>
+		<condition>
+			<property>controls/lighting/taxi-light</property>
+		</condition>
+	</animation>
+	<animation>
+		<type>light</type>
+		<light-type>spot</light-type>
+		<name>taxi-lightR</name>
+		<object-name>LdgLightR</object-name>
+		<nopreview/>
+		<direction><x>-1</x><y>0.1</y><z>-0.024</z></direction>
+		<position><x>-1.44841</x><y>0.0131</y><z>-0.79395</z></position>
+		<ambient><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></ambient>
+		<diffuse><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></diffuse>
+		<specular><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></specular>
+		<attenuation><c>0.5</c><l>0.1</l><q>0</q></attenuation>
+		<exponent>200.0</exponent>
+		<cutoff>40</cutoff>
+		<near-m>0.01</near-m>
+		<far-m>200</far-m>
+	</animation>
+    
+    <animation>
+		<type>light</type>
+		<light-type>spot</light-type>
+		<name>taxi-lightL</name>
+		<object-name>LdgLightL</object-name>
+		<nopreview/>
+		<direction><x>-1</x><y>-0.1</y><z>-0.024</z></direction>
+		<position><x>-1.44841</x><y>-0.0131</y><z>-0.79395</z></position>
+		<ambient><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></ambient>
+		<diffuse><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></diffuse>
+		<specular><r>0.95</r><g>0.9</g><b>0.9</b><a>1</a></specular>
+		<attenuation><c>0.5</c><l>0.1</l><q>0</q></attenuation>
+		<exponent>200.0</exponent>
+		<cutoff>40</cutoff>
+		<near-m>0.01</near-m>
+		<far-m>200</far-m>
+	</animation>
+
+</PropertyList>

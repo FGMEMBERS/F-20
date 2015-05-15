@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+ 
+ <PropertyList>
+  <sim>
+   <model>
+    <livery>
+     <name type="string">Northrop "hot rod" demo</name>
+     <F-20-texture>LiveriesPrototype/HotRod.png</F-20-texture>
+     <reflection-map>Models/glossy.png</reflection-map>
+    </livery>
+   </model>
+  </sim>
+ </PropertyList>

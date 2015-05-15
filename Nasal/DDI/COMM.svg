@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="COMM.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="194.22278"
+     inkscape:cy="252.64141"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-540.36218)">
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="89.351624"
+       y="1040.4786"
+       id="text2985-1-8-8-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="89.351624"
+         y="1040.4786"
+         id="tspan3072-9-5">RD1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="89.519463"
+       y="1022.9259"
+       id="radio1_channel"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="89.519463"
+         y="1022.9259"
+         id="tspan3072-9-5-0">20</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="255.41071"
+       y="1040.4786"
+       id="text2985-1-8-8-2-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="255.41071"
+         y="1040.4786"
+         id="tspan3072-9-5-00">IDX</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="330.65518"
+       y="1040.4786"
+       id="text2985-1-8-8-2-1-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="330.65518"
+         y="1040.4786"
+         id="tspan3072-9-5-00-4">IFF</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="409.9137"
+       y="1040.4825"
+       id="text2985-1-8-8-2-1-9-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="409.9137"
+         y="1040.4825"
+         id="tspan3072-9-5-00-4-7">TCN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="331.02814"
+       y="1022.9142"
+       id="IFF_code"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="331.02814"
+         y="1022.9142"
+         id="tspan3072-9-5-00-4-4">4327</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="409.12302"
+       y="1022.9259"
+       id="tacan_channel"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="409.12302"
+         y="1022.9259"
+         id="tspan3072-9-5-00-4-4-4">110X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="158.17747"
+       y="566.47412"
+       id="text2985-1-8-8-2-1-7-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="158.17747"
+         y="566.47412"
+         id="tspan3283-2">CH</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="214.15234"
+       y="114.50497"
+       id="text3368"
+       sodipodi:linespacing="125%"
+       transform="translate(0,540.36218)"><tspan
+         sodipodi:role="line"
+         id="tspan3370" /></text>
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="radio_1_box"
+       width="39.234955"
+       height="19.617519"
+       x="69.924362"
+       y="1025.4004" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="tacan_box"
+       width="39.234955"
+       height="19.617519"
+       x="390.02396"
+       y="1025.4004" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="iff_box"
+       width="39.234955"
+       height="19.617519"
+       x="311.16824"
+       y="1025.4004" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="scratchpad_box"
+       width="116.37782"
+       height="19.617519"
+       x="197.8111"
+       y="578.98199" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="343.33704"
+       y="566.47021"
+       id="text2985-1-8-8-2-1-7-7-3-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="343.33704"
+         y="566.47021"
+         id="tspan3283-2-3-6">FRQ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="202.36511"
+       y="593.51007"
+       id="scratchpad"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5114"
+         x="202.36511"
+         y="593.51007">scratchpad</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="95.736641"
+       y="649.19165"
+       id="text2985-1-8-8-2-1-7-7-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="95.736641"
+         y="649.19165"
+         id="tspan3283-2-4">CH</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="172.20831"
+       y="647.44415"
+       id="text2985-1-8-8-2-1-7-7-3-6-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="172.20831"
+         y="647.44415"
+         id="tspan3283-2-3-6-0">FRQ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="106.4773"
+       y="673.63025"
+       id="text2985-1-8-8-2-1-7-7-0-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="106.4773"
+         y="673.63025"
+         id="tspan3283-2-4-1">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="172.67827"
+       y="673.63477"
+       id="frq1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="172.67827"
+         y="673.63477"
+         id="tspan3283-2-3-6-0-3">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="106.4773"
+       y="698.07336"
+       id="text2985-1-8-8-2-1-7-7-0-3-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="106.4773"
+         y="698.07336"
+         id="tspan3283-2-4-1-3">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="172.67827"
+       y="698.07788"
+       id="frq2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="172.67827"
+         y="698.07788"
+         id="tspan3283-2-3-6-0-3-8">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="106.4773"
+       y="722.51654"
+       id="text2985-1-8-8-2-1-7-7-0-3-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="106.4773"
+         y="722.51654"
+         id="tspan3283-2-4-1-5">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="172.67827"
+       y="722.52106"
+       id="frq3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="172.67827"
+         y="722.52106"
+         id="tspan3283-2-3-6-0-3-3">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="106.4773"
+       y="746.95966"
+       id="text2985-1-8-8-2-1-7-7-0-3-0-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="106.4773"
+         y="746.95966"
+         id="tspan3283-2-4-1-3-1">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="172.67827"
+       y="746.96417"
+       id="frq4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="172.67827"
+         y="746.96417"
+         id="tspan3283-2-3-6-0-3-8-3">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="106.4773"
+       y="771.40277"
+       id="text2985-1-8-8-2-1-7-7-0-3-0-5-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="106.4773"
+         y="771.40277"
+         id="tspan3283-2-4-1-3-1-2">5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="172.67827"
+       y="771.40729"
+       id="frq5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="172.67827"
+         y="771.40729"
+         id="tspan3283-2-3-6-0-3-8-3-0">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="106.4773"
+       y="795.84595"
+       id="text2985-1-8-8-2-1-7-7-0-3-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="106.4773"
+         y="795.84595"
+         id="tspan3283-2-4-1-6">6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="172.67827"
+       y="795.85046"
+       id="frq6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="172.67827"
+         y="795.85046"
+         id="tspan3283-2-3-6-0-3-9">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="106.4773"
+       y="820.28906"
+       id="text2985-1-8-8-2-1-7-7-0-3-0-53"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="106.4773"
+         y="820.28906"
+         id="tspan3283-2-4-1-3-7">7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="172.67827"
+       y="820.29358"
+       id="frq7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="172.67827"
+         y="820.29358"
+         id="tspan3283-2-3-6-0-3-8-6">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="106.4773"
+       y="844.73218"
+       id="text2985-1-8-8-2-1-7-7-0-3-4-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="106.4773"
+         y="844.73218"
+         id="tspan3283-2-4-1-5-3">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="172.67827"
+       y="844.73669"
+       id="frq8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="172.67827"
+         y="844.73669"
+         id="tspan3283-2-3-6-0-3-3-8">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="106.4773"
+       y="869.17535"
+       id="text2985-1-8-8-2-1-7-7-0-3-0-5-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="106.4773"
+         y="869.17535"
+         id="tspan3283-2-4-1-3-1-0">9</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="172.67827"
+       y="869.17987"
+       id="frq9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="172.67827"
+         y="869.17987"
+         id="tspan3283-2-3-6-0-3-8-3-07">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="106.4773"
+       y="893.61847"
+       id="text2985-1-8-8-2-1-7-7-0-3-0-5-0-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="106.4773"
+         y="893.61847"
+         id="tspan3283-2-4-1-3-1-2-9">10</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="172.67827"
+       y="893.62299"
+       id="frq10"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="172.67827"
+         y="893.62299"
+         id="tspan3283-2-3-6-0-3-8-3-0-9">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="321.63019"
+       y="650.11279"
+       id="text2985-1-8-8-2-1-7-7-0-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="321.63019"
+         y="650.11279"
+         id="tspan3283-2-4-2">CH</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="398.10187"
+       y="648.36523"
+       id="text2985-1-8-8-2-1-7-7-3-6-4-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="398.10187"
+         y="648.36523"
+         id="tspan3283-2-3-6-0-4">FRQ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="332.37085"
+       y="674.55139"
+       id="text2985-1-8-8-2-1-7-7-0-3-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="332.37085"
+         y="674.55139"
+         id="tspan3283-2-4-1-35">11</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="398.57184"
+       y="674.55585"
+       id="frq11"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="398.57184"
+         y="674.55585"
+         id="tspan3283-2-3-6-0-3-6">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="332.37085"
+       y="698.99451"
+       id="text2985-1-8-8-2-1-7-7-0-3-0-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="332.37085"
+         y="698.99451"
+         id="tspan3283-2-4-1-3-75">12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="398.57184"
+       y="698.99902"
+       id="frq12"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="398.57184"
+         y="698.99902"
+         id="tspan3283-2-3-6-0-3-8-36">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="332.37085"
+       y="723.43762"
+       id="text2985-1-8-8-2-1-7-7-0-3-4-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="332.37085"
+         y="723.43762"
+         id="tspan3283-2-4-1-5-1">13</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="398.57184"
+       y="723.44214"
+       id="frq13"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="398.57184"
+         y="723.44214"
+         id="tspan3283-2-3-6-0-3-3-6">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="332.37085"
+       y="747.88074"
+       id="text2985-1-8-8-2-1-7-7-0-3-0-5-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="332.37085"
+         y="747.88074"
+         id="tspan3283-2-4-1-3-1-8">14</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="398.57184"
+       y="747.88525"
+       id="frq14"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="398.57184"
+         y="747.88525"
+         id="tspan3283-2-3-6-0-3-8-3-8">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="332.37085"
+       y="772.32391"
+       id="text2985-1-8-8-2-1-7-7-0-3-0-5-0-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="332.37085"
+         y="772.32391"
+         id="tspan3283-2-4-1-3-1-2-6">15</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="398.57184"
+       y="772.32843"
+       id="frq15"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="398.57184"
+         y="772.32843"
+         id="tspan3283-2-3-6-0-3-8-3-0-98">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="332.37085"
+       y="796.76703"
+       id="text2985-1-8-8-2-1-7-7-0-3-1-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="332.37085"
+         y="796.76703"
+         id="tspan3283-2-4-1-6-0">16</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="398.57184"
+       y="796.77155"
+       id="frq16"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="398.57184"
+         y="796.77155"
+         id="tspan3283-2-3-6-0-3-9-8">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="332.37085"
+       y="821.21014"
+       id="text2985-1-8-8-2-1-7-7-0-3-0-53-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="332.37085"
+         y="821.21014"
+         id="tspan3283-2-4-1-3-7-7">17</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="398.57184"
+       y="821.21472"
+       id="frq17"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="398.57184"
+         y="821.21472"
+         id="tspan3283-2-3-6-0-3-8-6-9">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="332.37085"
+       y="845.65332"
+       id="text2985-1-8-8-2-1-7-7-0-3-4-6-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="332.37085"
+         y="845.65332"
+         id="tspan3283-2-4-1-5-3-7">18</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="398.57184"
+       y="845.65784"
+       id="frq18"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="398.57184"
+         y="845.65784"
+         id="tspan3283-2-3-6-0-3-3-8-8">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="332.37085"
+       y="870.09644"
+       id="text2985-1-8-8-2-1-7-7-0-3-0-5-8-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="332.37085"
+         y="870.09644"
+         id="tspan3283-2-4-1-3-1-0-3">19</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="398.57184"
+       y="870.10101"
+       id="frq19"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="398.57184"
+         y="870.10101"
+         id="tspan3283-2-3-6-0-3-8-3-07-7">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="332.37085"
+       y="894.53955"
+       id="text2985-1-8-8-2-1-7-7-0-3-0-5-0-4-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="332.37085"
+         y="894.53955"
+         id="tspan3283-2-4-1-3-1-2-9-5">20</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="398.57184"
+       y="894.54413"
+       id="frq20"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="398.57184"
+         y="894.54413"
+         id="tspan3283-2-3-6-0-3-8-3-0-9-9">250.12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="220.48524"
+       y="939.23157"
+       id="text2985-1-8-8-2-1-7-7-0-3-0-5-0-4-8-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="220.48524"
+         y="939.23157"
+         id="tspan3283-2-4-1-3-1-2-9-5-2">21</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
+       x="288.35782"
+       y="939.23615"
+       id="frq21"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="288.35782"
+         y="939.23615"
+         id="tspan3283-2-3-6-0-3-8-3-0-9-9-1">250.12</tspan></text>
+  </g>
+</svg>

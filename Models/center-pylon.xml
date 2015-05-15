@@ -1,0 +1,13 @@
+<PropertyList>
+
+ <path>center-pylon.ac</path>
+ 
+ <animation>
+  <type>material</type>
+   <object-name>CenterPylon</object-name>
+   <property-base>sim/model/livery</property-base>
+   <texture-prop>F-20-texture</texture-prop>
+   <texture>Liveries/Suisse.png</texture>
+ </animation> 
+ 
+</PropertyList>

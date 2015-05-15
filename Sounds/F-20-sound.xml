@@ -1,0 +1,464 @@
+<?xml version="1.0"?>
+ 
+<!--F-20 sound file derived from the T-38 -->
+ 
+<PropertyList>
+
+ <fx>
+	
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->	 
+  <start-cart>
+    <name>start cart</name>
+    <mode>looped</mode>
+    <path>Sounds/wasp.wav</path>
+    <condition>
+		<property>/f-20/start-cart/noise-on</property>
+    </condition>
+    <volume>
+      <property>/f-20/start-cart/engine-pitch</property>
+      <factor>0.001</factor>
+      <max>1.0</max>
+      <min>0.10</min>
+    </volume>
+    <pitch>
+      <property>/f-20/start-cart/engine-pitch</property>
+      <factor>0.005</factor>
+      <min>0.0</min>
+      <max>0.3</max>
+      <offset>0.01</offset>
+    </pitch>
+  </start-cart>
+
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->	 
+	<engine-jet>
+		<name>engine-jet</name>
+		<path>Sounds/jet.wav</path>
+		<mode>looped</mode>
+		<condition>
+			<not>
+				<property>sim/current-view/internal</property>
+			</not>
+			<greater-than>
+              <property>engines/engine[0]/n1</property>
+              <value>40.0</value>
+            </greater-than>
+		</condition>
+		<orientation>
+			<x>0.0</x>
+			<y>0.0</y>
+			<z>-180.0</z>
+			<inner-angle>180.0</inner-angle>
+			<outer-angle>360.0</outer-angle>
+			<outer-gain>0.2</outer-gain>
+		</orientation>
+		<pitch>
+			<property>engines/engine[0]/n1</property>
+			<ofset>0.1</ofset>
+			<factor>.001</factor>
+		</pitch>
+		<volume>
+			<property>engines/engine[0]/thrust-lbs</property>
+			<factor>0.000025</factor>
+			<min>0.0</min>
+			<max>0.75</max>
+		</volume>
+	</engine-jet>
+	
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->	 	
+
+	<engine-jet-internal>
+		<name>internal-jet</name>
+		<path>Sounds/jet.wav</path>
+		<mode>looped</mode>
+		<condition>
+			<property>sim/current-view/internal</property>
+			<greater-than>
+              <property>engines/engine[0]/n1</property>
+              <value>40.0</value>
+            </greater-than>
+		</condition>
+		<pitch>
+			<property>engines/engine[0]/n1</property>
+			<ofset>0.1</ofset>
+			<factor>.0016</factor>
+		</pitch>
+		<volume>
+			<property>engines/engine[0]/thrust-lbs</property>
+			<factor>0.00005</factor>
+			<min>0.0</min>
+			<max>0.9</max>
+		</volume>
+	</engine-jet-internal>	
+
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->	
+<!-- After burner --> 	
+	<engine-rumble>
+		<name>engine-rumble</name>
+		<path>Sounds/rumble.wav</path>
+		<mode>looped</mode>
+		<condition>
+			<property>/engines/engine/running</property>
+		</condition>
+		<property>engines/engine[0]/augmentation</property>
+		<orientation>
+			<x>0.0</x>
+			<y>0.0</y>
+			<z>-180.0</z>
+			<inner-angle>180.0</inner-angle>
+			<outer-angle>360.0</outer-angle>
+			<outer-gain>0.2</outer-gain>
+		</orientation>
+		<pitch>
+			<property>engines/engine[0]/augmentation</property>
+			<factor>1</factor>
+			<offset>0.3</offset>
+		</pitch>
+		<volume>
+			<property>engines/engine[0]/augmentation</property>
+			<!--<factor>0.7</factor>-->
+			<factor>2.0</factor>
+			<offset>0.15</offset>
+			<!--<max>1</max>-->
+		</volume>
+	</engine-rumble>
+
+
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->	 	
+	<engine-whine-external>
+		<name>external-whine</name>
+		<path>Sounds/turbojet_fan.wav</path>
+		<mode>looped</mode>
+		<condition>
+			<not>
+				<property>sim/current-view/internal</property>
+			</not>
+			<greater-than>
+              <property>engines/engine[0]/n1</property>
+              <value>5.0</value>
+            </greater-than>
+		</condition>
+		<orientation>
+			<x>0.0</x>
+			<y>0.0</y>
+			<z>1</z>
+			<inner-angle>180.0</inner-angle>
+			<outer-angle>360.0</outer-angle>
+			<outer-gain>0.5</outer-gain>
+		</orientation>
+		<pitch>
+			<type>log</type>
+			<property>engines/engine[0]/n1</property>
+			<factor>.001</factor>
+		</pitch>
+		<volume>
+			<property>engines/engine/n1</property>
+			<offset>1.0</offset>
+			<factor>-0.008</factor>
+			<max>0.6</max>
+		</volume>
+	</engine-whine-external>
+		
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+	<engine-whine-internal>
+		<name>internal-whine</name>
+		<path>Sounds/whine.wav</path>
+		<mode>looped</mode>
+		<condition>
+			<property>sim/current-view/internal</property>
+			<greater-than>
+              <property>engines/engine[0]/n1</property>
+              <value>5.0</value>
+            </greater-than>
+		</condition>
+		<pitch>
+			<type>log</type>
+			<property>engines/engine[0]/n1</property>
+			<factor>.001</factor>
+		</pitch>
+		<volume>
+			<property>engines/engine[0]/thrust-lbs</property>
+			<factor>0.000012</factor>
+			<min>0.2</min>
+			<max>0.7</max>
+		</volume>
+	</engine-whine-internal>	
+	
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->	 	
+	<JFS-whine-external>
+		<name>JFS-external-whine</name>
+		<path>Sounds/turbojet_fan.wav</path>
+		<mode>looped</mode>
+		<condition>
+			<not>
+				<property>sim/current-view/internal</property>
+			</not>
+			<greater-than>
+				<property>/f-20/JFS/rpm</property>
+				<value>100</value>
+			</greater-than>
+		</condition>
+		<orientation>
+			<x>0.0</x>
+			<y>0.0</y>
+			<z>1</z>
+			<inner-angle>180.0</inner-angle>
+			<outer-angle>360.0</outer-angle>
+			<outer-gain>0.5</outer-gain>
+		</orientation>
+		<pitch>
+			<property>/f-20/JFS/rpm</property>
+			<ofset>0.7</ofset>
+			<factor>.003</factor>
+		</pitch>
+		<volume>
+			<property>/f-20/JFS/rpm</property>
+			<factor>0.00001</factor>
+			<max>0.3</max>
+		</volume>
+	</JFS-whine-external>
+		
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+	<JFS-whine-internal>
+		<name>JFS-internal-whine</name>
+		<path>Sounds/whine.wav</path>
+		<mode>looped</mode>
+		<condition>
+			<property>sim/current-view/internal</property>
+			<greater-than>
+				<property>/f-20/JFS/rpm</property>
+				<value>100</value>
+			</greater-than>
+		</condition>
+		<pitch>
+			<property>/f-20/JFS/rpm</property>
+			<ofset>0.1</ofset>
+			<factor>.0016</factor>
+		</pitch>
+		<volume>
+			<property>/f-20/JFS/rpm</property>
+			<factor>0.00001</factor>
+			<max>0.3</max>
+		</volume>
+	</JFS-whine-internal>		
+
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->	 
+  <tire-rumble>
+   <name>tire-rumble</name>
+   <mode>looped</mode>
+   <path>Sounds/rumble.wav</path>
+   <condition>
+    <or>
+     <property>/gear/gear[0]/wow</property>
+     <property>/gear/gear[1]/wow</property>
+     <property>/gear/gear[2]/wow</property>
+    </or>
+   </condition>
+   <volume>
+    <property>/velocities/airspeed-kt</property>
+    <factor>0.004</factor>
+    <max>0.3</max>
+   </volume>
+  </tire-rumble>
+
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->	 
+  <gear-wind>
+   <name>gear-wind</name>
+   <mode>looped</mode>
+   <path>Sounds/rumble.wav</path>
+   <condition>
+     <greater-than>
+      <property>/gear/gear[1]/position-norm[0]</property>
+      <value>0.01</value>
+     </greater-than>
+   </condition>
+   <volume>
+    <property>/velocities/airspeed-kt</property>
+    <factor>0.004</factor>
+    <max>1.0</max>
+   </volume>
+  </gear-wind>
+
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->	 
+  <gear-lock>
+   <name>gear-lock</name>
+   <path>Sounds/gear-lck.wav</path>
+   <condition>
+    <equals>
+     <property>/gear/gear[0]/position-norm</property>
+     <value>0</value>
+    </equals>
+   </condition>
+  </gear-lock>
+
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->	 
+  <squeal>
+   <name>squeal</name>
+   <path>Sounds/squeal.wav</path>
+   <condition>
+    <or>
+     <property>/gear/gear[0]/wow</property>
+     <property>/gear/gear[1]/wow</property>
+     <property>/gear/gear[2]/wow</property>
+    </or>
+   </condition>
+   <volume>
+    <property>/velocities/speed-down-fps</property>
+    <factor>0.05</factor>
+   </volume>
+   <volume>
+    <property>/velocities/airspeed-kt</property>
+    <factor>0.01</factor>
+   </volume>
+   <volume>
+    <internal>dt_stop</internal>
+    <factor>0.05</factor>
+    <max>1.0</max>
+   </volume>
+   <pitch>
+    <property>/velocities/airspeed-kt</property>
+    <factor>0.0025</factor>
+    <offset>1.2</offset>
+   </pitch>
+  </squeal>
+
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->	 
+  <wind>
+   <name>wind</name>
+   <mode>looped</mode>
+   <path>Sounds/wind.wav</path>
+   <property>/velocities/airspeed-kt</property>
+   <volume>
+    <property>/position/altitude-ft</property>
+    <factor>-0.000015</factor>
+    <offset>1.0</offset>
+    <min>0.1</min>
+    <max>1.0</max>
+   </volume>
+   <volume>
+     <property>/velocities/airspeed-kt</property>
+     <factor>0.0015</factor>
+     <min>0.03</min>
+     <max>0.25</max>
+   </volume>
+   <pitch>
+    <property>/velocities/airspeed-kt</property>
+    <factor>0.01</factor>
+    <offset>1.25</offset>
+   </pitch>
+  </wind>
+
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->	 
+  <buffet>
+   <name>alpha-buffet</name>
+   <mode>looped</mode>
+   <condition>
+	<and>
+		<greater-than>
+		 <property>/fdm/jsbsim/aero/alpha-deg</property>
+		 <value>12</value>
+		</greater-than>
+		<greater-than>
+			<property>/velocities/airspeed-kt</property>
+		<value>60.0</value>
+		</greater-than>
+    </and>
+   </condition>
+   <path>Sounds/rumble.wav</path>
+   <volume>
+    <property>/fdm/jsbsim/aero/alpha-rad[0]</property>
+    <factor>15.0</factor>
+    <max>1.0</max>
+   </volume>
+   <pitch>
+    <property>/fdm/jsbsim/aero/alpha-rad[0]</property>
+    <factor>0.1</factor>
+   </pitch>
+  </buffet>
+  
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->	 
+  <after-burner-click-1>
+    <name>after-burner-click-1</name>
+			<mode>once</mode>
+			<path>Aircraft/F-20/Sounds/notch1.wav</path>
+			<condition>
+				<greater-than-equals>
+					<property>fdm/jsbsim/fcs/throttle-cmd-norm</property>
+					<value>0.75</value>
+				</greater-than-equals>
+			</condition>
+			<volume><factor>0.8</factor></volume>
+  </after-burner-click-1>
+  
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->	  
+  <after-burner-click-2>
+    <name>after-burner-click-2</name>
+			<mode>once</mode>
+			<path>Aircraft/F-20/Sounds/notch1.wav</path>
+			<condition>
+				<greater-than-equals>
+					<property>fdm/jsbsim/fcs/throttle-cmd-norm</property>
+					<value>0.85</value>
+				</greater-than-equals>
+			</condition>
+			<volume><factor>0.8</factor></volume>
+  </after-burner-click-2>
+  
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->	  
+  <after-burner-click-3>
+    <name>after-burner-click-3</name>
+			<mode>once</mode>
+			<path>Aircraft/F-20/Sounds/notch1.wav</path>
+			<condition>
+				<less-than>
+					<property>fdm/jsbsim/fcs/throttle-cmd-norm</property>
+					<value>0.85</value>
+				</less-than>
+			</condition>
+			<volume><factor>0.8</factor></volume>
+  </after-burner-click-3>
+  
+<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->	 
+  <after-burner-click-4>
+    <name>after-burner-click-4</name>
+			<mode>once</mode>
+			<path>Aircraft/F-20/Sounds/notch1.wav</path>
+			<condition>
+				<less-than>
+					<property>fdm/jsbsim/fcs/throttle-cmd-norm</property>
+					<value>0.75</value>
+				</less-than>
+			</condition>
+			<volume><factor>0.8</factor></volume>
+  </after-burner-click-4>
+  
+  <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->	 
+  <single-chime>
+    <name>single-chime</name>
+			<mode>once</mode>
+			<path>Aircraft/F-20/Sounds/single-chime.wav</path>
+			<condition>
+				<less-than>
+					<property>/f-20/alerting/chime</property>
+					<value>0.75</value>
+				</less-than>
+			</condition>
+			<volume><factor>0.8</factor></volume>
+  </single-chime>
+  
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->	 
+  <continuous-repetitive-chime>
+    <name>continuous-repetitive-chime</name>
+			<mode>looped</mode>
+			<path>Aircraft/F-20/Sounds/repetitive-chime.wav</path>
+			<condition>
+				<less-than>
+					<property>/f-20/alerting/continuous-repetitive-chime</property>
+					<value>0.75</value>
+				</less-than>
+			</condition>
+			<volume><factor>0.8</factor></volume>
+  </continuous-repetitive-chime>
+
+</fx>
+ 
+</PropertyList>

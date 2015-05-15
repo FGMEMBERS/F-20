@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>inner-nozzle.ac</path>
+
+  <offsets>
+  <z-m>0.0</z-m> 
+  </offsets>
+  
+<!-- animation -->
+
+<animation>
+	<type>rotate</type>
+	<object-name>InnerNozzlePetalO.001</object-name>
+	<object-name>InnerNozzlePetalI.001</object-name>
+    <offset-deg>30.0</offset-deg>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>InnerNozzlePetalO.002</object-name>
+	<object-name>InnerNozzlePetalI.002</object-name>
+	<offset-deg>60.0</offset-deg>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>InnerNozzlePetalO.003</object-name>
+	<object-name>InnerNozzlePetalI.003</object-name>
+	<offset-deg>90.0</offset-deg>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>InnerNozzlePetalO.004</object-name>
+	<object-name>InnerNozzlePetalI.004</object-name>
+	<offset-deg>120.0</offset-deg>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>InnerNozzlePetalO.005</object-name>
+	<object-name>InnerNozzlePetalI.005</object-name>
+	<offset-deg>150.0</offset-deg>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>InnerNozzlePetalO.006</object-name>
+	<object-name>InnerNozzlePetalI.006</object-name>
+	<offset-deg>180.0</offset-deg>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>InnerNozzlePetalO.007</object-name>
+	<object-name>InnerNozzlePetalI.007</object-name>
+	<property>/f-20/nozzle-rotation</property>
+	<offset-deg>210.0</offset-deg>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>InnerNozzlePetalO.008</object-name>
+	<object-name>InnerNozzlePetalI.008</object-name>
+	<offset-deg>240.0</offset-deg>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>InnerNozzlePetalO.009</object-name>
+	<object-name>InnerNozzlePetalI.009</object-name>
+	<offset-deg>270.0</offset-deg>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>InnerNozzlePetalO.010</object-name>
+	<object-name>InnerNozzlePetalI.010</object-name>
+	<offset-deg>300.0</offset-deg>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>InnerNozzlePetalO.011</object-name>
+	<object-name>InnerNozzlePetalI.011</object-name>
+	<offset-deg>330.0</offset-deg>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+ 
+<animation>
+	<type>translate</type>
+	<object-name>InnerNozzlePetalO</object-name>
+	<object-name>InnerNozzlePetalO.001</object-name>
+	<object-name>InnerNozzlePetalO.002</object-name>
+	<object-name>InnerNozzlePetalO.003</object-name>
+	<object-name>InnerNozzlePetalO.004</object-name>
+	<object-name>InnerNozzlePetalO.005</object-name>
+	<object-name>InnerNozzlePetalO.006</object-name>
+	<object-name>InnerNozzlePetalO.007</object-name>
+	<object-name>InnerNozzlePetalO.008</object-name>
+	<object-name>InnerNozzlePetalO.009</object-name>
+	<object-name>InnerNozzlePetalO.010</object-name>
+	<object-name>InnerNozzlePetalO.011</object-name>	
+	<property>/f-20/nozzle-pos-norm</property>
+	<factor>0.1</factor>
+	<axis>
+		<x>0</x>
+		<y>0.0936353967</y>
+		<z>0.9956065551</z>
+	</axis>
+</animation>  
+ 
+<animation>
+	<type>rotate</type>
+	<object-name>InnerNozzlePetalO</object-name>
+	<object-name>InnerNozzlePetalO.001</object-name>
+	<object-name>InnerNozzlePetalO.002</object-name>
+	<object-name>InnerNozzlePetalO.003</object-name>
+	<object-name>InnerNozzlePetalO.004</object-name>
+	<object-name>InnerNozzlePetalO.005</object-name>
+	<object-name>InnerNozzlePetalO.006</object-name>
+	<object-name>InnerNozzlePetalO.007</object-name>
+	<object-name>InnerNozzlePetalO.008</object-name>
+	<object-name>InnerNozzlePetalO.009</object-name>
+	<object-name>InnerNozzlePetalO.010</object-name>
+	<object-name>InnerNozzlePetalO.011</object-name>	
+	<property>/f-20/nozzle-pos-norm</property>
+	<factor>10.0</factor>
+	<center>
+		<x-m>5.94189</x-m>		
+		<y-m>0.05897</y-m>
+		<z-m>0.24582</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>-0.9956065551</y>
+		<z>0.0936353967</z>
+	</axis>
+</animation>
+
+ 
+<animation>
+	<type>translate</type>
+	<object-name>InnerNozzlePetalI</object-name>
+	<object-name>InnerNozzlePetalI.001</object-name>
+	<object-name>InnerNozzlePetalI.002</object-name>
+	<object-name>InnerNozzlePetalI.003</object-name>
+	<object-name>InnerNozzlePetalI.004</object-name>
+	<object-name>InnerNozzlePetalI.005</object-name>
+	<object-name>InnerNozzlePetalI.006</object-name>
+	<object-name>InnerNozzlePetalI.007</object-name>
+	<object-name>InnerNozzlePetalI.008</object-name>
+	<object-name>InnerNozzlePetalI.009</object-name>
+	<object-name>InnerNozzlePetalI.010</object-name>
+	<object-name>InnerNozzlePetalI.011</object-name>	
+	<property>/f-20/nozzle-pos-norm</property>
+	<factor>0.1</factor>
+	<axis>
+		<x>0</x>
+		<y>0.3512318416</y>
+		<z>0.9362885204</z>
+	</axis>
+</animation>  
+ 
+<animation>
+	<type>rotate</type>
+	<object-name>InnerNozzlePetalI</object-name>
+	<object-name>InnerNozzlePetalI.001</object-name>
+	<object-name>InnerNozzlePetalI.002</object-name>
+	<object-name>InnerNozzlePetalI.003</object-name>
+	<object-name>InnerNozzlePetalI.004</object-name>
+	<object-name>InnerNozzlePetalI.005</object-name>
+	<object-name>InnerNozzlePetalI.006</object-name>
+	<object-name>InnerNozzlePetalI.007</object-name>
+	<object-name>InnerNozzlePetalI.008</object-name>
+	<object-name>InnerNozzlePetalI.009</object-name>
+	<object-name>InnerNozzlePetalI.010</object-name>
+	<object-name>InnerNozzlePetalI.011</object-name>	
+	<property>/f-20/nozzle-pos-norm</property>
+	<factor>-10.0</factor>
+	<center>
+		<x-m>5.94725</x-m>		
+		<y-m>0.02324</y-m>
+		<z-m>0.24858</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>0.9362885204</y>
+		<z>-0.3512318416</z>
+	</axis>
+</animation>
+
+
+<animation>
+  <type>material</type>
+	<object-name>InnerNozzlePetalO</object-name>
+	<object-name>InnerNozzlePetalO.001</object-name>
+	<object-name>InnerNozzlePetalO.002</object-name>
+	<object-name>InnerNozzlePetalO.003</object-name>
+	<object-name>InnerNozzlePetalO.004</object-name>
+	<object-name>InnerNozzlePetalO.005</object-name>
+	<object-name>InnerNozzlePetalO.006</object-name>
+	<object-name>InnerNozzlePetalO.007</object-name>
+	<object-name>InnerNozzlePetalO.008</object-name>
+	<object-name>InnerNozzlePetalO.009</object-name>
+	<object-name>InnerNozzlePetalO.010</object-name>
+	<object-name>InnerNozzlePetalO.011</object-name>	  
+	<object-name>InnerNozzlePetalI</object-name>
+	<object-name>InnerNozzlePetalI.001</object-name>
+	<object-name>InnerNozzlePetalI.002</object-name>
+	<object-name>InnerNozzlePetalI.003</object-name>
+	<object-name>InnerNozzlePetalI.004</object-name>
+	<object-name>InnerNozzlePetalI.005</object-name>
+	<object-name>InnerNozzlePetalI.006</object-name>
+	<object-name>InnerNozzlePetalI.007</object-name>
+	<object-name>InnerNozzlePetalI.008</object-name>
+	<object-name>InnerNozzlePetalI.009</object-name>
+	<object-name>InnerNozzlePetalI.010</object-name>
+	<object-name>InnerNozzlePetalI.011</object-name>	
+  <emission>
+    <red>1.0</red>
+    <green>0.5</green>
+    <blue>0.0</blue>
+   <factor-prop>/f-20/glow-factor-burner</factor-prop>   
+  </emission>
+</animation>
+
+</PropertyList>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+ 
+ <PropertyList>
+  <sim>
+   <model>
+    <livery>
+     <name type="string">Northrop air superiority grey</name>
+     <index type="int">0</index>
+     <F-20-texture>LiveriesPrototype/ASgrey.png</F-20-texture>
+     <reflection-map>Models/glossy.png</reflection-map>
+    </livery>
+   </model>
+  </sim>
+ </PropertyList>

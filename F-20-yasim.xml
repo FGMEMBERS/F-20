@@ -1,0 +1,140 @@
+<!-- Northrop F-20 -->
+<!-- References : -->
+<!-- F-20 flight manual -->
+
+<airplane mass="13375">
+
+<!-- Approach configuration -->
+	<approach speed="130.0" aoa="10" fuel="0.2">
+		<control-setting axis="/controls/engines/engine[0]/throttle" value="0.7"/>
+		<control-setting axis="/controls/engines/engine[0]/afterburner" value="0.0"/>
+		<control-setting axis="/controls/flight/flaps" value="1"/>
+		<control-setting axis="/controls/flight/slats" value="1"/>
+		<control-setting axis="/controls/gear/gear-down" value="1"/>
+	</approach>
+
+<!-- Cruise configuration -->
+<!-- Not really the cruise but rather the max performance ... see how it fares -->
+	<cruise speed="1036" alt="45000.0" fuel="0.5">
+		<control-setting axis="/controls/engines/engine[0]/throttle" value="1.0"/>
+		<control-setting axis="/controls/engines/engine[0]/afterburner" value="1.0"/>
+		<control-setting axis="/controls/flight/flaps" value="0.0"/>
+		<control-setting axis="/controls/flight/slats" value="0"/>
+		<control-setting axis="/controls/gear/gear-down" value="0"/>
+	</cruise>
+
+	<cockpit x="3.3204" y="0.00" z="0.6469"/>
+
+<!-- Fuselage +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+	<!-- Fuselage -->
+	<fuselage ax="8.22047" ay="0.00" az="-0.44996"
+              bx="-5.94725" by="0.00" bz="-0.3"
+              width="2.0" taper="0" midpoint="0.5"
+              idrag="1.4" />
+
+
+<!-- Wings +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+	<wing x="0.63896" y="0.37" z="-0.45989" length="3.155" chord="3.0" taper="0.28"
+		sweep="10" dihedral="0" camber="0.001" incidence="0.0" idrag="0.5">
+		<stall aoa="25" width="3.0" peak="1.1"/>
+		<!-- slats -->
+		<slat start="0.1" end="0.9" aoa="20" lift="1.2" drag="1.2"/>
+        <flap0 start="0.0" end="0.5" lift="1.2" drag="1.2"/>
+        <flap1 start="0.5" end="0.85" lift="1.1" drag="1.2"/>
+        <control-input axis="/controls/flight/flaps" control="FLAP0"/>
+        <control-output control="FLAP0" prop="/surface-positions/flap-pos-norm"/>
+        <control-speed control="FLAP0" transition-time="5"/>
+        <control-input axis="/controls/flight/aileron" control="FLAP1" split="true"/>
+        <control-input axis="/controls/flight/aileron-trim" control="FLAP1" split="true"/>
+	</wing>
+
+	<!-- Horizontal stabilizer +++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+
+	<hstab x="-4.13356" y="0.68257" z="-0.54093" length="1.7" chord="1.718"
+		taper="0.33" sweep="10" dihedral="-2" camber="-0.01" effectiveness="2.0">
+		<stall aoa="40.0" width="2" peak="1.2"/>
+        <flap0 start="0.0" end="1.0" lift="1.5" drag="1.2"/>
+        <control-input axis="/controls/flight/elevator" control="FLAP0"/>
+        <control-input axis="/controls/flight/elevator-trim" control="FLAP0"/>
+        <control-output control="FLAP0" prop="/surface-positions/elevator-pos-norm"/>
+	</hstab>
+
+<!-- Vertical fin ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+
+	<vstab x="-3.11" y="0" z="0.5" length="1.8" chord="2.8" 
+		taper="0.3" sweep="10" dihedral="90" camber="0.00" effectiveness="3.0">
+		<stall aoa="22" width="2" peak="1.3"/>
+		<!-- Rudder -->
+		<flap0 start="0.0" end="0.5" lift="1.45" drag="1.5"/>
+        <control-input axis="/controls/flight/rudder" control="FLAP0" square="true" invert="true"/>
+        <control-input axis="/controls/flight/rudder-trim" control="FLAP0" invert="true"/>
+        <control-output control="FLAP0" prop="/surface-positions/rudder-pos-norm"/>
+	</vstab>
+
+
+
+<!-- Engines +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!-- General Electric F404-GE-100 -->
+
+	<!-- left engine tsfc="0.6"-->
+	<jet x="-3" y="0.0" z="0.0" mass="1500" thrust="11000" afterburner="17000" tsfc="0.81">
+		<actionpt x="5.94725" y="0" z="0"/>
+		<control-input axis="/controls/engines/engine[0]/throttle" src0="0.0" dst0="0.0" src1="0.86" dst1="1.0" control="THROTTLE"/>
+		<control-input axis="/controls/engines/engine[0]/throttle" src0="0.88" dst0="0.0" src1="1.0" dst1="1.0" control="REHEAT"/>
+		<control-output control="REHEAT" prop="engines/engine[0]/afterburner" />
+		<control-speed control="THROTTLE" transition-time="1.0"/>
+		<control-speed control="REHEAT" transition-time="2.0"/>
+	</jet>
+
+
+<!-- Landing gear +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+	<!-- Nose -->
+	<gear x="4.7033" y="0.00" z="-2.12" compression="0.7" spring="0.5" damp="1" initial-load="0">
+		<control-input axis="/controls/gear/gear-down" control="EXTEND"/>
+		<control-output control="EXTEND" prop="/gear/gear[0]/position-norm"/>
+		<control-speed control="EXTEND" transition-time="4"/>
+		<control-input axis="/controls/flight/NWS" control="STEER" square="true"/>
+		<control-output control="STEER" prop="/gear/gear[0]/steering-norm"/>
+		<control-speed control="STEER" transition-time="0.5"/>
+	</gear>
+
+	<!-- Left main x="-2.357"-->
+	<gear x="-0.56316999" y="1.85593" z="-2.15" compression="0.7" spring="0.5" damp="1" initial-load="0">
+		<control-input axis="/controls/gear/gear-down" control="EXTEND"/>
+		<control-input axis="/controls/gear/brake-left" control="BRAKE"/>
+		<control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
+		<control-output control="EXTEND" prop="/gear/gear[1]/position-norm"/>
+		<control-speed control="EXTEND" transition-time="4"/>
+	</gear>
+
+	<!-- Right main -->
+	<gear x="-0.56316999" y="-1.85593" z="-2.15" compression="0.7" spring="0.5" damp="1" initial-load="0">
+		<control-input axis="/controls/gear/gear-down" control="EXTEND"/>
+		<control-input axis="/controls/gear/brake-right" control="BRAKE"/>
+		<control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
+		<control-output control="EXTEND" prop="/gear/gear[2]/position-norm"/>
+		<control-speed control="EXTEND" transition-time="4"/>
+	</gear>
+
+<!-- Fuel tanks +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+	<tank x="1.0" y="0" z="-0.68" jet="true" capacity="1747"/>        <!-- FWD Fuselage     -->
+	<tank x="0.0" y="0" z="-0.58" jet="true" capacity="2768"/>       <!--AFT Fuselage     -->
+
+
+<!-- Weight distribution ++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+	<!-- Avionics -->
+	<ballast x="2.925" y="0" z="-0.456" mass="500"/>
+
+	<!-- Cockpit and radar -->
+	<ballast x="5.00" y="0" z="-0.860" mass="500"/>
+
+	<!-- Pilot -->
+	<ballast x="4.5" y="0" z="-0.516" mass="400"/> 
+
+
+
+</airplane>

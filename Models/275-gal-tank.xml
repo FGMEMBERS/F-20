@@ -1,0 +1,13 @@
+<PropertyList>
+
+ <path>275-gal-tank.ac</path>
+ 
+ <animation>
+  <type>material</type>
+   <object-name>DropTank275</object-name>
+   <property-base>sim/model/livery</property-base>
+   <texture-prop>F-20-texture</texture-prop>
+   <texture>Liveries/Suisse.png</texture>
+ </animation> 
+ 
+</PropertyList>

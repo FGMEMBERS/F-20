@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <model>
+  <name>airframe</name>
+  <path>Aircraft/F-20/Models/f-20.xml</path>
+  <offsets>
+   <x-m>0.0</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </offsets>
+ </model> 
+ 
+ <model>
+  <name>nozzle</name>
+  <path>Aircraft/F-20/Models/nozzle-C.xml</path>
+  <offsets>
+   <x-m>0.0</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </offsets>
+ </model> 
+ 
+ <model>
+  <name>post-prototype-models</name>
+  <path>Aircraft/F-20/Models/post-prototype.xml</path>
+  <offsets>
+   <x-m>0.0</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </offsets>
+ </model> 
+ 
+ <model>
+  <name>A-models</name>
+  <path>Aircraft/F-20/Models/f-20C-specific.xml</path>
+  <offsets>
+   <x-m>0.0</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </offsets>
+ </model> 
+
+ <model>
+  <name>Virtual Cockpit</name>
+  <path>Aircraft/F-20/Models/f-20-cockpit.xml</path>
+  <offsets>
+   <x-m>0.0</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </offsets>
+ </model> 
+ 
+  <model>
+  <name>Virtual Cockpit prototype specific items</name>
+  <path>Aircraft/F-20/Models/f-20C-cockpit.xml</path>
+  <offsets>
+   <x-m>0.0</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </offsets>
+ </model> 
+ 
+ <model>
+  <name>Test panel with JFS</name>
+  <path>Aircraft/F-20/Models/JFS-panel.xml</path>
+  <offsets>
+   <x-m>0.0</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </offsets>
+ </model>  
+ 
+</PropertyList>

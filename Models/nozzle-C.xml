@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>nozzle-C.ac</path>
+
+  <offsets>
+  <z-m>0.0</z-m> 
+  </offsets>
+  
+<!-- animation -->
+
+<animation>
+	<type>rotate</type>
+	<object-name>petal.001</object-name>
+	<property>/f-20/nozzle-rotation</property>
+	<factor>30.0</factor>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>petal.002</object-name>
+	<property>/f-20/nozzle-rotation</property>
+	<factor>60.0</factor>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>petal.003</object-name>
+	<property>/f-20/nozzle-rotation</property>
+	<factor>90.0</factor>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>petal.004</object-name>
+	<property>/f-20/nozzle-rotation</property>
+	<factor>120.0</factor>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>petal.005</object-name>
+	<property>/f-20/nozzle-rotation</property>
+	<factor>150.0</factor>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>petal.006</object-name>
+	<property>/f-20/nozzle-rotation</property>
+	<factor>180.0</factor>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>petal.007</object-name>
+	<property>/f-20/nozzle-rotation</property>
+	<factor>210.0</factor>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>petal.008</object-name>
+	<property>/f-20/nozzle-rotation</property>
+	<factor>240.0</factor>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>petal.009</object-name>
+	<property>/f-20/nozzle-rotation</property>
+	<factor>270.0</factor>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>petal.010</object-name>
+	<property>/f-20/nozzle-rotation</property>
+	<factor>300.0</factor>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>petal.011</object-name>
+	<property>/f-20/nozzle-rotation</property>
+	<factor>330.0</factor>
+	<center>
+		<x-m>0</x-m>
+		<y-m>-0.00144</y-m>
+		<z-m>-0.00718</z-m>
+	</center>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+		<z>0</z>
+	</axis>
+</animation>
+ 
+<animation>
+	<type>rotate</type>
+	<object-name>petal.000</object-name>
+	<object-name>petal.001</object-name>
+	<object-name>petal.002</object-name>
+	<object-name>petal.003</object-name>
+	<object-name>petal.004</object-name>
+	<object-name>petal.005</object-name>
+	<object-name>petal.006</object-name>
+	<object-name>petal.007</object-name>
+	<object-name>petal.008</object-name>
+	<object-name>petal.009</object-name>
+	<object-name>petal.010</object-name>
+	<object-name>petal.011</object-name>	
+	<property>/f-20/nozzle-pos-norm</property>
+	<factor>10.0</factor>
+	<center>
+		<x-m>5.37575</x-m>
+		<y-m>0.00082</y-m>
+		<z-m>0.41948</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>-1</y>
+		<z>0</z>
+	</axis>
+</animation>
+
+</PropertyList>

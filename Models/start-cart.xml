@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>start-cart.ac</path>
+
+  <offsets>
+  <z-m>0.0</z-m> 
+  </offsets>
+  
+ <animation>
+  <type>material</type>
+   <object-name>StarterDoor</object-name>
+   <property-base>sim/model/livery</property-base>
+   <texture-prop>F-20-texture</texture-prop>
+   <texture>Liveries/Suisse.png</texture>
+ </animation>
+
+  
+</PropertyList>

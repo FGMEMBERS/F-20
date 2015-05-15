@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+ 
+ <PropertyList>
+  <sim>
+   <model>
+    <livery>
+     <name type="string">Switzerland's Patrouille Suisse</name>
+     <F-20-texture>LiveriesF20C/Suisse.png</F-20-texture>
+     <reflection-map>Models/glossy.png</reflection-map>
+    </livery>
+   </model>
+  </sim>
+ </PropertyList>

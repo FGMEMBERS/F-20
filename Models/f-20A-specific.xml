@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>f-20A.ac</path>
+
+  <offsets>
+  <z-m>0.0</z-m> 
+  </offsets>
+  
+ <!--spark effect for the CM lauchers -->
+ <model>
+  <name>sparks</name>
+  <path>Aircraft/F-20/Effects/sparks.xml</path>
+  <offsets>
+   <x-m>0</x-m>
+   <y-m>0.0</y-m>
+   <z-m>-0.72</z-m>
+  </offsets>
+ </model>
+ 
+  <animation>
+  <type>translate</type>
+  <object-name>sparks</object-name>
+  <property>/f-20/CM/flare-release-x</property>
+  <factor>1</factor>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+ <animation>
+  <type>translate</type>
+  <object-name>sparks</object-name>
+  <property>/f-20/CM/flare-release-y</property>
+  <factor>1</factor>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+</PropertyList>

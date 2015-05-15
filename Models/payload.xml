@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+  
+    <model>
+        <name>wing pylons</name>
+		<path>Aircraft/F-20/Models/wing-pylons.xml</path>
+	</model>
+  
+   <animation>
+	<type>select</type>
+	<object-name>wing pylons</object-name>
+		<condition>
+				<property>/f-20/wing-pylons-present</property>			
+		</condition>
+  </animation>  
+  
+    <model>
+        <name>center pylon</name>
+		<path>Aircraft/F-20/Models/center-pylon.xml</path>
+	</model>    
+    
+   <animation>
+	<type>select</type>
+	<object-name>center pylon</object-name>
+		<condition>
+				<property>/f-20/center-pylon-present</property>			
+		</condition>
+  </animation>      
+    
+    
+    <model>
+        <name>center tank</name>
+		<path>Aircraft/F-20/Models/275-gal-tank.xml</path>
+	</model>   
+    
+   <animation>
+	<type>select</type>
+	<object-name>center tank</object-name>
+		<condition>
+				<property>/f-20/center-tank-present</property>			
+		</condition>
+  </animation>          
+    
+    <model>
+        <name>left tank</name>
+		<path>Aircraft/F-20/Models/275-gal-tank.xml</path>
+		<offsets>
+			<x-m>1.43807</x-m>
+			<y-m>-2.31784</y-m>
+			<z-m>0.08669</z-m>
+		</offsets>
+	</model>         
+    		
+
+    <model>
+        <name>right tank</name>
+		<path>Aircraft/F-20/Models/275-gal-tank.xml</path>
+		<offsets>
+			<x-m>1.43807</x-m>
+			<y-m>2.31784</y-m>
+			<z-m>0.08669</z-m>
+		</offsets>
+	</model>      
+    
+   <animation>
+	<type>select</type>
+	<object-name>left tank</object-name>
+    <object-name>right tank</object-name>
+		<condition>
+				<property>/f-20/wing-tanks-present</property>			
+		</condition>
+  </animation>     
+  
+    <model>
+        <name>left smoke generator</name>
+		<path>Aircraft/F-20/Models/smoke-generator.xml</path>
+		<offsets>
+			<x-m>0.0</x-m>
+			<y-m>0.0</y-m>
+			<z-m>0.0</z-m>
+		</offsets>
+	</model>      
+    
+    <model>
+        <name>right smoke generator</name>
+		<path>Aircraft/F-20/Models/smoke-generator.xml</path>
+		<offsets>
+			<x-m>0.0</x-m>
+			<y-m>-8.086</y-m>
+			<z-m>0.0</z-m>
+		</offsets>
+	</model>          
+    
+   <animation>
+	<type>select</type>
+	<object-name>right smoke generator</object-name>
+    <object-name>left smoke generator</object-name>
+		<condition>
+				<property>/f-20/smoke-generators-present</property>			
+		</condition>
+  </animation>          
+
+  
+</PropertyList>

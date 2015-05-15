@@ -1,0 +1,361 @@
+<?xml version="1.0"?>
+
+<!-- T38 electrical system
+
+     David Culp, March 2003, davidculp2@attbi.com
+     This system is a generic system of the kind one would find
+     on a twin-jet aircraft.  FlightGear is presently supporting
+     only C-172 style electrical systems, so I had to make this one
+     conform.  Eventually FlightGear will support more complex
+     systems.  Until then, the whole system runs on batteries.
+
+-->
+<PropertyList>
+
+  <supplier>
+    <name>Battery</name>
+    <prop>/systems/electrical/suppliers/battery[0]</prop>
+    <kind>battery</kind>
+    <volts>28</volts>
+    <amps>60</amps>
+  </supplier>
+
+  <supplier>
+    <name>Static Inverter</name>
+    <prop>/systems/electrical/suppliers/static-inverter</prop>
+    <kind>alternator</kind>
+    <volts>28</volts>
+    <amps>60</amps>
+  </supplier>
+
+  <supplier>
+    <name>Gen 1</name>
+    <prop>/systems/electrical/suppliers/generator[0]</prop>
+    <kind>alternator</kind>
+    <volts>28</volts>
+    <amps>60</amps>
+  </supplier>
+
+  <supplier>
+    <name>TR 1</name>
+    <prop>/systems/electrical/suppliers/TR[0]</prop>
+    <kind>battery</kind>
+    <volts>28</volts>
+    <amps>60</amps> 
+  </supplier>
+
+  <supplier>
+    <name>Gen 2</name>
+    <prop>/systems/electrical/suppliers/generator[1]</prop>
+    <kind>alternator</kind>
+    <volts>28</volts>
+    <amps>60</amps> 
+  </supplier>
+
+  <supplier>
+    <name>TR 2</name>
+    <prop>/systems/electrical/suppliers/TR[1]</prop>
+    <kind>battery</kind>
+    <volts>28</volts>
+    <amps>60</amps> 
+  </supplier>
+
+  <supplier>
+    <name>External Power</name>
+    <prop>/systems/electrical/suppliers/external[0]</prop>
+    <kind>external</kind>
+    <volts>0</volts>
+    <amps>0</amps>
+  </supplier>
+
+
+  <bus>
+    <name>Hot Battery Bus</name>
+    <prop>/systems/electrical/outputs/hot-battery-bus</prop>
+    <prop>/systems/electrical/outputs/fire-detection-dc</prop>
+  </bus>
+
+  <bus>
+    <name>Battery Bus</name>
+    <prop>/systems/electrical/outputs/battery-bus</prop>
+    <prop>/systems/electrical/outputs/fire-protection-dc</prop>
+    <prop>/systems/electrical/outputs/cockpit-floodlight-dc</prop>
+  </bus>
+
+  <bus>
+    <name>Main Bus 1</name>
+    <prop>/systems/electrical/outputs/gen-bus[0]</prop>
+  </bus>
+
+  <bus>
+    <name>DC Bus 1</name>
+    <prop>/systems/electrical/outputs/dc-bus[0]</prop>
+  </bus>
+
+  <bus>
+    <name>Main Bus 2</name>
+    <prop>/systems/electrical/outputs/gen-bus[1]</prop>
+  </bus>
+
+  <bus>
+    <name>DC Bus 2</name>
+    <prop>/systems/electrical/outputs/dc-bus[1]</prop>
+  </bus>
+
+  <bus>
+    <name>Standby AC Bus</name>
+    <prop>/systems/electrical/outputs/standby-bus-ac</prop>
+    <prop>/systems/electrical/outputs/pressurization-control-ac</prop>
+    <prop>/systems/electrical/outputs/nav[0]</prop>
+    <prop>/systems/electrical/outputs/hsi</prop>
+    <prop>/systems/electrical/outputs/dme[0]</prop>
+    <prop>/systems/electrical/outputs/audio-panel[0]</prop>
+  </bus>
+
+  <bus>
+    <name>Standby DC Bus</name>
+    <prop>/systems/electrical/outputs/standby-bus-dc</prop>
+    <prop>/systems/electrical/outputs/pressurization-control-dc</prop>
+  </bus>
+
+  <bus>
+    <name>Avionics Bus 1</name>
+    <prop>/systems/electrical/outputs/bus-avionics[0]</prop>
+    <prop>/systems/electrical/outputs/avionics-cooling</prop>
+ </bus>
+
+  <bus>
+    <name>Avionics Bus 2</name>
+    <prop>/systems/electrical/outputs/bus-avionics[1]</prop>
+    <prop>/systems/electrical/outputs/nav[1]</prop>
+    <prop>/systems/electrical/outputs/transponder</prop>
+    <prop>/systems/electrical/outputs/autopilot</prop>
+  </bus>
+
+  <bus>
+    <name>External Bus</name>
+    <prop>/systems/electrical/outputs/external-bus</prop>
+  </bus>
+
+  <connector>
+    <input>External Power</input>
+    <output>External Bus</output>
+  </connector>
+
+<!--
+  <connector>
+    <input>External Bus</input>
+    <output>Main Bus 1</output>
+    <output>Main Bus 2</output>
+  </connector>
+-->
+
+  <!-- the following two are a hack to get power to the main buses --> 
+  <connector>
+    <input>Battery</input>
+    <output>Main Bus 1</output>
+  </connector>
+
+  <connector>
+    <input>Battery</input>
+    <output>Main Bus 2</output>
+  </connector>
+
+<!-- doesn't work yet - generators not powered
+  <connector>
+    <input>Gen 1</input>
+    <output>Main Bus 1</output>
+  </connector>
+
+  <connector>
+    <input>Gen 2</input>
+    <output>Main Bus 2</output>
+  </connector>
+
+  <connector>
+    <input>Main Bus 1</input>
+    <output>TR 1</output>
+    <output>Avionics Bus 1</output>
+  </connector>
+
+  <connector>
+    <input>Main Bus 2</input>
+    <output>TR 2</output>
+    <output>Avionics Bus 2</output>
+  </connector>
+-->
+
+  <connector>
+    <input>TR 1</input>
+    <output>DC Bus 1</output>
+    <output>DC Bus 2</output>
+    <output>Avionics Bus 1</output>  <!-- a hack -->
+  </connector>
+
+  <connector>
+    <input>TR 2</input>
+    <output>DC Bus 2</output>
+    <output>DC Bus 1</output>
+    <output>Avionics Bus 2</output>  <!-- a hack -->
+  </connector>
+
+  <connector>
+    <input>DC Bus 1</input>
+    <output>Battery Bus</output>
+  </connector>
+
+  <connector>
+    <input>Battery</input>
+    <output>Battery Bus</output>
+    <switch>/controls/switches/battery</switch>
+  </connector>
+
+  <connector>
+    <input>Battery</input>
+    <output>Hot Battery Bus</output>
+  </connector>
+
+  <connector>
+    <input>Battery Bus</input>
+    <output>Static Inverter</output>
+    <output>Standby DC Bus</output>
+  </connector>
+
+  <connector>
+    <input>Battery</input>  <!-- a hack -->
+    <output>Standby AC Bus</output>
+  </connector>
+
+  <output>
+    <name>Start Switch 1</name>
+    <prop>/systems/electrical/outputs/starter[0]</prop>
+  </output>
+
+  <output>
+    <name>Start Switch 2</name>
+    <prop>/systems/electrical/outputs/starter[1]</prop>
+  </output>
+
+  <output>
+    <name>Cockpit Lights</name>
+    <prop>/systems/electrical/outputs/cabin-lights</prop>
+  </output>
+
+  <output>
+    <name>Fuel Boost Pump 1</name>
+    <prop>/systems/electrical/outputs/fuel-boost-pump[0]</prop>
+  </output>
+
+  <output>
+    <name>Fuel Boost Pump 2</name>
+    <prop>/systems/electrical/outputs/fuel-boost-pump[1]</prop>
+  </output>
+
+  <output>
+    <name>Landing Light</name>
+    <prop>/systems/electrical/outputs/landing-light</prop>
+  </output>
+
+  <output>
+    <name>Beacon</name>
+    <prop>/systems/electrical/outputs/beacon</prop>
+  </output>
+
+  <output>
+    <name>Map Light</name>
+    <prop>/systems/electrical/outputs/map-lights</prop>
+  </output>
+
+  <output>
+    <name>Instrument Lights</name>
+    <prop>/systems/electrical/outputs/instrument-lights</prop>
+  </output>
+
+  <output>
+    <name>Strobe Light</name>
+    <prop>/systems/electrical/outputs/strobe-lights</prop>
+  </output>
+
+  <output>
+    <name>Taxi Light</name>
+    <prop>/systems/electrical/outputs/taxi-lights</prop>
+  </output>
+
+  <output>
+    <name>Pitot Heat</name>
+    <prop>/systems/electrical/outputs/pitot-heat</prop>
+  </output>
+
+  <connector>
+    <input>Battery Bus</input>
+    <output>Start Switch 1</output>
+    <switch>/controls/starter[0]</switch>
+  </connector>
+
+  <connector>
+    <input>Battery Bus</input>
+    <output>Start Switch 2</output>
+    <switch>/controls/starter[1]</switch>
+  </connector>
+
+  <connector>
+    <input>Main Bus 2</input>
+    <output>Cockpit Lights</output>
+    <switch>/controls/circuit-breakers/cabin-lights-pwr</switch>
+  </connector>
+
+  <connector>
+    <input>Main Bus 1</input>
+    <output>Fuel Boost Pump 1</output>
+    <switch>/controls/boost-pump[0]</switch>
+  </connector>
+
+  <connector>
+    <input>Main Bus 2</input>
+    <output>Fuel Boost Pump 2</output>
+    <switch>/controls/boost-pump[1]</switch>
+  </connector>
+
+  <connector>
+    <input>Main Bus 1</input>
+    <output>Landing Light</output>
+    <switch>/controls/switches/landing-light</switch>
+  </connector>
+
+  <connector>
+    <input>Main Bus 1</input>
+    <output>Beacon</output>
+    <switch>/controls/switches/flashing-beacon</switch>
+  </connector>
+
+  <connector>
+    <input>DC Bus 2</input>
+    <output>Map Light</output>
+    <switch>/controls/switches/nav-lights</switch>
+  </connector>
+
+  <connector>
+    <input>DC Bus 1</input>
+    <output>Instrument Lights</output>
+    <switch>/controls/circuit-breakers/instrument-lights</switch>
+  </connector>
+
+  <connector>
+    <input>Main Bus 2</input>
+    <output>Strobe Light</output>
+    <switch>/controls/switches/strobe-lights</switch>
+  </connector>
+
+  <connector>
+    <input>Main Bus 2</input>
+    <output>Taxi Light</output>
+    <switch>/controls/switches/taxi-lights</switch>
+  </connector>
+
+  <connector>
+    <input>Main Bus 1</input>
+    <output>Pitot Heat</output>
+    <switch>/controls/switches/pitot-heat</switch>
+  </connector>
+-->
+</PropertyList>

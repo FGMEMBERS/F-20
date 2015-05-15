@@ -1,0 +1,14 @@
+<PropertyList>
+
+ <path>wing-pylons.ac</path>
+ 
+ <animation>
+  <type>material</type>
+   <object-name>WingPylons</object-name>
+   <property-base>sim/model/livery</property-base>
+   <texture-prop>F-20-texture</texture-prop>
+   <texture>Liveries/Suisse.png</texture>
+ </animation> 
+ 
+</PropertyList>
+ 

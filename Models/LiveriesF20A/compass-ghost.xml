@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+ 
+ <PropertyList>
+  <sim>
+   <model>
+    <livery>
+     <name type="string">USAF compass ghost (F-15A)</name>
+     <F-20-texture>LiveriesF20A/compass-ghost.png</F-20-texture>
+     <reflection-map>Models/dull.png</reflection-map>
+    </livery>
+   </model>
+  </sim>
+ </PropertyList>

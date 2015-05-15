@@ -1,0 +1,59 @@
+<PropertyList>
+
+ <path>test-panel.ac</path>
+ 
+ <!--
+ <animation>
+  <type>pick</type>
+   <object-name>CartidgeStartOvrride</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.overrideCartridge();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>translate</type>
+  <object-name>CartidgeStartOvrride</object-name>
+  <property>/f-20/cartridge/override</property>
+  <factor>-0.001</factor>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+ -->
+ 
+  <animation>
+  <type>pick</type>
+   <object-name>CartidgeStart</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.pushCartridge();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+  <animation>
+  <type>translate</type>
+  <object-name>CartidgeStart</object-name>
+  <property>/f-20/cartridge/button</property>
+  <factor>-0.001</factor>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+ 
+</PropertyList>

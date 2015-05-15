@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>nozzle-pre-C.ac</path>
+
+  <offsets>
+  <z-m>0.0</z-m> 
+  </offsets>
+  
+<!-- animation -->
+ 
+<animation>
+	<type>rotate</type>
+	<object-name>NozzlePetal.016</object-name>
+	<property>/f-20/nozzle-pos-norm</property>
+	<factor>10.0</factor>
+	<center>
+		<x-m>5.37575</x-m>
+		<y-m>0.18301</y-m>
+		<z-m>-0.39562</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>0.283</y>
+		<z>0.238</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>NozzlePetal.015</object-name>
+	<property>/f-20/nozzle-pos-norm</property>
+	<factor>10.0</factor>
+	<center>
+		<x-m>5.37575</x-m>
+		<y-m>0.18301</y-m>
+		<z-m>-0.39562</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>0.126</y>
+		<z>0.317</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>NozzlePetal.014</object-name>
+	<property>/f-20/nozzle-pos-norm</property>
+	<factor>10.0</factor>
+	<center>
+		<x-m>5.37575</x-m>
+		<y-m>0.35351</y-m>
+		<z-m>-0.25256</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>-0.064</y>
+		<z>0.364</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>NozzlePetal.013</object-name>
+	<property>/f-20/nozzle-pos-norm</property>
+	<factor>10.0</factor>
+	<center>
+		<x-m>5.37575</x-m>
+		<y-m>0.42964</y-m>
+		<z-m>-0.04341</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>-0.238</y>
+		<z>0.284</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>NozzlePetal.009</object-name>
+	<property>/f-20/nozzle-pos-norm</property>
+	<factor>10.0</factor>
+	<center>
+		<x-m>5.37575</x-m>
+		<y-m>0.39099</y-m>
+		<z-m>0.17578</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>-0.347</y>
+		<z>0.126</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>NozzlePetal.023</object-name>
+	<property>/f-20/nozzle-pos-norm</property>
+	<factor>10.0</factor>
+	<center>
+		<x-m>5.37575</x-m>
+		<y-m>0.24792</y-m>
+		<z-m>0.34628</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>-0.364</y>
+		<z>-0.064</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>NozzlePetal.022</object-name>
+	<property>/f-20/nozzle-pos-norm</property>
+	<factor>10.0</factor>
+	<center>
+		<x-m>5.37575</x-m>
+		<y-m>0.03878</y-m>
+		<z-m>0.42240</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>-0.284</y>
+		<z>-0.238</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>NozzlePetal.021</object-name>
+	<property>/f-20/nozzle-pos-norm</property>
+	<factor>10.0</factor>
+	<center>
+		<x-m>5.37575</x-m>
+		<y-m>-0.18041</y-m>
+		<z-m>0.38375</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>-0.126</y>
+		<z>-0.347</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>NozzlePetal.020</object-name>
+	<property>/f-20/nozzle-pos-norm</property>
+	<factor>10.0</factor>
+	<center>
+		<x-m>5.37575</x-m>
+		<y-m>-0.35091</y-m>
+		<z-m>0.24069</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>0.064</y>
+		<z>-0.365</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>NozzlePetal.019</object-name>  
+	<property>/f-20/nozzle-pos-norm</property>
+	<factor>10.0</factor>
+	<center>
+		<x-m>5.37575</x-m>
+		<y-m>-0.42704</y-m>
+		<z-m>0.03154</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>0.238</y>
+		<z>-0.283</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>NozzlePetal.018</object-name>
+	<property>/f-20/nozzle-pos-norm</property>
+	<factor>10.0</factor>
+	<center>
+		<x-m>5.37575</x-m>
+		<y-m>-0.38839</y-m>
+		<z-m>-0.18765</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>0.347</y>
+		<z>-0.126</z>
+	</axis>
+</animation>
+
+<animation>
+	<type>rotate</type>
+	<object-name>NozzlePetal.017</object-name>
+	<property>/f-20/nozzle-pos-norm</property>
+	<factor>10.0</factor>
+	<center>
+		<x-m>5.37575</x-m>
+		<y-m>-0.03617</y-m>
+		<z-m>-0.43427</z-m>
+	</center>
+	<axis>
+		<x>0</x>
+		<y>0.365</y>
+		<z>0.064</z>
+	</axis>
+</animation>
+
+</PropertyList>
