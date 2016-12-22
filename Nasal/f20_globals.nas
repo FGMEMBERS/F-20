@@ -4,6 +4,12 @@ var false = 0;
 
 var deltaT = 1.0;
 var g_ft_sec2 = 32.174; 
+var deg_to_rad = math.pi / 180;
+
+var north = 0;
+var south = 1;
+var east = 0;
+var west = 1;
 
 #----------------------------------------------------------------------------
 # SAS
@@ -18,11 +24,13 @@ var SASyaw = 0.0;
 #----------------------------------------------------------------------------
 
 # Variables
+var baro_timer = 0.0;
 var mach = 0.0;
 var altitude_ft = 0.0;
 var IAS = 0.0;
 var WOW = true;
 var Alpha = 0.0;
+var central_alpha = 7.5; #optimum landing alpha
 var heading = 0.0;
 var track = 0.0;
 var Beta = 0.0;

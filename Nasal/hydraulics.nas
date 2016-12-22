@@ -23,7 +23,7 @@ var flight_control_accumulator = Accumulator.new (flight_control_circuit,
 
 var pitch_actuator = JSBactuator.new (-0.34906585, #lower stroke position
 									  0.087266463, #higher stroke position
-									  0.5, # equivalent displacement of the actuator liters
+									  0.1, # equivalent displacement of the actuator liters
 									  0.1, #min stroke time
 									  3000, #nominal pressure
 									  "/fdm/jsbsim/fcs/pitch-actuator-rate",
@@ -35,7 +35,7 @@ pitch_actuator.connectToCircuit (utility_circuit);
 
 var roll_actuator = JSBactuator.new (-0.35, #lower stroke position
 									  0.35, #higher stroke position
-									  0.5, # equivalent displacement of the actuator
+									  0.1, # equivalent displacement of the actuator
 									  0.1, #min full stroke time
 									  3000, #nominal pressure
 									  "/fdm/jsbsim/fcs/roll-actuator-rate",
@@ -47,7 +47,7 @@ roll_actuator.connectToCircuit (utility_circuit);
 
 var yaw_actuator = JSBactuator.new (-0.35, #lower stroke position
 									 0.35, #higher stroke position
-									 0.5, # equivalent displacement of the actuator
+									 0.1, # equivalent displacement of the actuator
 									 0.1, #min full stroke time
 									 3000, #nominal pressure
 									 "/fdm/jsbsim/fcs/yaw-actuator-rate",
@@ -61,7 +61,7 @@ var flt_ctl_pressure_gauge = Gauge.new (AC_instruments,
 										0,
 										4000,
 										drop_on_shutdown,
-										24,
+										26,
 										1.0,
 										0.1,
 										"/systems/hydraulics/pressure-flt-ctl-psi");
@@ -71,7 +71,7 @@ var utility_pressure_gauge = Gauge.new (AC_instruments,
 										0,
 										4000,
 										drop_on_shutdown,
-										24,
+										26,
 										1.0,
 										0.1,
 										"/systems/hydraulics/pressure-utility-psi");

@@ -1,13 +1,13 @@
 ########################################################################
-# Define a class for an electrical circuit
+# Define a class for an hydraulic circuit
 
-var elastic_constant = 1e10;
-var delta_pressure = 50 * PSI_to_Pa; #PSI
-var regulating_valve_constant = 0;#1e-13; #m^3 per pa
+var elastic_constant = 1e11;
+var delta_pressure = 100 * PSI_to_Pa; #PSI
+var regulating_valve_constant = 1e-10;#1e-13; #m^3 per pa
 
 var HydraulicCircuit = {hydraulic_system : nil,
 						 regulated_pressure : 3000*PSI_to_Pa, #PSI
-						 regulation_threshold : 3100*PSI_to_Pa,
+						 regulation_threshold : 2090*PSI_to_Pa,
 					     attached_components : nil};
 
 #-------------------------------------------------------------------------------
@@ -27,6 +27,7 @@ HydraulicCircuit.update = func (delta_t)
 {
   var index = 0;
   var total_flow = 0;
+  var leak = 0;
   
   forindex (index; me.attached_components) 
   {
@@ -36,7 +37,10 @@ HydraulicCircuit.update = func (delta_t)
   
   #recirculate hydraulic fluid if pressure is too important
   if (me.pressure > me.regulation_threshold)  
-    total_flow = total_flow - 1e-6;# regulating_valve_constant * (me.pressure - me.regulated_pressure);
+    leak = regulating_valve_constant * (me.pressure - me.regulation_threshold);
+    #total_flow = total_flow - regulating_valve_constant * (me.pressure - me.regulation_threshold);# 1e-6;
+    if (leak > 0.0001) leak = 0.0001;
+    total_flow = total_flow - leak;
     
   # The circuit is modelled like an inflated vessel with pressure 
   # proportional to volume

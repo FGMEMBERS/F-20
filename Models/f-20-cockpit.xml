@@ -306,6 +306,132 @@
    <z>0.0</z>
   </axis>
  </animation>
+ 
+ <!-- Rudder ********************************************************-->
+ 
+ <!-- Right -->
+ <animation>
+  <type>rotate</type>
+  <object-name>RudderLinkR</object-name>
+  <object-name>RudderFrameR</object-name>
+  <object-name>BezierCircle.001</object-name>
+  <object-name>RudderFwdWtR</object-name>
+  <object-name>RudderAftWtR</object-name>
+  <object-name>PedalR</object-name>
+  <property>/fdm/jsbsim/fcs/rudder-cmd-norm</property>
+  <factor>15</factor>
+  <center>
+   <x-m>-4.02664</x-m>
+   <y-m>0.00</y-m>
+   <z-m>-0.3282</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+ 
+ <animation>
+  <type>rotate</type>
+  <object-name>RudderFrameR</object-name>
+  <object-name>BezierCircle.001</object-name>
+  <object-name>RudderFwdWtR</object-name>
+  <object-name>RudderAftWtR</object-name>
+  <object-name>PedalR</object-name>
+  <property>/fdm/jsbsim/fcs/rudder-cmd-norm</property>
+  <factor>-20</factor>
+  <center>
+   <x-m>-4.10347</x-m>
+   <y-m>0.00</y-m>
+   <z-m>-0.16788</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>PedalR</object-name>
+  <property>/fdm/jsbsim/fcs/rudder-cmd-norm</property>
+  <factor>10</factor>
+  <center>
+   <x-m>-4.10352</x-m>
+   <y-m>0.00</y-m>
+   <z-m>-0.28505</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+ 
+ 
+  <!-- Left -->
+ <animation>
+  <type>rotate</type>
+  <object-name>RudderLinkL</object-name>
+  <object-name>RudderFrameL</object-name>
+  <object-name>BezierCircle</object-name>
+  <object-name>RudderFwdWtL</object-name>
+  <object-name>RudderAftWtL</object-name>
+  <object-name>PedalL</object-name>
+  <property>/fdm/jsbsim/fcs/rudder-cmd-norm</property>
+  <factor>-15</factor>
+  <center>
+   <x-m>-4.02664</x-m>
+   <y-m>0.00</y-m>
+   <z-m>-0.3282</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+ 
+ <animation>
+  <type>rotate</type>
+  <object-name>RudderFrameL</object-name>
+  <object-name>BezierCircle</object-name>
+  <object-name>RudderFwdWtL</object-name>
+  <object-name>RudderAftWtL</object-name>
+  <object-name>PedalL</object-name>
+  <property>/fdm/jsbsim/fcs/rudder-cmd-norm</property>
+  <factor>20</factor>
+  <center>
+   <x-m>-4.10347</x-m>
+   <y-m>0.00</y-m>
+   <z-m>-0.16788</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>PedalL</object-name>
+  <property>/fdm/jsbsim/fcs/rudder-cmd-norm</property>
+  <factor>-10</factor>
+  <center>
+   <x-m>-4.10352</x-m>
+   <y-m>0.00</y-m>
+   <z-m>-0.28505</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+ 
 
  <!--Canopy ********************************************************-->
  <animation>
@@ -516,21 +642,21 @@
 		</axis>
 	</animation>
 
-     <animation>
-      <type>translate</type>
-        <object-name>Flaps</object-name>
-        <property>/controls/flight/flaps-switch</property>
-        <interpolation>
-            <entry><ind>0</ind><dep>-0.005</dep></entry>
-            <entry><ind>1</ind><dep>0.0</dep></entry>
-            <entry><ind>2</ind><dep>0.005</dep></entry>
-        </interpolation>
-      <axis>
-       <x>-0.02568</x>
-       <y>0</y>
-       <z>-0.016354</z>
-      </axis>
-     </animation>
+ <animation>
+  <type>translate</type>
+	<object-name>Flaps</object-name>
+	<property>/controls/flight/flaps-switch</property>
+	<interpolation>
+		<entry><ind>0</ind><dep>-0.005</dep></entry>
+		<entry><ind>1</ind><dep>0.0</dep></entry>
+		<entry><ind>2</ind><dep>0.005</dep></entry>
+	</interpolation>
+  <axis>
+   <x>-0.02568</x>
+   <y>0</y>
+   <z>-0.016354</z>
+  </axis>
+ </animation>
 
 <animation>
   <type>pick</type>
@@ -691,6 +817,18 @@
   </axis>
  </animation>
 
+  <animation>
+	<type>material</type>
+    <object-name>AftTank</object-name>
+    <object-name>FwdTank</object-name>
+	  <emission>
+		   <red>0.5</red>
+		   <green>0.5</green>
+		   <blue>0.4</blue>
+		   <factor-prop>/f-20/lights/instrument-intensity</factor-prop>
+	  </emission>
+  </animation>  
+
  <!-- Bingo -->
 
  <animation>
@@ -759,8 +897,8 @@
  </animation>
 
  <!-- Test -->
- <!-- Note : there is a deviation from reality since the qty check position is
-	         not simulated
+ <!-- Note : there is a deviation from reality since the qty check 
+		     position is not simulated
    -->
 
  <animation>
@@ -793,151 +931,12 @@
    <z>0</z>
   </axis>
  </animation>
+ 
+<!-- Main altimeter ******************************************************** -->
 
- <!-- Altimeter AAU 34/A ********************************************-->
+  <aau34a include="Cockpit/aau34a.xml" omit-node="y"/>
 
-<animation>
-	<type>select</type>
-	<object-name>LoAltFlag</object-name>
-    <condition>
-    <less-than-equals>
-       <property>/instrumentation/altimeter/indicated-altitude-ft</property>
-	   <value>10000.0</value>
-    </less-than-equals>
-    </condition>
-</animation>
-
- <animation>
-  <type>rotate</type>
-    <object-name>AltNeedle</object-name>
-	<property>/instrumentation/altimeter/indicated-altitude-ft</property>
-    <factor>-3.6</factor>
-  <center>
-   <x-m>-3.97692</x-m>
-   <y-m>-0.12227</y-m>
-   <z-m>0.20158</z-m>
-  </center>
-  <axis>
-   <x>1</x>
-   <y>0</y>
-   <z>0</z>
-  </axis>
- </animation>
-
-  <animation>
-  <type>rotate</type>
-    <object-name>AltDrum100</object-name>
-	<property>/instrumentation/altimeter/alt-barel-100</property>
-  <center>
-   <x-m>-3.98807</x-m>
-   <y-m>-0.13305</y-m>
-   <z-m>0.20229</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>1</y>
-   <z>0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-    <object-name>AltDrum1000</object-name>
-	<property>/instrumentation/altimeter/alt-barel-1k</property>
-  <center>
-   <x-m>-3.99083</x-m>
-   <y-m>-0.14030</y-m>
-   <z-m>0.20246</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>1</y>
-   <z>0</z>
-  </axis>
- </animation>
-
-  <animation>
-  <type>rotate</type>
-    <object-name>AltDrum10000</object-name>
-	<property>/instrumentation/altimeter/alt-barel-10k</property>
-  <center>
-   <x-m>-3.99083</x-m>
-   <y-m>-0.14708</y-m>
-   <z-m>0.20246</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>1</y>
-   <z>0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-    <object-name>BaroDrum1</object-name>
-	<property>/instrumentation/altimeter/baro-barel-1</property>
-  <center>
-   <x-m>-3.98609</x-m>
-   <y-m>-0.10643</y-m>
-   <z-m>0.19101</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>1</y>
-   <z>0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-    <object-name>BaroDrum2</object-name>
-	<property>/instrumentation/altimeter/baro-barel-2</property>
-  <center>
-   <x-m>-3.98609</x-m>
-   <y-m>-0.10643</y-m>
-   <z-m>0.19101</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>1</y>
-   <z>0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-    <object-name>BaroDrum3</object-name>
-	<property>/instrumentation/altimeter/baro-barel-3</property>
-  <center>
-   <x-m>-3.98609</x-m>
-   <y-m>-0.10643</y-m>
-   <z-m>0.19101</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>1</y>
-   <z>0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-    <object-name>BaroDrum4</object-name>
-	<property>/instrumentation/altimeter/baro-barel-4</property>
-  <center>
-   <x-m>-3.98609</x-m>
-   <y-m>-0.10643</y-m>
-   <z-m>0.19101</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>1</y>
-   <z>0</z>
-  </axis>
- </animation>
-
-
- <!-- VSI ********************************************-->
+ <!-- VSI *******************************************************************-->
  <animation>
   <type>rotate</type>
     <object-name>VSIneedle</object-name>
@@ -968,6 +967,17 @@
    <z>0</z>
   </axis>
  </animation>
+ 
+  <animation>
+	<type>material</type>
+    <object-name>VSIneedle</object-name>
+	  <emission>
+		   <red>0.5</red>
+		   <green>0.5</green>
+		   <blue>0.4</blue>
+		   <factor-prop>/f-20/lights/instrument-intensity</factor-prop>
+	  </emission>
+  </animation>  
 
 <!-- Stick Trim indicator********************************************-->
  <animation>
@@ -989,80 +999,29 @@
    <z>0</z>
   </axis>
  </animation>
+ 
+  <animation>
+	<type>material</type>
+    <object-name>TrimNeedle</object-name>
+	  <emission>
+		   <red>0.5</red>
+		   <green>0.5</green>
+		   <blue>0.4</blue>
+		   <factor-prop>/f-20/lights/instrument-intensity</factor-prop>
+	  </emission>
+  </animation> 
+  
+   <effect>
+  <name>dials-lighting</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/f20DialsLM</inherits-from>
+   <object-name>TrimDial</object-name>
+</effect>
 
- <!--IAS/Mach-meter ********************************************-->
+<!-- Main altimeter ******************************************************** -->
 
- <animation>
-  <type>rotate</type>
-  <object-name>ASIneedle</object-name>
-  <object-name>MachFlap</object-name>
-  <object-name>MachFigures</object-name>
-  <property>velocities/airspeed-kt</property>
-  <interpolation>
-     <entry><ind> 0.0 </ind><dep>  0.0 </dep></entry>
-     <entry><ind> 100.0 </ind><dep>  -32.0 </dep></entry>
-     <entry><ind> 150.0 </ind><dep>  -85.0 </dep></entry>
-     <entry><ind> 200.0 </ind><dep>  -128.0 </dep></entry>
-     <entry><ind> 300.0 </ind><dep>  -186.0 </dep></entry>
-     <entry><ind> 400.0 </ind><dep>  -235.0 </dep></entry>
-     <entry><ind> 500.0 </ind><dep>  -267.0 </dep></entry>
-     <entry><ind> 600.0 </ind><dep>  -292.0 </dep></entry>
-     <entry><ind> 700.0 </ind><dep>  -314.0 </dep></entry>
-     <entry><ind> 800.0 </ind><dep>  -332.0 </dep></entry>
-  </interpolation>
-  <center>
-   <x-m>-3.97459</x-m>
-   <y-m>-0.20146</y-m>
-   <z-m>0.20168</z-m>
-  </center>
-  <axis>
-   <x>1.0</x>
-   <y>0.0</y>
-   <z>0.0</z>
-  </axis>
- </animation>
+  <mach-meter include="Cockpit/mach-meter.xml" omit-node="y"/>
 
-   <animation>
-  <type>rotate</type>
-  <object-name>MachFlap</object-name>
-  <property>velocities/mach</property>
-  <interpolation>
-     <entry><ind> 0.6 </ind><dep>  0.0 </dep></entry>
-     <entry><ind> 0.8 </ind><dep>  60.0 </dep></entry>
-  </interpolation>
-  <center>
-   <x-m>-3.97459</x-m>
-   <y-m>-0.20146</y-m>
-   <z-m>0.20168</z-m>
-  </center>
-  <axis>
-   <x>1.0</x>
-   <y>0.0</y>
-   <z>0.0</z>
-  </axis>
- </animation>
-
- <animation>
-  <type>rotate</type>
-  <object-name>MachFigures</object-name>
-  <property>velocities/mach</property>
-  <interpolation>
-     <entry><ind> 0.6 </ind><dep>  150.0 </dep></entry>
-     <entry><ind> 3.0 </ind><dep>  -210.0 </dep></entry>
-  </interpolation>
-  <center>
-   <x-m>-3.97459</x-m>
-   <y-m>-0.20146</y-m>
-   <z-m>0.20168</z-m>
-  </center>
-  <axis>
-   <x>-1.0</x>
-   <y>0.0</y>
-   <z>0.0</z>
-  </axis>
- </animation>
-
-  <!-- Backup artificial horizon ********************************************-->
+<!-- Backup artificial horizon **********************************************-->
  <animation>
   <type>rotate</type>
     <object-name>STBYhorRoll</object-name>
@@ -1096,8 +1055,28 @@
    <z>0</z>
   </axis>
  </animation>
+ 
+    <animation>
+	  <type>material</type>
+      <object-name>StbyHorPitch</object-name>
+	  <object-name>Mockup.001</object-name>       
+	  <object-name>STBYhorRoll</object-name>    
+	  <emission>
+		   <red>0.5</red>
+		   <green>0.5</green>
+		   <blue>0.4</blue>
+		   <factor-prop>/f-20/lights/instrument-intensity</factor-prop>
+	  </emission>
+  </animation>
+  
+ <effect>
+  <name>horizon-lm</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/BupHorizonLM</inherits-from>
+   <object-name>STBYhorFace</object-name>
+</effect> 
+ 
 
-  <!-- Backup compass ****************************************************** -->
+<!-- Backup compass ******************************************************** -->
  <animation>
   <type>rotate</type>
     <object-name>CompassBall</object-name>
@@ -1116,25 +1095,75 @@
   </axis>
  </animation>
 
- <!-- AOA indexer************************************************** -->
- <!--
+ <!-- AOA indexer*********************************************************** -->
   	<animation>
 		<type>textranslate</type>
-		<object-name>FlapsIndicator</object-name>
-		<property>/instrumentation/dadu/alpha</property>
-        <interpolation>
-         <entry><ind>0</ind><dep>0</dep></entry>
-         <entry><ind>7.99</ind><dep>0</dep></entry>
-         <entry><ind>8.0</ind><dep>-0.005</dep></entry>
-	    </interpolation>
+		<object-name>Slow</object-name>
+		<property>/instrumentation/aoa-indexer/slow</property>
+		<factor>-0.288 </factor>
 		<axis>
-			<x>0</x>
-			<y>1</y>
+			<x>1</x>
+			<y>0</y>
 		</axis>
 	</animation>
--->
+	
+    <animation>
+	  <type>material</type>
+	  <object-name>Slow</object-name>
+	  <emission>
+	   <red>0.25</red>
+	   <green>0.25</green>
+	   <blue>0.25</blue>
+	   <factor-prop>/instrumentation/aoa-indexer/slow</factor-prop>
+	  </emission>
+    </animation>  
+    
+	<animation>
+		<type>textranslate</type>
+		<object-name>OnSpeed</object-name>
+		<property>/instrumentation/aoa-indexer/on-speed</property>
+		<factor>-0.288 </factor>
+		<axis>
+			<x>1</x>
+			<y>0</y>
+		</axis>
+	</animation>
+	
+	<animation>
+	  <type>material</type>
+	  <object-name>OnSpeed</object-name>
+	  <emission>
+	   <red>0.25</red>
+	   <green>0.25</green>
+	   <blue>0.25</blue>
+	   <factor-prop>/instrumentation/aoa-indexer/on-speed</factor-prop>
+	  </emission>
+    </animation>  
+	
+	<animation>
+		<type>textranslate</type>
+		<object-name>Fast</object-name>
+		<property>/instrumentation/aoa-indexer/fast</property>
+		<factor>-0.288 </factor>
+		<axis>
+			<x>1</x>
+			<y>0</y>
+		</axis>
+	</animation>	
 
- <!-- hydraulic system ************************************************** -->
+	<animation>
+	  <type>material</type>
+	  <object-name>Fast</object-name>
+	  <emission>
+	   <red>0.25</red>
+	   <green>0.25</green>
+	   <blue>0.25</blue>
+	   <factor-prop>/instrumentation/aoa-indexer/fast</factor-prop>
+	  </emission>
+    </animation>  	
+
+
+<!-- hydraulic system ********************************************** -->
  <animation>
   <type>rotate</type>
     <object-name>UtilityPressure</object-name>
@@ -1170,8 +1199,20 @@
    <z>0</z>
   </axis>
  </animation>
+ 
+ <animation>
+	<type>material</type>
+    <object-name>UtilityPressure</object-name>
+    <object-name>FltContPressure</object-name>
+	  <emission>
+		   <red>0.5</red>
+		   <green>0.5</green>
+		   <blue>0.4</blue>
+		   <factor-prop>/f-20/lights/instrument-intensity</factor-prop>
+	  </emission>
+  </animation> 
 
- <!-- Electrical system ************************************************** -->
+<!-- Electrical system ***************************************************** -->
 
  <!-- Main Battery -->
  <animation>
@@ -1361,57 +1402,17 @@
   </axis>
  </animation>
 
-  <!-- Master caution ************************************************* -->
-
- <animation>
-  <type>translate</type>
-	<object-name>MasterCaution</object-name>
-    <property>/f-20/alerting/master-depress</property>
-    <factor>-0.001</factor>
-  <axis>
-   <x>1.0</x>
-   <y>0</y>
-   <z>0</z>
-  </axis>
- </animation>
-
-  <animation>
-  <type>pick</type>
-   <object-name>MasterCaution</object-name>
-   <action>
-    <button>0</button>
-    <repeatable>false</repeatable>
-    <interval-sec>0.2</interval-sec>
-    <binding>
-		<command>nasal</command>
-		<script>f20.resetMasterCaution();</script>
-    </binding>
-   </action>
- </animation>
-
-<animation>
-	<type>textranslate</type>
-	<object-name>MasterCaution</object-name>
-	<property>/f-20/alerting/master-light-on</property>
-	<factor>0.124</factor>
-	<axis>
-		<x>1</x>
-		<y>0</y>
-	</axis>
-</animation>
-
-  <animation>
-	  <type>material</type>
-	  <object-name>MasterCaution</object-name>
-	  <emission>
-		   <red>0.25</red>
-		   <green>0.25</green>
-		   <blue>0.25</blue>
-		   <factor-prop>/f-20/alerting/master-light-intensity</factor-prop>
-	  </emission>
-  </animation>
-
-  <!-- Avionics Panels ************************************************* -->
+<!-- Avionics Panels ******************************************************* -->
+<!--
+<effect>
+  <name>panel-light-1</name>
+   <inherits-from>Aircraft/F-20/Effects/panel-light-1</inherits-from>
+   	<object-name>AvionicsPanel</object-name>
+    <object-name>RadarSelector</object-name>
+    <object-name>IRSselector</object-name>
+</effect>
+-->
+   
  <animation>
   <type>translate</type>
 	<object-name>AvionicsPanel</object-name>
@@ -1431,8 +1432,77 @@
   </axis>
  </animation>
 
+<!-- INS ********************************************************************-->
 
- <!-- BoostPumps ************************************************* -->
+  <animation>
+  <type>rotate</type>
+    <object-name>IRSselector</object-name>
+	<property>/f-20/INS/selector</property>
+	<factor>-30.0</factor>
+	<offset-deg>90</offset-deg>
+  <center>
+   <x-m>-3.72998</x-m>
+   <y-m>0.39564</y-m>
+   <z-m>-0.07612</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>0</y>
+   <z>1.0</z>
+  </axis>
+ </animation>
+ 
+  <animation>
+  <type>pick</type>
+   <object-name>IRSselector</object-name>
+   <action>
+    <button>3</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.INS.switchUp();</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>pick</type>
+   <object-name>IRSselector</object-name>
+   <action>
+    <button>4</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.INS.switchDown();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+<animation>
+	<type>textranslate</type>
+	<object-name>IRSreadyLight</object-name>
+	<property>/f-20/INS/ready</property>
+	<factor>0.034</factor>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+	</axis>
+</animation>
+
+  <animation>
+	  <type>material</type>
+	  <object-name>IRSreadyLight</object-name>
+	  <emission>
+	   <red>0.25</red>
+	   <green>0.25</green>
+	   <blue>0.25</blue>
+	   <factor-prop>/f-20/INS/ready</factor-prop>
+	  </emission>
+  </animation>
+  
+<!-- BoostPumps ************************************************************ -->
   <animation>
   <type>translate</type>
 	<object-name>FuelPumpsPanel</object-name>
@@ -1550,7 +1620,7 @@
   </axis>
  </animation>
 
-  <!-- Auto feed ************************************************* -->
+<!-- Auto feed ************************************************************* -->
  <animation>
   <type>pick</type>
    <object-name>AutoFeed</object-name>
@@ -1583,7 +1653,7 @@
   </axis>
  </animation>
 
-   <!-- Fuel transfer ************************************************* -->
+<!-- Fuel transfer ********************************************************* -->
  <animation>
   <type>pick</type>
    <object-name>FuelXfr</object-name>
@@ -1616,7 +1686,7 @@
   </axis>
  </animation>
 
- <!-- Fuel transfer ************************************************* -->
+<!-- Fuel transfer ********************************************************* -->
  <animation>
   <type>pick</type>
    <object-name>FuelFeed</object-name>
@@ -1662,130 +1732,12 @@
    <z>0</z>
   </axis>
  </animation>
+  
+<!-- Lights Panel ********************************************************** -->
 
-<!-- Lights Panels ************************************************* -->
- <animation>
-  <type>translate</type>
-	<object-name>LightingPanel</object-name>
-    <object-name>NavLight</object-name>
-    <object-name>InstrLight</object-name>
-    <object-name>FloodChart</object-name>
-    <object-name>FormationLight</object-name>
-    <object-name>EngInstrLight</object-name>
-    <object-name>ConsoleLight</object-name>
-    <object-name>WarningBrt</object-name>
-    <object-name>WarningTest</object-name>
-    <object-name>Beacon</object-name>
-    <object-name>BeaconPlate</object-name>
-    <object-name>WarningTestPlate</object-name>
-    <object-name>WarningBrtPlate</object-name>
-    <object-name>LightDzeus1</object-name>
-    <object-name>LightDzeus2</object-name>
-    <object-name>LightDzeus3</object-name>
-    <object-name>LightDzeus4</object-name>
-    <property>/f-20/is-prototype</property>
-    <factor>-0.03874</factor>
-	<offset-m>0.03874</offset-m>
-  <axis>
-   <x>1.0</x>
-   <y>0</y>
-   <z>0</z>
-  </axis>
- </animation>
+  <light_panel include="Cockpit/light-panel.xml" omit-node="y"/>
 
-  <!-- beacon -->
-
-<animation>
-  <type>pick</type>
-   <object-name>Beacon</object-name>
-   <action>
-    <button>0</button>
-    <repeatable>false</repeatable>
-    <interval-sec>0.2</interval-sec>
-    <binding>
-        <command>property-toggle</command>
-		<property>/f-20/lights/beacon</property>
-    </binding>
-   </action>
- </animation>
-
- <animation>
-  <type>rotate</type>
-    <object-name>Beacon</object-name>
-	<property>/f-20/lights/beacon</property>
-	<interpolation>
-		<entry><ind>0</ind><dep>15</dep></entry>
-		<entry><ind>1</ind><dep>-15</dep></entry>
-	</interpolation>
-  <center>
-   <x-m>-3.57879</x-m>
-   <y-m>0.4032</y-m>
-   <z-m>-0.07902</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>1</y>
-   <z>0</z>
-  </axis>
- </animation>
-
- <!-- nav -->
-
-<animation>
-  <type>pick</type>
-   <object-name>NavLight</object-name>
-   <action>
-    <button>3</button>
-    <repeatable>false</repeatable>
-    <interval-sec>0.2</interval-sec>
-    <binding>
-        <command>property-adjust</command>
-		<property>/f-20/lights/nav</property>
-        <step>0.1</step>
-        <min>0</min>
-        <max>1</max>
-    </binding>
-   </action>
- </animation>
-
- <animation>
-  <type>pick</type>
-   <object-name>NavLight</object-name>
-   <action>
-    <button>4</button>
-    <repeatable>false</repeatable>
-    <interval-sec>0.2</interval-sec>
-    <binding>
-        <command>property-adjust</command>
-		<property>/f-20/lights/nav</property>
-        <step>-0.1</step>
-        <min>0</min>
-        <max>1</max>
-    </binding>
-   </action>
- </animation>
-
- <animation>
-  <type>rotate</type>
-    <object-name>NavLight</object-name>
-	<property>/f-20/lights/nav</property>
-	<interpolation>
-		<entry><ind>0</ind><dep>90</dep></entry>
-		<entry><ind>1</ind><dep>-170</dep></entry>
-	</interpolation>
-  <center>
-   <x-m>-3.68058</x-m>
-   <y-m>0.40344</y-m>
-   <z-m>-0.07709</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>0</y>
-   <z>1</z>
-  </axis>
- </animation>
-
-  <!-- Gear Handle and lights ************************************** -->
+<!-- Gear Handle and lights ************************************************ -->
  <animation>
   <type>pick</type>
    <object-name>StrutExtend</object-name>
@@ -1799,7 +1751,6 @@
     </binding>
    </action>
  </animation>
-
 
  <animation>
   <type>rotate</type>
@@ -1971,238 +1922,27 @@
 	  </emission>
   </animation>
 
-  <!-- alarm lights *******************************************************-->
-  <!-- start valve -->
-  	<animation>
-		<type>textranslate</type>
-		<object-name>SCVl</object-name>
-		<property>/f-20/start-cart/SCV</property>
-		<factor>0.288</factor>
-		<axis>
-			<x>1</x>
-			<y>0</y>
-		</axis>
-	</animation>
+  <!-- caution lights *******************************************************-->
+  
+ <caution_lights include="Cockpit/caution-lights.xml" omit-node="y"/>
 
-  <animation>
-	  <type>material</type>
-	  <object-name>SCVl</object-name>
-	  <condition>
-		<property>/f-20/start-cart/SCV</property>
-	  </condition>
-	  <emission>
-	   <red>0.25</red>
-	   <green>0.25</green>
-	   <blue>0.25</blue>
-	   <factor-prop>/systems/electrical/caution-lights-intensity</factor-prop>
-	  </emission>
-  </animation>
+ <!-- DDI keys **************************************************************-->
 
-  <!-- generators -->
-     <animation>
-		<type>textranslate</type>
-		<object-name>MainGenl</object-name>
-		<property>/systems/electrical/main-gen-caution</property>
-		<factor>0.288</factor>
-		<axis>
-			<x>1</x>
-			<y>0</y>
-		</axis>
-	</animation>
+ <DDI_bezel include="Cockpit/bezel.xml" omit-node="y"/>
+ 
+ <!-- DEP keys **************************************************************-->
 
-  <animation>
-	  <type>material</type>
-	  <object-name>MainGenl</object-name>
-	  <condition>
-		<property>/systems/electrical/main-gen-caution</property>
-	  </condition>
-	  <emission>
-	   <red>0.25</red>
-	   <green>0.25</green>
-	   <blue>0.25</blue>
-	   <factor-prop>/systems/electrical/caution-lights-intensity</factor-prop>
-	  </emission>
-  </animation>
+ <DEP include="Cockpit/data_entry_panel.xml" omit-node="y"/>
+ 
+  <!-- stations selectors keys **********************************************-->
 
-    <animation>
-		<type>textranslate</type>
-		<object-name>BackupGenl</object-name>
-		<property>/systems/electrical/backup-gen-caution</property>
-		<factor>0.288</factor>
-		<axis>
-			<x>1</x>
-			<y>0</y>
-		</axis>
-	</animation>
+ <station-selector include="Cockpit/station-selector.xml" omit-node="y"/>
+ 
+ <!-- Panels lighting *******************************************************-->
 
-  <animation>
-	  <type>material</type>
-	  <object-name>BackupGenl</object-name>
-	  <condition>
-		<property>/systems/electrical/backup-gen-caution</property>
-	  </condition>
-	  <emission>
-	   <red>0.25</red>
-	   <green>0.25</green>
-	   <blue>0.25</blue>
-	   <factor-prop>/systems/electrical/caution-lights-intensity</factor-prop>
-	  </emission>
-  </animation>
+ <lighting include="Cockpit/lighting.xml" omit-node="y"/>
 
-    <!-- batteries -->
-    <animation>
-		<type>textranslate</type>
-		<object-name>MainBattl</object-name>
-		<property>/systems/electrical/main-batt-caution</property>
-		<factor>0.288</factor>
-		<axis>
-			<x>1</x>
-			<y>0</y>
-		</axis>
-	</animation>
-
-  <animation>
-	  <type>material</type>
-	  <object-name>MainBattl</object-name>
-	  <condition>
-		<property>/systems/electrical/main-batt-caution</property>
-	  </condition>
-	  <emission>
-	   <red>0.25</red>
-	   <green>0.25</green>
-	   <blue>0.25</blue>
-	   <factor-prop>/systems/electrical/caution-lights-intensity</factor-prop>
-	  </emission>
-  </animation>
-
-      <animation>
-		<type>textranslate</type>
-		<object-name>EmerHydBattl</object-name>
-		<property>/systems/electrical/hyd-batt-caution</property>
-		<factor>0.288</factor>
-		<axis>
-			<x>1</x>
-			<y>0</y>
-		</axis>
-	</animation>
-
-  <animation>
-	  <type>material</type>
-	  <object-name>EmerHydBattl</object-name>
-	  <condition>
-		<property>/systems/electrical/hyd-batt-caution</property>
-	  </condition>
-	  <emission>
-	   <red>0.25</red>
-	   <green>0.25</green>
-	   <blue>0.25</blue>
-	   <factor-prop>/systems/electrical/caution-lights-intensity</factor-prop>
-	  </emission>
-  </animation>
-
-  <!-- fuel system -->
-
-  <animation>
-	<type>textranslate</type>
-	<object-name>FuelBingol</object-name>
-	<property>/consumables/fuel/bingo-reached</property>
-	<factor>0.288</factor>
-	<axis>
-		<x>1</x>
-		<y>0</y>
-	</axis>
-</animation>
-
-<animation>
-  <type>material</type>
-  <object-name>FuelBingol</object-name>
-  <condition>
-	<property>/consumables/fuel/bingo-reached</property>
-  </condition>
-  <emission>
-   <red>0.25</red>
-   <green>0.25</green>
-   <blue>0.25</blue>
-   <factor-prop>/systems/electrical/caution-lights-intensity</factor-prop>
-  </emission>
-</animation>
-
-  <animation>
-	<type>textranslate</type>
-	<object-name>AftFuelLol</object-name>
-	<property>/consumables/fuel/aft-low</property>
-	<factor>0.288</factor>
-	<axis>
-		<x>1</x>
-		<y>0</y>
-	</axis>
-</animation>
-
-<animation>
-  <type>material</type>
-  <object-name>AftFuelLol</object-name>
-  <condition>
-	<property>/consumables/fuel/aft-low</property>
-  </condition>
-  <emission>
-   <red>0.25</red>
-   <green>0.25</green>
-   <blue>0.25</blue>
-   <factor-prop>/systems/electrical/caution-lights-intensity</factor-prop>
-  </emission>
-</animation>
-
-  <animation>
-	<type>textranslate</type>
-	<object-name>FwdFuelLol</object-name>
-	<property>/consumables/fuel/fwd-low</property>
-	<factor>0.288</factor>
-	<axis>
-		<x>1</x>
-		<y>0</y>
-	</axis>
-</animation>
-
-<animation>
-  <type>material</type>
-  <object-name>FwdFuelLol</object-name>
-  <condition>
-	<property>/consumables/fuel/fwd-low</property>
-  </condition>
-  <emission>
-   <red>0.25</red>
-   <green>0.25</green>
-   <blue>0.25</blue>
-   <factor-prop>/systems/electrical/caution-lights-intensity</factor-prop>
-  </emission>
-</animation>
-
-<animation>
-	<type>textranslate</type>
-	<object-name>FuelPressl</object-name>
-	<property>/consumables/fuel/low-pressure</property>
-	<factor>0.288</factor>
-	<axis>
-		<x>1</x>
-		<y>0</y>
-	</axis>
-</animation>
-
-<animation>
-  <type>material</type>
-  <object-name>FuelPressl</object-name>
-  <condition>
-	<property>/consumables/fuel/low-pressure</property>
-  </condition>
-  <emission>
-   <red>0.25</red>
-   <green>0.25</green>
-   <blue>0.25</blue>
-   <factor-prop>/systems/electrical/caution-lights-intensity</factor-prop>
-  </emission>
-</animation>
-
- <!-- Bumpmaps ***********************************************************-->
+ <!-- Misc effects **************************************************************-->
  <effect>
   <name>bumps</name>
    <inherits-from>Aircraft/F-20/Effects/ckpt-bumps</inherits-from>
@@ -2219,5 +1959,13 @@
    <object-name>BrakeChute</object-name>
    <object-name>EmerGear</object-name>
   </effect>
+  
+<effect>
+  <name>panel-faces-lighting</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/panelFacesLM</inherits-from>
+   <object-name>FlapsIndicator</object-name>
+   <object-name>CommPanel</object-name>
+   <object-name>AntennaPanel</object-name>
+</effect>	
 
 </PropertyList>

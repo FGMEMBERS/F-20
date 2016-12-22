@@ -1,10 +1,8 @@
 <?xml version="1.0"?>
 <PropertyList>
 
- 
  <path>f-20A-cockpit.ac</path>
- 
- 
+  
  <!-- Main artificial horizon -->
    <animation>
   <type>rotate</type>
@@ -39,6 +37,27 @@
    <z>0</z>
   </axis>
  </animation>
+ 
+   <animation>
+	  <type>material</type>
+      <object-name>Horizon</object-name>
+	  <object-name>Mockup</object-name>           
+	  <object-name>VerticalDeviation</object-name>
+	  <object-name>LateralDeviation</object-name>
+	  <object-name>RollPointer</object-name>
+	  <emission>
+		   <red>0.5</red>
+		   <green>0.5</green>
+		   <blue>0.4</blue>
+		   <factor-prop>/f-20/lights/instrument-intensity</factor-prop>
+	  </emission>
+  </animation>
+  
+ <effect>
+  <name>horizon-lm</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/ARU32LM</inherits-from>
+   <object-name>HorizonBezel</object-name>
+</effect> 
  
   <!-- Counter measures panel -->
    <animation>
@@ -140,6 +159,36 @@
   </axis>
  </animation>
   
+ <effect>
+  <name>knobs-lighting-C</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/knobsLM</inherits-from>
+   <object-name>FlareModeSelector</object-name>
+   <object-name>ChaffModeSelector</object-name> 
+   <object-name>ALRknob</object-name>
+</effect>  
  
+ <effect>
+  <name>RWR-lighting-C</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/alrLM</inherits-from>
+   <object-name>RWRbezel</object-name>
+</effect>   
+
+<effect>
+  <name>C-panels-lm</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/panelFacesLM</inherits-from>
+   <object-name>FlarePanel</object-name>
+</effect>   
+
+ <effect>
+  <name>RWR-2-lighting-C</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/alr-2LM</inherits-from>
+   <object-name>RWRkeysPanel</object-name>
+</effect>   
+
+<effect>
+  <name>ECM-panel-faces-lighting</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/panelFacesLM</inherits-from>
+   <object-name>ECMpanel</object-name>
+</effect>
          
 </PropertyList>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+ 
+ <PropertyList>
+  <sim>
+   <model>
+    <livery>
+     <name type="string">Belgian Wave</name>
+     <F-20-texture>LiveriesF20A/belgian-wave.png</F-20-texture>
+    </livery>
+   </model>
+  </sim>
+ </PropertyList>

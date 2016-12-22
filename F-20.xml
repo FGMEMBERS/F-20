@@ -75,6 +75,70 @@
      <y> 0.00 </y>
      <z> 0.00 </z>
    </location>
+     
+   <pointmass name="left-tip-load">
+		<weight unit="KG">0</weight>
+		<location unit="M">
+			<x> 0.9112 </x>
+			<y> -4 </y>
+			<z> -0.4512 </z>
+		</location>
+   </pointmass>
+     
+   <pointmass name="outer-left-load">
+		<weight unit="KG">0</weight>
+		<location unit="M">
+			<x> 0.2114 </x>
+			<y> -3.0177 </y>
+			<z> -0.9844 </z>
+		</location>
+   </pointmass>     
+   
+   <pointmass name="inner-left-load">
+		<weight unit="KG">0</weight>
+		<location unit="M">
+			<x> 0.2534 </x>
+			<y> -2.319 </y>
+			<z> -0.9844 </z>
+		</location>
+   </pointmass>    
+   
+   <pointmass name="center-load">
+		<weight unit="KG">0</weight>
+		<location unit="M">
+			<x> -1.2576 </x>
+			<y> 0 </y>
+			<z> -1.0717 </z>
+		</location>
+   </pointmass>    
+   
+  <pointmass name="inner-right-load">
+		<weight unit="KG">0</weight>
+		<location unit="M">
+			<x> 0.2534 </x>
+			<y> 2.319 </y>
+			<z> -0.9844 </z>
+		</location>
+   </pointmass>
+   
+   <pointmass name="outer-right-load">
+		<weight unit="KG">0</weight>
+		<location unit="M">
+			<x> 0.2114 </x>
+			<y> 3.0177 </y>
+			<z> -0.9844 </z>
+		</location>
+   </pointmass>
+   
+   <pointmass name="right-tip-load">
+		<weight unit="KG">0</weight>
+		<location unit="M">
+			<x> 0.9112 </x>
+			<y> 4 </y>
+			<z> -0.4512 </z>
+		</location>
+   </pointmass>       
+      
  </mass_balance>
 
  <ground_reactions>
@@ -308,6 +372,8 @@
       </sin>
     </function>
     
+
+    
     <function name="aero/beta-prime-rad">
       <description>Corrected beta for fuselage side lift computation</description>
         <table>
@@ -354,15 +420,35 @@
          <table>
             <independentVar lookup="row">aero/alpha-rad</independentVar>
             <tableData>
-                -3.1415926536  -1.0               
-                -2.0943951024  -1.0               
-                -1.5707963268  0.0
-                -1.0471975512  1.0
-                0              1.0
-                1.0471975512   1.0
-                1.5707963268   0.0
-                2.0943951024   -1.0
-                3.1415926536   -1.0
+				-3.14159265358979	-1
+				-2.53072741539178	-0.95
+				-2.44346095279206	-0.9
+				-1.91986217719376	-0.1
+				-1.83259571459405	-0.03
+				-1.5707963267949	0
+				-1.30899693899575	0.03
+				-1.22173047639603	0.05
+				-1.13446401379631	0.15
+				-1.0471975511966	0.3
+				-0.872664625997165	0.7
+				-0.820304748437335	0.77
+				-0.785398163397448	0.8
+				-0.392699081698724	0.95
+				0	1
+				0.392699081698724	0.95
+				0.785398163397448	0.8
+				0.820304748437335	0.77
+				0.872664625997165	0.7
+				1.0471975511966	0.3
+				1.13446401379631	0.15
+				1.22173047639603	0.05
+				1.30899693899575	0.03
+				1.5707963267949	0
+				1.83259571459405	-0.03
+				1.91986217719376	-0.1
+				2.44346095279206	-0.9
+				2.53072741539178	-0.95
+				3.14159265358979	-1
             </tableData>
           </table>
           <!-- mach effect -->

@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+    <name>ground-services</name>
+    <layout>vbox</layout>
+    <default-padding>0</default-padding>
+    <modal>false</modal>
+    <width>250</width>
+    <valign>top</valign>
+    
+   <group>
+		 <layout>hbox</layout>
+		<text>
+			<label>Ground services</label>
+		</text>
+	</group>
+	<hrule/>
+    <group>
+        <layout>hbox</layout>
+        <default-padding>0</default-padding>
+
+            <layout>vbox</layout>
+            <default-padding>1</default-padding>
+
+            <empty>
+                <pref-height>2</pref-height>
+            </empty>
+
+            <group>
+                <layout>hbox</layout>
+
+                <text>
+                    <label>Connect start cart</label>
+                </text>
+
+                <checkbox>
+                    <property>/f-20/start-cart/visible</property>
+                    <live>true</live>
+					<binding>
+						<command>nasal</command>
+						<script>
+						  if (f20.start_cart_connected)
+						  {f20.disconnectStartCart();}
+						  else
+						  {f20.connectStartCart();}
+						</script>
+					</binding>
+                </checkbox>
+            </group>
+
+            <group>
+                <layout>hbox</layout>
+
+                <text>
+                    <label>Start air</label>
+                </text>
+
+                <checkbox>
+                    <property>/f-20/start-cart/SCV</property>
+                    <live>true</live>
+					<binding>
+						<command>nasal</command>
+						<script>
+							if (f20.start_cart_blowing or f20.engine_running) 
+								 {f20.airStartDepressurise();}
+							else {f20.airStartPressurise ();}
+						</script>
+					</binding>
+                </checkbox>
+            </group>
+          </group>
+        <hrule/>
+            <group>
+                <layout>hbox</layout>
+
+                <text>
+                    <label>Repack parachute</label>
+                </text>
+
+                <checkbox>
+                    <property>/fdm/jsbsim/fcs/chute-deployement-norm</property>
+                    <live>true</live>
+					<binding>
+						<command>nasal</command>
+						<script>
+							f20.repackChute();
+						</script>
+					</binding>
+                </checkbox>
+            </group>
+            <group>
+                <layout>hbox</layout>
+
+                <text>
+                    <label>Chocks in place</label>
+                </text>
+
+                <checkbox>
+                    <property>controls/gear/brake-parking</property>
+                    <live>true</live>
+					<binding>
+						<command>nasal</command>
+						<script>
+							f20.chocks_in_place = ! f20.chocks_in_place;
+							setprop (f20.chocks_visible_prop, f20.chocks_in_place);
+							setprop ("controls/gear/brake-parking",f20.chocks_in_place); 
+						</script>
+					</binding>
+                </checkbox>
+            </group>
+    <hrule/>
+    <group>
+        <layout>hbox</layout>
+        <default-padding>0</default-padding>
+        <button>
+            <legend>Select Payload</legend>
+            <binding>
+                <command>nasal</command>
+                <script>
+                    f20.showStoresDialog();
+                </script>
+            </binding>
+        </button>
+    </group>
+    <hrule/>
+    <group>
+        <layout>hbox</layout>
+        <button>
+            <legend>Close</legend>
+            <default>true</default>
+            <key>Esc</key>
+            <binding>
+                <command>dialog-close</command>
+            </binding>
+        </button>
+    </group>
+</PropertyList>

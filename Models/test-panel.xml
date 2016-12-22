@@ -56,4 +56,10 @@
   </axis>
  </animation>
  
+ <effect>
+  <name>catridge-panel-faces-lighting</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/panelFacesProtoLM</inherits-from>
+   <object-name>CartrdigePanel</object-name>
+</effect>
+ 
 </PropertyList>

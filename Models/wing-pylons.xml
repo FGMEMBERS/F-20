@@ -1,14 +1,33 @@
 <PropertyList>
 
  <path>wing-pylons.ac</path>
- 
+
  <animation>
   <type>material</type>
    <object-name>WingPylons</object-name>
-   <property-base>sim/model/livery</property-base>
+   <object-name>WingPylonsStandLeft</object-name>
+   <object-name>WingPylonsStandRight</object-name>
+   <property-base>/sim/model/livery</property-base>
    <texture-prop>F-20-texture</texture-prop>
-   <texture>Liveries/Suisse.png</texture>
- </animation> 
- 
+ </animation>
+
+  <animation>
+	<type>select</type>
+	<object-name>WingPylonsStandRight</object-name>
+	<object-name>WingRestraintsRight</object-name>
+		<condition>
+				<property>/f-20/stores/inner-right-needs-braces</property>
+		</condition>
+  </animation>
+
+   <animation>
+	<type>select</type>
+	<object-name>WingPylonsStandLeft</object-name>
+	<object-name>WingRestraintsLeft</object-name>
+		<condition>
+				<property>/f-20/stores/inner-left-needs-braces</property>
+		</condition>
+  </animation>
+
 </PropertyList>
- 
+

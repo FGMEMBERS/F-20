@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>lasagna.ac</path>
+ 
+ 		<offsets>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>0</z-m>
+		</offsets>		
+
+  <animation>
+	<type>select</type>
+	<object-name>Garfield</object-name>
+		<condition>
+				<property>/f-20/I-love-mondays</property>		
+		</condition>
+  </animation>  		
+  
+   <!--Canopy -->
+ <animation>
+  <type>rotate</type>
+  <object-name>Garfield</object-name>
+  <property>canopy/position-norm</property>
+	<interpolation>
+		<entry><ind>0</ind><dep>0</dep></entry>
+        <entry><ind>0.5</ind><dep>22.5</dep></entry>
+		<entry><ind>1</ind><dep>45</dep></entry>
+	</interpolation>	
+  <center>
+   <x-m>-2.70471</x-m>
+   <y-m>0.00</y-m>
+   <z-m>0.33990</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+ 
+  <animation>
+  <type>rotate</type>
+	<object-name>Garfield</object-name>
+  <property>canopy/position-norm</property>
+	<interpolation>
+		<entry><ind>0</ind><dep>0</dep></entry>
+        <entry><ind>0.5</ind><dep>-50</dep></entry>
+		<entry><ind>1</ind><dep>-90</dep></entry>
+	</interpolation>	
+  <center>
+   <x-m>-2.70471</x-m>
+   <y-m>0.00</y-m>
+   <z-m>0.46856</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+  <animation>
+  <type>rotate</type>
+	<object-name>Garfield</object-name>
+  <property>canopy/position-norm</property>
+	<interpolation>
+		<entry><ind>0</ind><dep>0</dep></entry>
+        <entry><ind>0.5</ind><dep>12.5</dep></entry>
+		<entry><ind>1</ind><dep>25</dep></entry>
+	</interpolation>	
+  <center>
+   <x-m>-2.43043</x-m>
+   <y-m>0.00</y-m>
+   <z-m>0.46174</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>    
+ 
+ <animation>
+  <type>rotate</type>
+	<object-name>Garfield</object-name>
+  <property>canopy/position-norm</property>
+	<interpolation>
+		<entry><ind>0</ind><dep>0</dep></entry>
+        <entry><ind>0.5</ind><dep>20</dep></entry>
+		<entry><ind>1</ind><dep>40</dep></entry>
+	</interpolation>	
+  <center>
+   <x-m>-2.35992</x-m>
+   <y-m>0.00</y-m>
+   <z-m>0.55447</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation> 
+  
+</PropertyList>

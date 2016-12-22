@@ -1,0 +1,33 @@
+<PropertyList>
+
+ <path>wing-outer-pylons.ac</path>
+
+ <animation>
+  <type>material</type>
+   <object-name>WingPylonsOuter</object-name>
+   <object-name>WingPylonsStandOutLeft</object-name>
+   <object-name>WingPylonsStandOutRight</object-name>
+   <property-base>/sim/model/livery</property-base>
+   <texture-prop>F-20-texture</texture-prop>
+ </animation>
+
+  <animation>
+	<type>select</type>
+	<object-name>WingPylonsStandOutRight</object-name>
+	<object-name>WingRestraintsOutRight</object-name>
+		<condition>
+				<property>/f-20/stores/outer-right-needs-braces</property>
+		</condition>
+  </animation>
+
+   <animation>
+	<type>select</type>
+	<object-name>WingPylonsStandOutLeft</object-name>
+	<object-name>WingRestraintsOutLeft</object-name>
+		<condition>
+				<property>/f-20/stores/outer-left-needs-braces</property>
+		</condition>
+  </animation>
+
+</PropertyList>
+

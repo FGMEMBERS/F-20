@@ -11,6 +11,8 @@ var Light = {nominal_voltage : 0,
               nominal_amps : 0,
               intensity_prop : nil,
               intensity : 0.0,
+              dimming_value : 1.0,
+              dimming_prop : nil,
               is_on : light_is_off};
 
 #-----------------------------------------------------------------------
@@ -30,6 +32,41 @@ Light.new = func (source,
 }
 
 #-----------------------------------------------------------------------
+Light.setDimmer = func (value)
+{
+  if (value > 1.0) me.dimming_value = 1.0;
+  else if (value < 0.0) 
+   { 
+    me.dimming_value = 0.0;
+    me.switchOff();
+   }
+  else me.dimming_value = value;
+}
+
+#-----------------------------------------------------------------------
+Light.enableDimmer = func (prop_name, default_value)
+{
+  me.dimming_prop = prop_name;
+  me.setDimmer (default_value);
+  setprop (me.dimming_prop, me.dimming_value);
+}
+
+#-----------------------------------------------------------------------
+Light.dimUp = func (increment)
+{
+  me.switchOn();
+  me.setDimmer (me.dimming_value + increment);
+  setprop (me.dimming_prop, me.dimming_value);
+}
+
+#-----------------------------------------------------------------------
+Light.dimDn = func (decrement)
+{
+  me.setDimmer (me.dimming_value - decrement);
+  setprop (me.dimming_prop, me.dimming_value);  
+}
+
+#-----------------------------------------------------------------------
 Light.switchOn = func
 {
   me.is_on = light_is_on;
@@ -46,7 +83,7 @@ Light.update = func (delta_t)
 {
   if (me.fed and me.is_on)
   {
-    me.intensity = me.voltage / me.nominal_voltage;
+    me.intensity = me.voltage / me.nominal_voltage * me.dimming_value;
     me.amps = me.nominal_amps * me.intensity;
     setprop (me.intensity_prop, me.intensity);
   }

@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<PropertyList>
+<!-- DEP keys ***************************************************************-->
+ 
+ <animation>
+  <type>pick</type>
+   <object-name>Key1</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.DEP.pressKey1();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>pick</type>
+   <object-name>Key2</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.DEP.pressKey2();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>pick</type>
+   <object-name>Key3</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.DEP.pressKey3();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>pick</type>
+   <object-name>Key4</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.DEP.pressKey4();</script>
+    </binding>
+   </action>
+ </animation>
+  
+ <animation>
+  <type>pick</type>
+   <object-name>Key5</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.DEP.pressKey5();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>pick</type>
+   <object-name>Key6</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.DEP.pressKey6();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>pick</type>
+   <object-name>Key7</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.DEP.pressKey7();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>pick</type>
+   <object-name>Key8</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.DEP.pressKey8();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>pick</type>
+   <object-name>Key9</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.DEP.pressKey9();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>pick</type>
+   <object-name>Key0</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.DEP.pressKey0();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>pick</type>
+   <object-name>KeyDot</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.DEP.pressKeyDot();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>pick</type>
+   <object-name>KeyCLR</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.DEP.pressKeyCLR();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>pick</type>
+   <object-name>KeyIP</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.DEP.pressKeyIP();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>pick</type>
+   <object-name>KeyDCL</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.DEP.pressKeyDCL();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>pick</type>
+   <object-name>KeyNAV</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.DEP.pressKeyNAV();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+<effect>
+  <name>keyboard-lighting</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/keyboardLM</inherits-from>
+   <object-name>Key1</object-name>
+   <object-name>Key2</object-name> 
+   <object-name>Key3</object-name> 
+   <object-name>Key4</object-name> 
+   <object-name>Key5</object-name> 
+   <object-name>Key6</object-name> 
+   <object-name>Key7</object-name> 
+   <object-name>Key8</object-name> 
+   <object-name>Key9</object-name> 
+   <object-name>Key0</object-name> 
+   <object-name>KeyDot</object-name> 
+   <object-name>KeyCLR</object-name> 
+   <object-name>KeyIP</object-name> 
+   <object-name>KeyDCL</object-name> 
+   <object-name>KeyNAV</object-name> 
+</effect>  
+
+ <effect>
+  <name>panel-faces-lighting</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/DEPpanelLM</inherits-from>
+   <object-name>HudPanel</object-name> 
+</effect>
+
+<!-- HUD ******************************************************************* -->
+  <animation>
+  <type>rotate</type>
+    <object-name>HUDknob</object-name>
+	<property>f-20/HUD/intensity</property>
+	<factor>-20.0</factor>
+	<offset-deg>-20</offset-deg>
+  <center>
+   <x-m>-3.91067</x-m>
+   <y-m>-0.0326</y-m>
+   <z-m>0.35599</z-m>
+  </center>
+  <axis>
+   <x>0.991267569</x>
+   <y>0</y>
+   <z>-0.131865869</z>
+  </axis>
+ </animation>
+ 
+  <animation>
+  <type>pick</type>
+   <object-name>HUDknob</object-name>
+   <action>
+    <button>3</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.increaseIntensity();</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>pick</type>
+   <object-name>HUDknob</object-name>
+   <action>
+    <button>4</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.decreaseIntensity();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+  <animation>
+  <type>rotate</type>
+    <object-name>stbyReticle</object-name>
+	<property>/f-20/HUD/stand-by-switch</property>
+	<factor>-60.0</factor>
+	<offset-deg>30</offset-deg>
+  <center>
+   <x-m>-3.92093</x-m>
+   <y-m>0.03018</y-m>
+   <z-m>0.35903</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+  <animation>
+  <type>pick</type>
+   <object-name>stbyReticle</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.HUD_page.toggleStandbyReticle();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ 
+<effect>
+  <name>knobs-lighting</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/DEPknobsLM</inherits-from>
+   <object-name>HUDknob</object-name>
+</effect>  
+ 
+</PropertyList>

@@ -1,0 +1,340 @@
+<?xml version="1.0"?>
+<PropertyList>
+<!-- Lights Panel ************************************************* -->
+  
+ <animation>
+  <type>translate</type>
+	<object-name>LightingPanel</object-name>
+    <object-name>NavLight</object-name>
+    <object-name>InstrLight</object-name>
+    <object-name>FloodChart</object-name>
+    <object-name>FormationLight</object-name>
+    <object-name>EngInstrLight</object-name>
+    <object-name>ConsoleLight</object-name>
+    <object-name>WarningBrt</object-name>
+    <object-name>WarningTest</object-name>
+    <object-name>Beacon</object-name>
+    <object-name>BeaconPlate</object-name>
+    <object-name>WarningTestPlate</object-name>
+    <object-name>WarningBrtPlate</object-name>
+    <object-name>LightDzeus1</object-name>
+    <object-name>LightDzeus2</object-name>
+    <object-name>LightDzeus3</object-name>
+    <object-name>LightDzeus4</object-name>
+    <property>/f-20/is-prototype</property>
+    <factor>-0.03874</factor>
+	<offset-m>0.03874</offset-m>
+  <axis>
+   <x>1.0</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+  <!-- beacon -->
+
+<animation>
+  <type>pick</type>
+   <object-name>Beacon</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+        <command>property-toggle</command>
+		<property>/f-20/lights/beacon</property>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+    <object-name>Beacon</object-name>
+	<property>/f-20/lights/beacon</property>
+	<interpolation>
+		<entry><ind>0</ind><dep>15</dep></entry>
+		<entry><ind>1</ind><dep>-15</dep></entry>
+	</interpolation>
+  <center>
+   <x-m>-3.57879</x-m>
+   <y-m>0.4032</y-m>
+   <z-m>-0.07902</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <!-- nav -->
+
+<animation>
+  <type>pick</type>
+   <object-name>NavLight</object-name>
+   <action>
+    <button>3</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.navigation_light.dimUp(0.1);</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>pick</type>
+   <object-name>NavLight</object-name>
+   <action>
+    <button>4</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.navigation_light.dimDn(0.1);</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+    <object-name>NavLight</object-name>
+	<property>/f-20/lights/nav-knob</property>
+	<interpolation>
+		<entry><ind>0</ind><dep>90</dep></entry>
+		<entry><ind>1</ind><dep>-170</dep></entry>
+	</interpolation>
+  <center>
+   <x-m>-3.68058</x-m>
+   <y-m>0.40344</y-m>
+   <z-m>-0.07709</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+ 
+<!-- Console -->
+
+<animation>
+  <type>pick</type>
+   <object-name>ConsoleLight</object-name>
+   <action>
+    <button>3</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.console_light.dimUp(0.1);</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>pick</type>
+   <object-name>ConsoleLight</object-name>
+   <action>
+    <button>4</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.console_light.dimDn(0.1);</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+    <object-name>ConsoleLight</object-name>
+	<property>/f-20/lights/console-knob</property>
+	<interpolation>
+		<entry><ind>0</ind><dep>90</dep></entry>
+		<entry><ind>1</ind><dep>-170</dep></entry>
+	</interpolation>
+  <center>
+   <x-m>-3.57869</x-m>
+   <y-m>0.36269</y-m>
+   <z-m>-0.07709</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+ 
+ <!-- Instruments -->
+
+<animation>
+  <type>pick</type>
+   <object-name>InstrLight</object-name>
+   <action>
+    <button>3</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.instrument_light.dimUp(0.1);</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>pick</type>
+   <object-name>InstrLight</object-name>
+   <action>
+    <button>4</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.instrument_light.dimDn(0.1);</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+    <object-name>InstrLight</object-name>
+	<property>/f-20/lights/instruments-knob</property>
+	<interpolation>
+		<entry><ind>0</ind><dep>90</dep></entry>
+		<entry><ind>1</ind><dep>-170</dep></entry>
+	</interpolation>
+  <center>
+   <x-m>-3.68006</x-m>
+   <y-m>0.36269</y-m>
+   <z-m>-0.07709</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+ 
+ <!-- DEP -->
+
+<animation>
+  <type>pick</type>
+   <object-name>DEPlight</object-name>
+   <action>
+    <button>3</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.DEP_light.dimUp(0.1);</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>pick</type>
+   <object-name>DEPlight</object-name>
+   <action>
+    <button>4</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.DEP_light.dimDn(0.1);</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+    <object-name>DEPlight</object-name>
+	<property>/f-20/lights/DEP-knob</property>
+	<interpolation>
+		<entry><ind>0</ind><dep>60</dep></entry>
+		<entry><ind>1</ind><dep>-220</dep></entry>
+	</interpolation>
+  <center>
+   <x-m>-3.9801</x-m>
+   <y-m>-0.32915</y-m>
+   <z-m>-0.04292</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation> 
+ 
+<!-- Engine instrument -->
+
+<animation>
+  <type>pick</type>
+   <object-name>EngInstrLight</object-name>
+   <action>
+    <button>3</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.engine_panel_light.Up();</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>pick</type>
+   <object-name>EngInstrLight</object-name>
+   <action>
+    <button>4</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.engine_panel_light.Dn();</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+    <object-name>EngInstrLight</object-name>
+	<property>/f-20/lights/eng-instr-knob</property>
+	<interpolation>
+		<entry><ind>0</ind><dep>90</dep></entry>
+		<entry><ind>1</ind><dep>-170</dep></entry>
+	</interpolation>
+  <center>
+   <x-m>-3.62912</x-m>
+   <y-m>0.36269</y-m>
+   <z-m>-0.07709</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation> 
+ 
+ <!-- Misc. effects ******************************************************-->
+  <effect>
+  <name>knobs-lighting</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/knobsLM</inherits-from>
+   <object-name>DEPlight</object-name>
+   <object-name>RudderTrim</object-name> 
+   <object-name>EngineControl</object-name> 
+   <object-name>Defog</object-name> 
+   <object-name>CabTemp</object-name> 
+   <object-name>RadarSelector</object-name> 
+   <object-name>IRSselector</object-name> 
+   <object-name>FloodChart</object-name> 
+   <object-name>InstrLight</object-name> 
+   <object-name>EngInstrLight</object-name> 
+   <object-name>ConsoleLight</object-name> 
+   <object-name>NavLight</object-name> 
+   <object-name>FormationLight</object-name> 
+</effect>  
+ 
+ </PropertyList>
+ 

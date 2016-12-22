@@ -33,6 +33,9 @@ var display_time = "";
 
 var updateClock = func
 {
+ var brightness = engine_panel_light.intensity 
+				  *
+				  (engine_panel_light.commanded_intensity*0.9 + 0.1);
  minutes = getprop(minute_prop);
  seconds = getprop(second_prop);
  
@@ -47,6 +50,7 @@ var updateClock = func
  else
   display_time = sprintf (":%i%s",minutes,display_time);
   
- clockText.setText(sprintf("%i%s",getprop(hour_prop), display_time));  
+ clockText.setText(sprintf("%i%s",getprop(hour_prop), display_time))
+          .setColor(brightness*1.0, 0, 0);
 }
 

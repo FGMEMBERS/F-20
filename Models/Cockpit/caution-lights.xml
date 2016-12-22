@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<PropertyList>
+<!-- caution lights *******************************************************-->
+
+<!-- Master caution ****************************************************** -->
+
+ <animation>
+  <type>translate</type>
+	<object-name>MasterCaution</object-name>
+    <property>/f-20/alerting/master-depress</property>
+    <factor>-0.001</factor>
+  <axis>
+   <x>1.0</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+  <animation>
+  <type>pick</type>
+   <object-name>MasterCaution</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.resetMasterCaution();</script>
+    </binding>
+   </action>
+ </animation>
+
+<animation>
+	<type>textranslate</type>
+	<object-name>MasterCaution</object-name>
+	<property>/f-20/alerting/master-light-on</property>
+	<factor>0.124</factor>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+	</axis>
+</animation>
+
+  <animation>
+	  <type>material</type>
+	  <object-name>MasterCaution</object-name>
+	  <emission>
+		   <red>0.25</red>
+		   <green>0.25</green>
+		   <blue>0.25</blue>
+		   <factor-prop>/f-20/alerting/master-light-intensity</factor-prop>
+	  </emission>
+  </animation>
+
+  <!-- start valve -->
+  	<animation>
+		<type>textranslate</type>
+		<object-name>SCVl</object-name>
+		<property>/f-20/start-cart/SCV</property>
+		<factor>0.288</factor>
+		<axis>
+			<x>1</x>
+			<y>0</y>
+		</axis>
+	</animation>
+
+  <animation>
+	  <type>material</type>
+	  <object-name>SCVl</object-name>
+	  <condition>
+		<property>/f-20/start-cart/SCV</property>
+	  </condition>
+	  <emission>
+	   <red>0.25</red>
+	   <green>0.25</green>
+	   <blue>0.25</blue>
+	   <factor-prop>/systems/electrical/caution-lights-intensity</factor-prop>
+	  </emission>
+  </animation>
+
+  <!-- generators -->
+     <animation>
+		<type>textranslate</type>
+		<object-name>MainGenl</object-name>
+		<property>/systems/electrical/main-gen-caution</property>
+		<factor>0.288</factor>
+		<axis>
+			<x>1</x>
+			<y>0</y>
+		</axis>
+	</animation>
+
+  <animation>
+	  <type>material</type>
+	  <object-name>MainGenl</object-name>
+	  <condition>
+		<property>/systems/electrical/main-gen-caution</property>
+	  </condition>
+	  <emission>
+	   <red>0.25</red>
+	   <green>0.25</green>
+	   <blue>0.25</blue>
+	   <factor-prop>/systems/electrical/caution-lights-intensity</factor-prop>
+	  </emission>
+  </animation>
+
+    <animation>
+		<type>textranslate</type>
+		<object-name>BackupGenl</object-name>
+		<property>/systems/electrical/backup-gen-caution</property>
+		<factor>0.288</factor>
+		<axis>
+			<x>1</x>
+			<y>0</y>
+		</axis>
+	</animation>
+
+  <animation>
+	  <type>material</type>
+	  <object-name>BackupGenl</object-name>
+	  <condition>
+		<property>/systems/electrical/backup-gen-caution</property>
+	  </condition>
+	  <emission>
+	   <red>0.25</red>
+	   <green>0.25</green>
+	   <blue>0.25</blue>
+	   <factor-prop>/systems/electrical/caution-lights-intensity</factor-prop>
+	  </emission>
+  </animation>
+
+    <!-- batteries -->
+    <animation>
+		<type>textranslate</type>
+		<object-name>MainBattl</object-name>
+		<property>/systems/electrical/main-batt-caution</property>
+		<factor>0.288</factor>
+		<axis>
+			<x>1</x>
+			<y>0</y>
+		</axis>
+	</animation>
+
+  <animation>
+	  <type>material</type>
+	  <object-name>MainBattl</object-name>
+	  <condition>
+		<property>/systems/electrical/main-batt-caution</property>
+	  </condition>
+	  <emission>
+	   <red>0.25</red>
+	   <green>0.25</green>
+	   <blue>0.25</blue>
+	   <factor-prop>/systems/electrical/caution-lights-intensity</factor-prop>
+	  </emission>
+  </animation>
+
+      <animation>
+		<type>textranslate</type>
+		<object-name>EmerHydBattl</object-name>
+		<property>/systems/electrical/hyd-batt-caution</property>
+		<factor>0.288</factor>
+		<axis>
+			<x>1</x>
+			<y>0</y>
+		</axis>
+	</animation>
+
+  <animation>
+	  <type>material</type>
+	  <object-name>EmerHydBattl</object-name>
+	  <condition>
+		<property>/systems/electrical/hyd-batt-caution</property>
+	  </condition>
+	  <emission>
+	   <red>0.25</red>
+	   <green>0.25</green>
+	   <blue>0.25</blue>
+	   <factor-prop>/systems/electrical/caution-lights-intensity</factor-prop>
+	  </emission>
+  </animation>
+
+  <!-- fuel system -->
+
+  <animation>
+	<type>textranslate</type>
+	<object-name>FuelBingol</object-name>
+	<property>/consumables/fuel/bingo-reached</property>
+	<factor>0.288</factor>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+	</axis>
+</animation>
+
+<animation>
+  <type>material</type>
+  <object-name>FuelBingol</object-name>
+  <condition>
+	<property>/consumables/fuel/bingo-reached</property>
+  </condition>
+  <emission>
+   <red>0.25</red>
+   <green>0.25</green>
+   <blue>0.25</blue>
+   <factor-prop>/systems/electrical/caution-lights-intensity</factor-prop>
+  </emission>
+</animation>
+
+  <animation>
+	<type>textranslate</type>
+	<object-name>AftFuelLol</object-name>
+	<property>/consumables/fuel/aft-low</property>
+	<factor>0.288</factor>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+	</axis>
+</animation>
+
+<animation>
+  <type>material</type>
+  <object-name>AftFuelLol</object-name>
+  <condition>
+	<property>/consumables/fuel/aft-low</property>
+  </condition>
+  <emission>
+   <red>0.25</red>
+   <green>0.25</green>
+   <blue>0.25</blue>
+   <factor-prop>/systems/electrical/caution-lights-intensity</factor-prop>
+  </emission>
+</animation>
+
+  <animation>
+	<type>textranslate</type>
+	<object-name>FwdFuelLol</object-name>
+	<property>/consumables/fuel/fwd-low</property>
+	<factor>0.288</factor>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+	</axis>
+</animation>
+
+<animation>
+  <type>material</type>
+  <object-name>FwdFuelLol</object-name>
+  <condition>
+	<property>/consumables/fuel/fwd-low</property>
+  </condition>
+  <emission>
+   <red>0.25</red>
+   <green>0.25</green>
+   <blue>0.25</blue>
+   <factor-prop>/systems/electrical/caution-lights-intensity</factor-prop>
+  </emission>
+</animation>
+
+<animation>
+	<type>textranslate</type>
+	<object-name>FuelPressl</object-name>
+	<property>/consumables/fuel/low-pressure</property>
+	<factor>0.288</factor>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+	</axis>
+</animation>
+
+<animation>
+  <type>material</type>
+  <object-name>FuelPressl</object-name>
+  <condition>
+	<property>/consumables/fuel/low-pressure</property>
+  </condition>
+  <emission>
+   <red>0.25</red>
+   <green>0.25</green>
+   <blue>0.25</blue>
+   <factor-prop>/systems/electrical/caution-lights-intensity</factor-prop>
+  </emission>
+</animation>
+
+</PropertyList>

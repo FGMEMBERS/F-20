@@ -8,8 +8,9 @@
  <!-- Main artificial horizon -->
    <animation>
   <type>rotate</type>
-    <object-name>Horizon.001</object-name>
-	<property>orientation/roll-deg</property>    
+    <object-name>HorizonOld</object-name>
+    <object-name>RollPointerOld</object-name>
+	<property>orientation/roll-deg</property>    	
   <center>
    <x-m>-4.00985</x-m>
    <y-m>0.00411</y-m>
@@ -24,7 +25,7 @@
  
   <animation>
   <type>rotate</type>
-    <object-name>Horizon.001</object-name>
+    <object-name>HorizonOld</object-name>
 	<property>orientation/pitch-deg</property>    
     <factor>1.5</factor>
   <center>
@@ -39,7 +40,26 @@
   </axis>
  </animation>
  
+   <animation>
+	  <type>material</type>
+      <object-name>HorizonOld</object-name>
+	  <object-name>MockupOld</object-name>           
+	  <object-name>RollPointerOld</object-name>
+	  <emission>
+		   <red>0.5</red>
+		   <green>0.5</green>
+		   <blue>0.4</blue>
+		   <factor-prop>/f-20/lights/instruments</factor-prop>
+	  </emission>
+  </animation>
+  
+ <effect>
+  <name>horizon-lm</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/ARU30LM</inherits-from>
+   <object-name>HorizonBezelOld</object-name>
+</effect> 
  
+ <!-- Misc. Effects -->
  <effect>
   <name>bumps</name>
    <inherits-from>Aircraft/F-20/Effects/ckpt-a-bumps</inherits-from>

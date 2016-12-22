@@ -91,5 +91,5 @@ var initCustomMenuBar = func
 }
 
 #-------------------------------------------------------------------------------
-var customMenuBarInitListener = setlistener("/sim/signals/fdm-initialized",
-										    initCustomMenuBar);
+#var customMenuBarInitListener = setlistener("/sim/signals/fdm-initialized",
+#										    initCustomMenuBar);

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PropertyList>
+  <name>arm-switches</name>
+  <inherits-from>Effects/model-combined</inherits-from>
+  <parameters>
+    <lightmap-enabled type="int">1</lightmap-enabled>
+    <lightmap-multi type="int">1</lightmap-multi>    
+    <lightmap-factor type="float" n="0"><use>/f-20/stores/management-panel/intensity</use></lightmap-factor>
+    <lightmap-color type="vec3d" n="0"> 1.0 1.0 1.0 </lightmap-color>
+    <texture n="3">
+      <image>Aircraft/F-20/Effects/CockpitLightMaps/ArmSwitchesLM.png</image>
+    </texture>
+  </parameters>
+</PropertyList>

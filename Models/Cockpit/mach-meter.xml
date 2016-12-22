@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<PropertyList>
+ 
+<!--IAS/Mach-meter ********************************************-->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>ASIneedle</object-name>
+  <object-name>MachFlap</object-name>
+  <object-name>MachFigures</object-name>
+  <property>velocities/airspeed-kt</property>
+  <interpolation>
+     <entry><ind> 0.0 </ind><dep>  0.0 </dep></entry>
+     <entry><ind> 100.0 </ind><dep>  -32.0 </dep></entry>
+     <entry><ind> 150.0 </ind><dep>  -85.0 </dep></entry>
+     <entry><ind> 200.0 </ind><dep>  -128.0 </dep></entry>
+     <entry><ind> 300.0 </ind><dep>  -186.0 </dep></entry>
+     <entry><ind> 400.0 </ind><dep>  -235.0 </dep></entry>
+     <entry><ind> 500.0 </ind><dep>  -267.0 </dep></entry>
+     <entry><ind> 600.0 </ind><dep>  -292.0 </dep></entry>
+     <entry><ind> 700.0 </ind><dep>  -314.0 </dep></entry>
+     <entry><ind> 800.0 </ind><dep>  -332.0 </dep></entry>
+  </interpolation>
+  <center>
+   <x-m>-3.97459</x-m>
+   <y-m>-0.20146</y-m>
+   <z-m>0.20168</z-m>
+  </center>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+   <animation>
+  <type>rotate</type>
+  <object-name>MachFlap</object-name>
+  <property>velocities/mach</property>
+  <interpolation>
+     <entry><ind> 0.6 </ind><dep>  0.0 </dep></entry>
+     <entry><ind> 0.8 </ind><dep>  60.0 </dep></entry>
+  </interpolation>
+  <center>
+   <x-m>-3.97459</x-m>
+   <y-m>-0.20146</y-m>
+   <z-m>0.20168</z-m>
+  </center>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>MachFigures</object-name>
+  <property>velocities/mach</property>
+  <interpolation>
+     <entry><ind> 0.6 </ind><dep>  150.0 </dep></entry>
+     <entry><ind> 3.0 </ind><dep>  -210.0 </dep></entry>
+  </interpolation>
+  <center>
+   <x-m>-3.97459</x-m>
+   <y-m>-0.20146</y-m>
+   <z-m>0.20168</z-m>
+  </center>
+  <axis>
+   <x>-1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+ 
+  <animation>
+	  <type>material</type>
+      <object-name>ASIneedle</object-name>
+      <object-name>MachFlap</object-name>
+      <object-name>MachFigures</object-name>      
+	  <emission>
+		   <red>0.5</red>
+		   <green>0.5</green>
+		   <blue>0.4</blue>
+		   <factor-prop>/f-20/lights/instrument-intensity</factor-prop>
+	  </emission>
+  </animation>
+  
+ <effect>
+  <name>asi-lm</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/ASILM</inherits-from>
+   <object-name>ASIplate</object-name>
+</effect> 
+ 
+</PropertyList>

@@ -7,9 +7,9 @@ var elec_off = false;
 var elec_on = true;
 
 var GenericLoad = {nominal_voltage : 0,
-				    nominal_amps : 0,
-				    running : false,
-				    is_on : elec_off};
+				   nominal_amps : 0,
+				   running : false,
+				   is_on : elec_off};
 
 #-----------------------------------------------------------------------
 GenericLoad.new = func (source,

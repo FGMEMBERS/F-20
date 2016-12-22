@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PropertyList>
+	<name>Effects/light-placer</name>
+	<parameters></parameters>
+	<technique n="10">
+		<pass>
+			<depth>
+				<enabled type="bool">false</enabled>
+				<write-mask type="bool">false</write-mask>
+			</depth>
+			<cull-face>front</cull-face>
+			<blend>
+				<source>one</source>
+				<destination>one</destination>
+			</blend>
+			<program>
+				<vertex-shader>Aircraft/F-20/Effects/light-pos.vert</vertex-shader>
+				<attribute>
+					<name>attenuation</name>
+					<index>12</index>
+				</attribute>
+			</program>
+			<uniform>
+				<name>light_position</name>
+				<type>float-vec4</type>
+				<value type="vec4d"><use>position</use></value>
+				<positioned type="bool">true</positioned>
+			</uniform>
+			<uniform>
+				<name>LightDirection</name>
+				<type>float-vec4</type>
+				<value type="vec4d"><use>direction</use></value>
+				<positioned type="bool">true</positioned>
+			</uniform>
+		</pass>
+	</technique>
+</PropertyList>

@@ -1,0 +1,13 @@
+<PropertyList>
+
+ <path>ALQ-131.ac</path>
+ 
+ <animation>
+		<type>shader</type>
+		<shader>chrome</shader>
+		<texture>Aircraft/F-20/Models/glass_shader.png</texture>
+		<object-name>ALQmetal</object-name>
+</animation>
+ 
+</PropertyList>
+ 

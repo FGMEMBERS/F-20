@@ -1,5 +1,6 @@
 <PropertyList>
-	
+
+ <!-- Flare departing from different flare launchers ************************-->
   <submodel>
     <name>flare-1</name>
     <model>Aircraft/F-20/Models/flare-model.xml</model>
@@ -13,7 +14,9 @@
     <z-offset>-2.383399</z-offset>
     <yaw-offset>0.0</yaw-offset>
     <pitch-offset>0.0</pitch-offset>
-    <life>20</life>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>    
     <buoyancy>0</buoyancy>
     <aero-stabilised>true</aero-stabilised>
     <wind>true</wind>
@@ -22,7 +25,7 @@
     <cd>0.025</cd>
     <weight>0.1</weight>
   </submodel>
-  
+
     <submodel>
     <name>flare-2</name>
     <model>Aircraft/F-20/Models/flare-model.xml</model>
@@ -36,7 +39,9 @@
     <z-offset>-2.383399</z-offset>
     <yaw-offset>0.0</yaw-offset>
     <pitch-offset>0.0</pitch-offset>
-    <life>20</life>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>    
     <buoyancy>0</buoyancy>
     <aero-stabilised>true</aero-stabilised>
     <wind>true</wind>
@@ -45,7 +50,7 @@
     <cd>0.025</cd>
     <weight>0.1</weight>
   </submodel>
-  
+
   <submodel>
     <name>flare-3</name>
     <model>Aircraft/F-20/Models/flare-model.xml</model>
@@ -59,7 +64,9 @@
     <z-offset>-2.383399</z-offset>
     <yaw-offset>0.0</yaw-offset>
     <pitch-offset>0.0</pitch-offset>
-    <life>20</life>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>    
     <buoyancy>0</buoyancy>
     <aero-stabilised>true</aero-stabilised>
     <wind>true</wind>
@@ -68,7 +75,7 @@
     <cd>0.025</cd>
     <weight>0.1</weight>
   </submodel>
-  
+
    <submodel>
     <name>flare-4</name>
     <model>Aircraft/F-20/Models/flare-model.xml</model>
@@ -82,7 +89,9 @@
     <z-offset>-2.383399</z-offset>
     <yaw-offset>0.0</yaw-offset>
     <pitch-offset>0.0</pitch-offset>
-    <life>20</life>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>    
     <buoyancy>0</buoyancy>
     <aero-stabilised>true</aero-stabilised>
     <wind>true</wind>
@@ -91,5 +100,857 @@
     <cd>0.025</cd>
     <weight>0.1</weight>
   </submodel>
+
+  <!-- Stores **************************************************************-->
+
+  <!-- Sidewinders -->
   
+  <submodel>
+    <name>TipL9</name>
+    <model>Aircraft/F-20/Models/Stores/Sidewinder/AIM-9LtipL.xml</model>
+    <trigger>/f-20/stores/TipL9/trigger</trigger>
+    <external-force>true</external-force>
+    <force-path>/f-20/stores/TipL9/forces</force-path>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>0.66</x-m>
+		<y-m>-4.039</y-m>
+		<z-m>-0.46</z-m>
+	</offsets>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>191</weight>
+  </submodel>
+
+  <submodel>
+    <name>OuterL9</name>
+    <model>Aircraft/F-20/Models/Stores/Sidewinder/AIM-9L-OL.xml</model>
+    <trigger>/f-20/stores/OuterL9/trigger</trigger>
+    <external-force>true</external-force>
+    <force-path>/f-20/stores/OuterL9/forces</force-path>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>0.1</x-m>
+		<y-m>-3.03</y-m>
+		<z-m>-0.9923</z-m>
+	</offsets>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>191</weight>
+  </submodel>
+
+  <submodel>
+    <name>InnerL9</name>
+    <model>Aircraft/F-20/Models/Stores/Sidewinder/AIM-9L-IL.xml</model>
+    <trigger>/f-20/stores/InnerL9/trigger</trigger>
+    <external-force>true</external-force>
+    <force-path>/f-20/stores/InnerL9/forces</force-path>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>0.2</x-m>
+		<y-m>-2.32</y-m>
+		<z-m>-0.9923</z-m>
+	</offsets>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>191</weight>
+  </submodel>
+
+  <submodel>
+    <name>InnerR9</name>
+    <model>Aircraft/F-20/Models/Stores/Sidewinder/AIM-9L-IR.xml</model>
+    <trigger>/f-20/stores/InnerR9/trigger</trigger>
+    <external-force>true</external-force>
+    <force-path>/f-20/stores/InnerR9/forces</force-path>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>0.2</x-m>
+		<y-m>2.32</y-m>
+		<z-m>-0.9923</z-m>
+	</offsets>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>191</weight>
+  </submodel>
+
+  <submodel>
+    <name>OuterR9</name>
+    <model>Aircraft/F-20/Models/Stores/Sidewinder/AIM-9L-OR.xml</model>
+    <trigger>/f-20/stores/OuterR9/trigger</trigger>
+    <external-force>true</external-force>
+    <force-path>/f-20/stores/OuterR9/forces</force-path>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>0.1</x-m>
+		<y-m>3.03</y-m>
+		<z-m>-0.9923</z-m>
+	</offsets>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>191</weight>
+  </submodel>
+
+   <submodel>
+    <name>TipR9</name>
+    <model>Aircraft/F-20/Models/Stores/Sidewinder/AIM-9LtipR.xml</model>
+    <trigger>/f-20/stores/TipR9/trigger</trigger>
+    <external-force>true</external-force>
+    <force-path>/f-20/stores/TipR9/forces</force-path>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>0.66</x-m>
+		<y-m>4.039</y-m>
+		<z-m>-0.46</z-m>
+	</offsets>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>191</weight>
+  </submodel>
+
+  <!--AMRAAM -->
+  
+   <submodel>
+    <name>OuterL120</name>
+    <model>Aircraft/F-20/Models/Stores/Amraam/AIM-120A-OL.xml</model>
+    <trigger>/f-20/stores/OuterL120/trigger</trigger>
+   <external-force>true</external-force>
+    <force-path>/f-20/stores/OuterL120/forces</force-path>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>335</weight>
+  </submodel>
+
+   <submodel>
+    <name>InnerL120</name>
+    <model>Aircraft/F-20/Models/Stores/Amraam/AIM-120A-IL.xml</model>
+    <trigger>/f-20/stores/InnerL120/trigger</trigger>
+    <external-force>true</external-force>
+    <force-path>/f-20/stores/InnerL120/forces</force-path>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>0.1</x-m>
+		<y-m>0.7103</y-m>
+		<z-m>0.0</z-m>
+	</offsets>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>335</weight>
+  </submodel>
+
+   <submodel>
+    <name>InnerR120</name>
+    <model>Aircraft/F-20/Models/Stores/Amraam/AIM-120A-IR.xml</model>
+    <trigger>/f-20/stores/InnerR120/trigger</trigger>
+   <external-force>true</external-force>
+    <force-path>/f-20/stores/InnerR120/forces</force-path>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>0.1</x-m>
+		<y-m>5.349</y-m>
+		<z-m>0.0</z-m>
+	</offsets>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>335</weight>
+  </submodel>
+
+   <submodel>
+    <name>OuterR120</name>
+    <model>Aircraft/F-20/Models/Stores/Amraam/AIM-120A-OR.xml</model>
+    <trigger>/f-20/stores/OuterR120/trigger</trigger>
+   <external-force>true</external-force>
+    <force-path>/f-20/stores/OuterR120/forces</force-path>
+    <force-stabilised>true</force-stabilised>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>0.0</x-m>
+		<y-m>6.058</y-m>
+		<z-m>0.0</z-m>
+	</offsets>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>335</weight>
+  </submodel>
+
+  <!-- LAU-127 -->
+  
+   <submodel>
+    <name>LAU-127-ol</name>
+    <model>Aircraft/F-20/Models/Stores/LAU-127.xml</model>
+    <trigger>/f-20/stores/LAU-127-ol/trigger</trigger>
+    <speed>0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+
+  <submodel>
+    <name>LAU-127-il</name>
+    <model>Aircraft/F-20/Models/Stores/LAU-127.xml</model>
+    <trigger>/f-20/stores/LAU-127-il/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>0.1</x-m>
+		<y-m>0.7103</y-m>
+		<z-m>0.0</z-m>
+	</offsets>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+
+   <submodel>
+    <name>LAU-127-ir</name>
+    <model>Aircraft/F-20/Models/Stores/LAU-127.xml</model>
+    <trigger>/f-20/stores/LAU-127-ir/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>0.1</x-m>
+		<y-m>5.349</y-m>
+		<z-m>0.0</z-m>
+	</offsets>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+
+  <submodel>
+    <name>LAU-127-or</name>
+    <model>Aircraft/F-20/Models/Stores/LAU-127.xml</model>
+    <trigger>/f-20/stores/LAU-127-or/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>0.0</x-m>
+		<y-m>6.058</y-m>
+		<z-m>0.0</z-m>
+	</offsets>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+  
+    <!-- LAU-115 -->
+    
+   <submodel>
+    <name>LAU-115-ol</name>
+    <model>Aircraft/F-20/Models/Stores/LAU-115.xml</model>
+    <trigger>/f-20/stores/LAU-115-ol/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>0.0</x-m>
+		<y-m>-6.058</y-m>
+		<z-m>0.0</z-m>
+	</offsets>    
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+
+  <submodel>
+    <name>LAU-115-il</name>
+    <model>Aircraft/F-20/Models/Stores/LAU-115.xml</model>
+    <trigger>/f-20/stores/LAU-115-il/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>0.1</x-m>
+		<y-m>-5.349</y-m>
+		<z-m>0.0</z-m>
+	</offsets>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+
+   <submodel>
+    <name>LAU-115-ir</name>
+    <model>Aircraft/F-20/Models/Stores/LAU-115.xml</model>
+    <trigger>/f-20/stores/LAU-115-ir/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>0.1</x-m>
+		<y-m>-0.7103</y-m>
+		<z-m>0.0</z-m>
+	</offsets>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+
+  <submodel>
+    <name>LAU-115-or</name>
+    <model>Aircraft/F-20/Models/Stores/LAU-115.xml</model>
+    <trigger>/f-20/stores/LAU-115-or/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+
+    <!-- AIM-7M -->
+    
+   <submodel>
+    <name>OuterL7</name>
+    <model>Aircraft/F-20/Models/Stores/AIM-7M.xml</model>
+    <trigger>/f-20/stores/OuterL7/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>0.0</x-m>
+		<y-m>-6.058</y-m>
+		<z-m>0.0</z-m>
+	</offsets>    
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+
+  <submodel>
+    <name>InnerL7</name>
+    <model>Aircraft/F-20/Models/Stores/AIM-7M.xml</model>
+    <trigger>/f-20/stores/InnerL7/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>0.1</x-m>
+		<y-m>-5.349</y-m>
+		<z-m>0.0</z-m>
+	</offsets>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>    
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+
+   <submodel>
+    <name>InnerR7</name>
+    <model>Aircraft/F-20/Models/Stores/AIM-7M.xml</model>
+    <trigger>/f-20/stores/InnerR7/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>0.1</x-m>
+		<y-m>-0.7103</y-m>
+		<z-m>0.0</z-m>
+	</offsets>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>    
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+
+  <submodel>
+    <name>OuterR7</name>
+    <model>Aircraft/F-20/Models/Stores/AIM-7M.xml</model>
+    <trigger>/f-20/stores/OuterR7/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>    
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+  
+ <!-- Pylons -->
+ 
+   <submodel>
+    <name>outer_pylons</name>
+    <model>Aircraft/F-20/Models/wing-outer-pylons.xml</model>
+    <trigger>/f-20/stores/outer_pylons/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>    
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+
+  <submodel>
+    <name>inner_pylons</name>
+    <model>Aircraft/F-20/Models/wing-pylons.xml</model>
+    <trigger>/f-20/stores/inner_pylons/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>    
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+
+   <submodel>
+    <name>center_pylon</name>
+    <model>Aircraft/F-20/Models/center-pylon.xml</model>
+    <trigger>/f-20/stores/center_pylon/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>    
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+  
+ <!-- Tanks -->
+ 
+   <submodel>
+    <name>CenterTank</name>
+    <model>Aircraft/F-20/Models/275-gal-tank.xml</model>
+    <trigger>/f-20/stores/CenterTank/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>    
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+
+  <submodel>
+    <name>DropR</name>
+    <model>Aircraft/F-20/Models/275-gal-tank.xml</model>
+    <trigger>/f-20/stores/DropR/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>1.43807</x-m>
+		<y-m>2.31784</y-m>
+		<z-m>0.08669</z-m>
+	</offsets>    
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>    
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+
+   <submodel>
+    <name>DropL</name>
+    <model>Aircraft/F-20/Models/275-gal-tank.xml</model>
+    <trigger>/f-20/stores/DropL/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>1.43807</x-m>
+		<y-m>-2.31784</y-m>
+		<z-m>0.08669</z-m>
+	</offsets>    
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>    
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel> 
+  
+  <!-- Sniper -->
+  
+   <submodel>
+    <name>SniperC</name>
+    <model>Aircraft/F-20/Models/Stores/sniper.xml</model>
+    <trigger>/f-20/stores/SniperC/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>-1.5</x-m>
+		<y-m>0.0</y-m>
+		<z-m>-0.98</z-m>
+	</offsets>	    
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>    
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>false</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+
+  <submodel>
+    <name>SniperL</name>
+    <model>Aircraft/F-20/Models/Stores/sniper.xml</model>
+    <trigger>/f-20/stores/SniperL/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>-0.1</x-m>
+		<y-m>-3.02</y-m>
+		<z-m>-0.895</z-m>
+	</offsets>	 
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>    
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>false</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+
+ <!-- ALQ-131 -->
+  
+   <submodel>
+    <name>AlqC</name>
+    <model>Aircraft/F-20/Models/Stores/ALQ-131.xml</model>
+    <trigger>/f-20/stores/AlqC/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>
+	<offsets>
+		<x-m>-1.39</x-m>
+		<y-m>-3.025</y-m>
+		<z-m>-0.08</z-m>
+	</offsets>	    
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>    
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>false</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+
+  <submodel>
+    <name>AlqR</name>
+    <model>Aircraft/F-20/Models/Stores/ALQ-131.xml</model>
+    <trigger>/f-20/stores/AlqR/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count> 
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact>    
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>false</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+  
+<!-- Drag Chute -->
+  
+   <submodel>
+    <name>chute</name>
+    <model>Aircraft/F-20/Models/chute.xml</model>
+    <trigger>/f-20/stores/chute/trigger</trigger>
+    <speed>0.0</speed>
+    <repeat>false</repeat>
+    <delay>0.0</delay>
+    <count>50</count>    
+    <life>10</life>
+    <expiry>true</expiry>
+    <impact>true</impact> 
+    <impact-reports>/f-20/stores/chute/impact</impact-reports>
+    <buoyancy>0</buoyancy>
+    <aero-stabilised>true</aero-stabilised>
+    <wind>true</wind>
+    <slaved>true</slaved>
+    <no-roll>false</no-roll>
+    <eda>0.01</eda>
+    <cd>0.025</cd>
+    <weight>0.1</weight>
+  </submodel>
+
  </PropertyList>

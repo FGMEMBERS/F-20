@@ -3,11 +3,8 @@
 <PropertyList>
 
  <path>chute.ac</path>
-
-  <offsets>
-  <z-m>0.0</z-m> 
-  </offsets>
   
+  <!--
   <animation>
 	<type>select</type>
 	<object-name>DeployedChute</object-name>
@@ -19,6 +16,7 @@
          </greater-than>				
 		</condition>
   </animation>  
+-->
   
   <animation>
 	<type>translate</type>
@@ -106,7 +104,7 @@
  <animation>
   <type>translate</type>
     <object-name>DeployedChute</object-name>
-	<property>/fdm/jsbsim/fcs/chute-deployement-norm</property>    
+	<property>/f-20/chute/deployement-norm</property>    
   <factor>6.71732</factor>
   <axis>
    <x>1</x>
@@ -120,7 +118,7 @@
  <animation>
 	<type>scale</type>
     <object-name>ChuteLines</object-name>
-	<property>/fdm/jsbsim/fcs/chute-deployement-norm</property>    
+	<property>/f-20/chute/deployement-norm</property>    
                
 	<x-factor>1.0</x-factor>
     <x-offset>0.0</x-offset>
@@ -135,7 +133,7 @@
  <animation>
 	<type>scale</type>
     <object-name>DeployedChute</object-name>
-	<property>/fdm/jsbsim/fcs/chute-deployement-norm</property>    
+	<property>/f-20/chute/deployement-norm</property>    
     
 	<x-factor>-0.5</x-factor>
     <x-offset>1.5</x-offset>

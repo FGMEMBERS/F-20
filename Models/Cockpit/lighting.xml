@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<PropertyList>
+	
+ <effect>
+  <name>panel-faces-lighting</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/panelFacesLM</inherits-from>
+   <object-name>ArmPanel</object-name>
+   <object-name>GearPanel</object-name>
+   <object-name>JettisonPanel</object-name>
+   <object-name>AudioPanel</object-name>
+   <object-name>PneumaticPanel</object-name>
+   <object-name>ElecPanel</object-name>
+   <object-name>EngInstr</object-name>
+   <object-name>HydPanel</object-name>
+   <object-name>OxyPanel</object-name>
+   <object-name>AvionicsPanel</object-name>
+   <object-name>LightingPanel</object-name>
+   <object-name>FuelPumpsPanel</object-name>
+   <object-name>FuelTest</object-name>
+   <object-name>EngPanel</object-name>
+   <object-name>StrutPanel</object-name>
+   <object-name>FCTLpanel</object-name>
+   <object-name>FlapsPanel</object-name>
+   <object-name>EmerTestPanel</object-name>
+   <object-name>FlapIndPanel</object-name>
+   <object-name>FlapIndPanel</object-name>
+   <object-name>DDIL1</object-name>
+   <object-name>DDIL2</object-name>
+   <object-name>DDIL3</object-name>
+   <object-name>DDIL4</object-name>
+   <object-name>DDIL5</object-name>
+   <object-name>DDIL6</object-name>
+   <object-name>DDIL7</object-name>
+   <object-name>DDIL8</object-name>
+   <object-name>DDIL9</object-name>
+   <object-name>DDIL10</object-name>
+   <object-name>DDIL11</object-name>
+   <object-name>DDIL12</object-name>
+   <object-name>DDIL13</object-name>
+   <object-name>DDIL14</object-name>
+   <object-name>DDIL15</object-name>
+   <object-name>DDIL16</object-name>
+   <object-name>DDIL17</object-name>
+   <object-name>DDIL18</object-name>
+   <object-name>DDIL19</object-name>
+   <object-name>DDIL20</object-name>
+   <object-name>DDIR1</object-name>
+   <object-name>DDIR2</object-name>
+   <object-name>DDIR3</object-name>
+   <object-name>DDIR4</object-name>
+   <object-name>DDIR5</object-name>
+   <object-name>DDIR6</object-name>
+   <object-name>DDIR7</object-name>
+   <object-name>DDIR8</object-name>
+   <object-name>DDIR9</object-name>
+   <object-name>DDIR10</object-name>
+   <object-name>DDIR11</object-name>
+   <object-name>DDIR12</object-name>
+   <object-name>DDIR13</object-name>
+   <object-name>DDIR14</object-name>
+   <object-name>DDIR15</object-name>
+   <object-name>DDIR16</object-name>
+   <object-name>DDIR17</object-name>
+   <object-name>DDIR18</object-name>
+   <object-name>DDIR19</object-name>
+   <object-name>DDIR20</object-name>   
+   <object-name>DDILbezel</object-name> 
+   <object-name>DDIRbezel</object-name> 
+</effect>
+
+ <effect>
+  <name>dials-lighting</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/f20DialsLM</inherits-from>
+   <object-name>FuelGaugeFace</object-name>
+   <object-name>HydFltCtlFace</object-name>
+   <object-name>HydUtilFace</object-name>
+   <object-name>OxyQtyDial</object-name>
+   <object-name>CabinPressurePlate</object-name>
+   <object-name>VSIface</object-name>
+</effect>
+ 
+</PropertyList>
+ 

@@ -1,0 +1,26 @@
+<PropertyList>
+
+  	<model>
+		<path>Aircraft/F-20/Models/Stores/AIM-120A.xml</path>
+	</model>
+ 
+ 	<model>
+		<name>flame-120-IR</name>
+		<path>Aircraft/F-20/Models/Stores/missile-flame.xml</path>
+		<offsets>
+			<x-m>1.5</x-m>
+			<y-m>-3.02867</y-m>
+			<z-m>-1.01822</z-m>
+		</offsets>
+	</model>
+
+  <animation>	
+	<type>select</type>
+	 <object-name>flame-120-IR</object-name>
+		<condition>		 
+			<property>/f-20/stores/InnerR120/burning</property>
+		</condition>
+  </animation>
+ 
+</PropertyList>
+ 

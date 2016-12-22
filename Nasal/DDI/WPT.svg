@@ -13,7 +13,7 @@
    height="512"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.4 r"
    sodipodi:docname="WPT.svg">
   <defs
      id="defs4" />
@@ -24,18 +24,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="156.26918"
-     inkscape:cy="271.23846"
+     inkscape:zoom="0.7"
+     inkscape:cx="-728.93191"
+     inkscape:cy="535.74701"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1027"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-height="1028"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -54,83 +54,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-540.36218)">
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="89.351624"
-       y="1040.4786"
-       id="text2985-1-8-8-2"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="89.351624"
-         y="1040.4786"
-         id="tspan3072-9-5">RD1</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="89.519463"
-       y="1022.9259"
-       id="radio1_channel"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="89.519463"
-         y="1022.9259"
-         id="tspan3072-9-5-0">20</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="255.41071"
-       y="1040.4786"
-       id="text2985-1-8-8-2-1"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="255.41071"
-         y="1040.4786"
-         id="tspan3072-9-5-00">IDX</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="330.65518"
-       y="1040.4786"
-       id="text2985-1-8-8-2-1-9"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="330.65518"
-         y="1040.4786"
-         id="tspan3072-9-5-00-4">IFF</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="409.9137"
-       y="1040.4825"
-       id="text2985-1-8-8-2-1-9-2"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="409.9137"
-         y="1040.4825"
-         id="tspan3072-9-5-00-4-7">TCN</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="331.02814"
-       y="1022.9142"
-       id="IFF_code"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="331.02814"
-         y="1022.9142"
-         id="tspan3072-9-5-00-4-4">4327</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="409.12302"
-       y="1022.9259"
-       id="tacan_channel"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="409.12302"
-         y="1022.9259"
-         id="tspan3072-9-5-00-4-4-4">110X</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -163,34 +86,6 @@
        transform="translate(0,540.36218)"><tspan
          sodipodi:role="line"
          id="tspan3370" /></text>
-    <rect
-       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="radio_1_box"
-       width="39.234955"
-       height="19.617519"
-       x="69.924362"
-       y="1025.4004" />
-    <rect
-       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="tacan_box"
-       width="39.234955"
-       height="19.617519"
-       x="390.02396"
-       y="1025.4004" />
-    <rect
-       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="iff_box"
-       width="39.234955"
-       height="19.617519"
-       x="311.16824"
-       y="1025.4004" />
-    <rect
-       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="scratchpad_box"
-       width="116.37782"
-       height="19.617519"
-       x="197.8111"
-       y="578.98199" />
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -213,24 +108,13 @@
          x="343.33704"
          y="566.47021"
          id="tspan3283-2-3-6">ELV</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="202.36511"
-       y="593.51007"
-       id="scratchpad"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5114"
-         x="202.36511"
-         y="593.51007">scratchpad</tspan></text>
     <g
        style="color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="g4779"
        transform="translate(20.921436,7.6293945e-6)">
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9"
+         id="NorthSouth0"
          y="641.70392"
          x="88.818771"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -241,7 +125,7 @@
            sodipodi:role="line">N</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3"
+         id="EastWest0"
          y="661.90149"
          x="89.815826"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -252,7 +136,7 @@
            sodipodi:role="line">W</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3-6"
+         id="ELV0"
          y="682.09906"
          x="88.804008"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -263,7 +147,7 @@
            sodipodi:role="line">ELV</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latdeg"
+         id="latdeg0"
          y="641.95868"
          x="137.32692"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -274,7 +158,7 @@
            sodipodi:role="line">37º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longdeg"
+         id="longdeg0"
          y="662.28296"
          x="146.06407"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -285,7 +169,7 @@
            sodipodi:role="line">112º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="hdg"
+         id="elev0"
          y="682.09167"
          x="153.74104"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -296,7 +180,7 @@
            sodipodi:role="line">325</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin"
+         id="latmin0"
          y="641.70758"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -308,7 +192,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longmin"
+         id="longmin0"
          y="661.90515"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -320,7 +204,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin-2"
+         id="label0"
          y="641.70758"
          x="52.524647"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -337,7 +221,7 @@
        transform="translate(20.921436,-2.6893539)">
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-8"
+         id="NorthSouth1"
          y="718.04352"
          x="88.818771"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -348,7 +232,7 @@
            sodipodi:role="line">N</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3-60"
+         id="EastWest1"
          y="738.24109"
          x="89.815826"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -359,7 +243,7 @@
            sodipodi:role="line">W</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3-6-7"
+         id="ELV1"
          y="758.43866"
          x="88.804008"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -370,7 +254,7 @@
            sodipodi:role="line">ELV</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latdeg-9"
+         id="latdeg1"
          y="718.29834"
          x="137.32692"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -381,7 +265,7 @@
            sodipodi:role="line">37º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longdeg-8"
+         id="longdeg1"
          y="738.62256"
          x="146.06407"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -392,7 +276,7 @@
            sodipodi:role="line">112º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="hdg-0"
+         id="elev1"
          y="758.43127"
          x="153.74104"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -403,7 +287,7 @@
            sodipodi:role="line">325</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin-8"
+         id="latmin1"
          y="718.04724"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -415,7 +299,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longmin-0"
+         id="longmin1"
          y="738.24481"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -427,7 +311,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin-2-1"
+         id="label1"
          y="718.04724"
          x="52.524647"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -444,7 +328,7 @@
        transform="translate(20.921436,-0.24662018)">
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-0"
+         id="NorthSouth2"
          y="789.2511"
          x="88.818771"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -455,7 +339,7 @@
            sodipodi:role="line">N</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3-0"
+         id="EastWest2"
          y="809.44867"
          x="89.815826"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -466,7 +350,7 @@
            sodipodi:role="line">W</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3-6-4"
+         id="ELV2"
          y="829.64624"
          x="88.804008"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -477,7 +361,7 @@
            sodipodi:role="line">ELV</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latdeg-3"
+         id="latdeg2"
          y="789.50586"
          x="137.32692"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -488,7 +372,7 @@
            sodipodi:role="line">37º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longdeg-6"
+         id="longdeg2"
          y="809.83014"
          x="146.06407"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -499,7 +383,7 @@
            sodipodi:role="line">112º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="hdg-9"
+         id="elev2"
          y="829.63879"
          x="153.74104"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -510,7 +394,7 @@
            sodipodi:role="line">325</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin-6"
+         id="latmin2"
          y="789.25476"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -522,7 +406,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longmin-2"
+         id="longmin2"
          y="809.45233"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -534,7 +418,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin-2-4"
+         id="label2"
          y="789.25476"
          x="52.524647"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -551,7 +435,7 @@
        transform="translate(20.921436,-2.9359818)">
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-8-2"
+         id="NorthSouth3"
          y="865.5907"
          x="88.818771"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -562,7 +446,7 @@
            sodipodi:role="line">N</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3-60-9"
+         id="EastWest3"
          y="885.78827"
          x="89.815826"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -573,7 +457,7 @@
            sodipodi:role="line">W</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3-6-7-4"
+         id="ELV3"
          y="905.98584"
          x="88.804008"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -584,7 +468,7 @@
            sodipodi:role="line">ELV</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latdeg-9-7"
+         id="latdeg3"
          y="865.84546"
          x="137.32692"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -595,7 +479,7 @@
            sodipodi:role="line">37º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longdeg-8-2"
+         id="longdeg3"
          y="886.16974"
          x="146.06407"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -606,7 +490,7 @@
            sodipodi:role="line">112º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="hdg-0-9"
+         id="elev3"
          y="905.97845"
          x="153.74104"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -617,7 +501,7 @@
            sodipodi:role="line">325</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin-8-0"
+         id="latmin3"
          y="865.59436"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -629,7 +513,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longmin-0-2"
+         id="longmin3"
          y="885.79193"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -641,7 +525,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin-2-1-3"
+         id="label3"
          y="865.59436"
          x="52.524647"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -658,7 +542,7 @@
        transform="translate(20.921436,0)">
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-8-2-9"
+         id="NorthSouth4"
          y="936.30499"
          x="88.818771"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -669,7 +553,7 @@
            sodipodi:role="line">N</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3-60-9-8"
+         id="EastWest4"
          y="956.50256"
          x="89.815826"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -680,7 +564,7 @@
            sodipodi:role="line">W</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3-6-7-4-7"
+         id="ELV4"
          y="976.70013"
          x="88.804008"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -691,7 +575,7 @@
            sodipodi:role="line">ELV</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latdeg-9-7-3"
+         id="latdeg4"
          y="936.55975"
          x="137.32692"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -702,7 +586,7 @@
            sodipodi:role="line">37º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longdeg-8-2-8"
+         id="longdeg4"
          y="956.88403"
          x="146.06407"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -713,7 +597,7 @@
            sodipodi:role="line">112º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="hdg-0-9-4"
+         id="elev4"
          y="976.69275"
          x="153.74104"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -724,7 +608,7 @@
            sodipodi:role="line">325</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin-8-0-2"
+         id="latmin4"
          y="936.30865"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -736,7 +620,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longmin-0-2-9"
+         id="longmin4"
          y="956.50623"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -748,7 +632,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin-2-1-3-6"
+         id="label4"
          y="936.30865"
          x="52.524647"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -765,7 +649,7 @@
        transform="translate(248.77858,7.4966583e-6)">
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-4"
+         id="NorthSouth5"
          y="641.70392"
          x="88.818771"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -776,7 +660,7 @@
            sodipodi:role="line">N</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3-2"
+         id="EastWest5"
          y="661.90149"
          x="89.815826"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -787,7 +671,7 @@
            sodipodi:role="line">W</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3-6-8"
+         id="ELV5"
          y="682.09906"
          x="88.804008"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -798,7 +682,7 @@
            sodipodi:role="line">ELV</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latdeg-1"
+         id="latdeg5"
          y="641.95868"
          x="137.32692"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -809,7 +693,7 @@
            sodipodi:role="line">37º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longdeg-7"
+         id="longdeg5"
          y="662.28296"
          x="146.06407"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -820,7 +704,7 @@
            sodipodi:role="line">112º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="hdg-3"
+         id="elev5"
          y="682.09167"
          x="153.74104"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -831,7 +715,7 @@
            sodipodi:role="line">325</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin-0"
+         id="latmin5"
          y="641.70758"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -843,7 +727,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longmin-4"
+         id="longmin5"
          y="661.90515"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -855,7 +739,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin-2-6"
+         id="label5"
          y="641.70758"
          x="52.524647"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -872,7 +756,7 @@
        transform="translate(248.77858,-2.6893525)">
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-8-7"
+         id="NorthSouth6"
          y="718.04352"
          x="88.818771"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -883,7 +767,7 @@
            sodipodi:role="line">N</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3-60-7"
+         id="EastWest6"
          y="738.24109"
          x="89.815826"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -894,7 +778,7 @@
            sodipodi:role="line">W</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3-6-7-1"
+         id="ELV6"
          y="758.43866"
          x="88.804008"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -905,7 +789,7 @@
            sodipodi:role="line">ELV</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latdeg-9-8"
+         id="latdeg6"
          y="718.29834"
          x="137.32692"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -916,7 +800,7 @@
            sodipodi:role="line">37º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longdeg-8-6"
+         id="longdeg6"
          y="738.62256"
          x="146.06407"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -927,7 +811,7 @@
            sodipodi:role="line">112º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="hdg-0-0"
+         id="elev6"
          y="758.43127"
          x="153.74104"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -938,7 +822,7 @@
            sodipodi:role="line">325</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin-8-7"
+         id="latmin6"
          y="718.04724"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -950,7 +834,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longmin-0-6"
+         id="longmin6"
          y="738.24481"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -962,7 +846,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin-2-1-6"
+         id="label6"
          y="718.04724"
          x="52.524647"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -979,7 +863,7 @@
        transform="translate(248.77858,-0.2466225)">
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-0-5"
+         id="NorthSouth7"
          y="789.2511"
          x="88.818771"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -990,7 +874,7 @@
            sodipodi:role="line">N</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3-0-2"
+         id="EastWest7"
          y="809.44867"
          x="89.815826"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1001,7 +885,7 @@
            sodipodi:role="line">W</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3-6-4-2"
+         id="ELV7"
          y="829.64624"
          x="88.804008"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1012,7 +896,7 @@
            sodipodi:role="line">ELV</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latdeg-3-0"
+         id="latdeg7"
          y="789.50586"
          x="137.32692"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1023,7 +907,7 @@
            sodipodi:role="line">37º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longdeg-6-2"
+         id="longdeg7"
          y="809.83014"
          x="146.06407"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1034,7 +918,7 @@
            sodipodi:role="line">112º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="hdg-9-4"
+         id="elev7"
          y="829.63879"
          x="153.74104"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1045,7 +929,7 @@
            sodipodi:role="line">325</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin-6-0"
+         id="latmin7"
          y="789.25476"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1057,7 +941,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longmin-2-8"
+         id="longmin7"
          y="809.45233"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1069,7 +953,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin-2-4-2"
+         id="label7"
          y="789.25476"
          x="52.524647"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1086,7 +970,7 @@
        transform="translate(248.77858,-2.9359825)">
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-8-2-0"
+         id="NorthSouth8"
          y="865.5907"
          x="88.818771"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1097,7 +981,7 @@
            sodipodi:role="line">N</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3-60-9-3"
+         id="EastWest8"
          y="885.78827"
          x="89.815826"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1108,7 +992,7 @@
            sodipodi:role="line">W</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3-6-7-4-5"
+         id="ELV8"
          y="905.98584"
          x="88.804008"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1119,7 +1003,7 @@
            sodipodi:role="line">ELV</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latdeg-9-7-5"
+         id="latdeg8"
          y="865.84546"
          x="137.32692"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1130,7 +1014,7 @@
            sodipodi:role="line">37º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longdeg-8-2-1"
+         id="longdeg8"
          y="886.16974"
          x="146.06407"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1141,7 +1025,7 @@
            sodipodi:role="line">112º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="hdg-0-9-0"
+         id="elev8"
          y="905.97845"
          x="153.74104"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1152,7 +1036,7 @@
            sodipodi:role="line">325</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin-8-0-1"
+         id="latmin8"
          y="865.59436"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1164,7 +1048,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longmin-0-2-2"
+         id="longmin8"
          y="885.79193"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1176,7 +1060,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin-2-1-3-0"
+         id="label8"
          y="865.59436"
          x="52.524647"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1193,7 +1077,7 @@
        id="g4699-4">
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-8-2-9-4"
+         id="NorthSouth9"
          y="936.30499"
          x="88.818771"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1204,7 +1088,7 @@
            sodipodi:role="line">N</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3-60-9-8-0"
+         id="EastWest9"
          y="956.50256"
          x="89.815826"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1215,7 +1099,7 @@
            sodipodi:role="line">W</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="radio1_channel-9-3-6-7-4-7-4"
+         id="ELV9"
          y="976.70013"
          x="88.804008"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1226,7 +1110,7 @@
            sodipodi:role="line">ELV</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latdeg-9-7-3-3"
+         id="latdeg9"
          y="936.55975"
          x="137.32692"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1237,7 +1121,7 @@
            sodipodi:role="line">37º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longdeg-8-2-8-8"
+         id="longdeg9"
          y="956.88403"
          x="146.06407"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1248,7 +1132,7 @@
            sodipodi:role="line">112º</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="hdg-0-9-4-3"
+         id="elev9"
          y="976.69275"
          x="153.74104"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1259,7 +1143,7 @@
            sodipodi:role="line">325</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin-8-0-2-9"
+         id="latmin9"
          y="936.30865"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1271,7 +1155,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="longmin-0-2-9-1"
+         id="longmin9"
          y="956.50623"
          x="153.40869"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1283,7 +1167,7 @@
            sodipodi:role="line">12.5</tspan></text>
       <text
          sodipodi:linespacing="125%"
-         id="latmin-2-1-3-6-2"
+         id="label9"
          y="936.30865"
          x="52.524647"
          style="font-size:15.12569046px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -1294,5 +1178,75 @@
            x="52.524647"
            sodipodi:role="line">9 -</tspan></text>
     </g>
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box0"
+       width="18.520679"
+       height="20.331787"
+       x="69.668228"
+       y="626.83917" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box1"
+       width="18.520679"
+       height="20.331787"
+       x="69.668228"
+       y="700.49988" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box2"
+       width="18.520679"
+       height="20.331787"
+       x="69.668228"
+       y="774.16058" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box3"
+       width="18.520679"
+       height="20.331787"
+       x="69.668228"
+       y="847.82129" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box4"
+       width="18.520679"
+       height="20.331787"
+       x="69.668228"
+       y="921.48199" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box5"
+       width="18.520679"
+       height="20.331787"
+       x="296.24472"
+       y="626.4693" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box6"
+       width="18.520679"
+       height="20.331787"
+       x="296.24472"
+       y="700.13" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box7"
+       width="18.520679"
+       height="20.331787"
+       x="296.24472"
+       y="773.79071" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box8"
+       width="18.520679"
+       height="20.331787"
+       x="296.24472"
+       y="847.45142" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box9"
+       width="18.520679"
+       height="20.331787"
+       x="296.24472"
+       y="921.11212" />
   </g>
 </svg>

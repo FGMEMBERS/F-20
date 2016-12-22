@@ -26,11 +26,12 @@ var fuel_used_during_cycle = 0;
 
 var aft_tank_demand = 0.0;
 var forward_tank_demand = 0.0;
-var wing_tank_flowing = false;
+var right_wing_tank_flowing = false;
+var left_wing_tank_flowing = false;
 var center_tank_flowing = false;
 var center_tank_consumption = 0.0;
-var center_tank_quantity = 0.0;
-var wing_tanks_quantity = 0.0;
+var left_tank_consumption = 0.0;
+var right_tank_consumption = 0.0;
 var wing_tank_consumption = 0.0;
 var aft_tank_supply = 0.0;
 var aft_tank_fuel = 0.0;
@@ -167,14 +168,14 @@ var fuelPumpFwdToggle = func
    }
    setprop (fwd_boost_pump_switch_prop, fwd_boost_pump_switch);
  }
- 
+
 #*******************************************************************************
 #TODO : setup switches according to initialisation status i.e. cold aircraft or
 #engine running
 fuelPumpFwdToggle();
 fuelPumpAftRightToggle();
 fuelPumpAftLeftToggle();
-#******************************************************************************* 
+#*******************************************************************************
 
 #-------------------------------------------------------------------------------
 var auto_feed = true;
@@ -231,6 +232,15 @@ var BingoDn = func
 ################################################################################
 # Update function
 
+var left_drop_tank_fuel_qty = 0.0;
+var right_drop_tank_fuel_qty = 0.0;
+var center_drop_tank_fuel_qty = 0.0;
+var center_tank_capacity = 1995.0;
+var center_tank_empty = 229.0;
+var wing_tank_capacity = 2085.0;
+var wing_tank_empty = 227.0;
+var number_of_tanks_flowing = 0;
+
 #-------------------------------------------------------------------------------
 #sequence the consumption between tanks
 var updateFuelSystem = func (delta_t)
@@ -240,64 +250,72 @@ var updateFuelSystem = func (delta_t)
   fuel_used_during_cycle =  previous_forward_fuel - forward_tank_qty.getValue() ;
 
   #External tanks
-  left_wing_drop_tank_fuel_qty = left_wing_tank_fuel_qty_prop.getValue();
-  #right_wing_drop_tank_fuel_qty = right_wing_tank_fuel_qty_prop.getValue();
-  wing_tanks_quantity = left_wing_drop_tank_fuel_qty;
-  center_drop_tank_fuel_qty = center_tank_fuel_qty_prop.getValue();
-  center_tank_quantity = center_drop_tank_fuel_qty;
+  left_drop_tank_fuel_qty = getprop (drop_tank_qty_props[inner_left]);
+  right_drop_tank_fuel_qty = getprop (drop_tank_qty_props[inner_right]);
+  center_drop_tank_fuel_qty = getprop (drop_tank_qty_props[center]);
   aft_tank_fuel = aft_tank_qty.getValue();
   aft_tank_demand = aft_tank_usable_fuel - aft_tank_fuel;
-  aft_tank_supply = 0;
 
-  center_tank_flowing = center_tank_present_prop.getValue()
+  #add bleed pressure check
+  center_tank_flowing = (current_payload[center] == Fuel_tank)
                         and
                         ext_fuel_CL_feed_prop.getValue()
                         and
-                        (center_tank_fuel_qty_prop.getValue()>center_tank_empty);
+                        (center_drop_tank_fuel_qty>center_tank_empty);
 
-  wing_tank_flowing = wing_pylons_present_prop.getValue()
-                      and
-                      ext_fuel_wing_feed_prop.getValue()
-                      and
-                      (wing_tanks_quantity>wing_tank_empty);
+  left_wing_tank_flowing = (current_payload[inner_left] == Fuel_tank)
+						   and
+						   ext_fuel_wing_feed_prop.getValue()
+						   and
+						   (left_drop_tank_fuel_qty>wing_tank_empty);
 
-  if (wing_tank_flowing and center_tank_flowing)
+  right_wing_tank_flowing = (current_payload[inner_right] == Fuel_tank)
+						    and
+						    ext_fuel_wing_feed_prop.getValue()
+						    and
+						    (right_drop_tank_fuel_qty>wing_tank_empty);
+
+  number_of_tanks_flowing = center_tank_flowing
+                            +
+							left_wing_tank_flowing
+							+
+							right_wing_tank_flowing;  
+  if (center_tank_flowing)
   {
-    center_tank_consumption = aft_tank_demand / 3;
-    if ((center_tank_quantity - center_tank_consumption) < center_tank_empty)
-     center_tank_consumption = center_tank_quantity -center_tank_empty;
-    center_tank_quantity = center_tank_quantity - center_tank_consumption;
-
-    wing_tank_demand = aft_tank_demand/3.0;
-    if ((wing_tanks_quantity - wing_tank_demand) < wing_tank_empty)
-     wing_tank_demand = wing_tanks_quantity - wing_tank_empty;
-    wing_tanks_quantity = wing_tanks_quantity - wing_tank_demand;
-
-    aft_tank_supply = 2 * wing_tank_demand + center_tank_consumption;
+    center_tank_consumption = aft_tank_demand / number_of_tanks_flowing;
+    if ((center_drop_tank_fuel_qty - center_tank_consumption) < center_tank_empty)
+    center_tank_consumption = center_drop_tank_fuel_qty - center_tank_empty;
+    center_drop_tank_fuel_qty = center_drop_tank_fuel_qty - center_tank_consumption;
   }
-
-  else if (wing_tank_flowing)
+  else center_tank_consumption = 0.0;
+  
+  if (left_wing_tank_flowing)
   {
-    wing_tank_demand = aft_tank_demand/2.0;
-    if ((wing_tanks_quantity - wing_tank_demand) < wing_tank_empty)
-     wing_tank_demand = wing_tanks_quantity - wing_tank_empty;
-
-    wing_tanks_quantity = wing_tanks_quantity - wing_tank_demand;
-    aft_tank_supply = 2 * wing_tank_demand;
+    left_tank_consumption = aft_tank_demand/number_of_tanks_flowing;
+    if ((left_drop_tank_fuel_qty - left_tank_consumption) < wing_tank_empty)
+     left_tank_consumption = left_drop_tank_fuel_qty - wing_tank_empty;
+    left_drop_tank_fuel_qty = left_drop_tank_fuel_qty - left_tank_consumption;
   }
-
-  else if (center_tank_flowing)
+  else left_tank_consumption = 0.0;
+  
+  if (right_wing_tank_flowing)
   {
-    center_tank_consumption = aft_tank_demand;
-    if ((center_tank_quantity - center_tank_consumption) < center_tank_empty)
-     center_tank_consumption = center_tank_quantity -center_tank_empty;
-    aft_tank_supply = center_tank_consumption;
-    center_tank_quantity = center_tank_quantity - center_tank_consumption;
-  }
-
-  left_wing_tank_fuel_qty_prop.setValue (wing_tanks_quantity);
-  right_wing_tank_fuel_qty_prop.setValue (wing_tanks_quantity);
-  center_tank_fuel_qty_prop.setValue (center_tank_quantity);
+    right_tank_consumption = aft_tank_demand/number_of_tanks_flowing;
+    if ((right_drop_tank_fuel_qty - right_tank_consumption) < wing_tank_empty)
+     right_tank_consumption = right_drop_tank_fuel_qty - wing_tank_empty;
+    right_drop_tank_fuel_qty = right_drop_tank_fuel_qty - right_tank_consumption;
+  }  
+  else right_tank_consumption = 0.0;
+     
+  aft_tank_supply = right_tank_consumption
+					+
+					left_tank_consumption
+					+
+					center_tank_consumption;
+					
+  setprop (drop_tank_qty_props[inner_left], left_drop_tank_fuel_qty);
+  setprop (drop_tank_qty_props[inner_right], right_drop_tank_fuel_qty);
+  setprop (drop_tank_qty_props[center], center_drop_tank_fuel_qty);
 
   	 #Fuel pressure
 	 if (!WOW and N2 < 60) dc_boost_pump.switchOn();
@@ -370,12 +388,15 @@ var updateFuelSystem = func (delta_t)
     previous_forward_fuel = forward_tank_qty.getValue();
 
     #display
+     var brightness = fuel_panel_light.intensity
+					  *
+					 (engine_panel_light.commanded_intensity*0.9 + 0.1);
      var total_fuel = TotalFuel_prop.getValue();
 	 if (getprop(fuel_test_in_progress_prop))
 	 {
 		 TotalFuelText.setText(5555)
-					  .setColor(fuel_panel_light.intensity*0.8,
-								fuel_panel_light.intensity*0.6,
+					  .setColor(brightness*0.8,
+								brightness*0.6,
 								0);
 		 forward_fuel_gauge.computeReading(1500);
 		 aft_fuel_gauge.computeReading(1500);
@@ -383,8 +404,8 @@ var updateFuelSystem = func (delta_t)
 	 else
 	 {
 	      TotalFuelText.setText(int(total_fuel))
-					   .setColor(fuel_panel_light.intensity*0.8,
-								 fuel_panel_light.intensity*0.6,
+					   .setColor(brightness*0.8,
+								 brightness*0.6,
 								 0);
 		  forward_fuel_gauge.computeReading(previous_forward_fuel);
 		  aft_fuel_gauge.computeReading(aft_tank_fuel);

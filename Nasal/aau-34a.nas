@@ -10,9 +10,24 @@ var AltBarel1k = props.globals.getNode("/instrumentation/altimeter/alt-barel-1k"
 var AltBarel10k = props.globals.getNode("/instrumentation/altimeter/alt-barel-10k");
 
 var measured_altitude_prop = props.globals.getNode("/instrumentation/altimeter/indicated-altitude-ft");
-var baro_setting_prop = props.globals.getNode("/instrumentation/altimeter/setting-inhg");
+var baro_setting_prop = "/instrumentation/altimeter/setting-inhg";
+var baro_setting = getprop (baro_setting_prop);
 
+#----------------------------------------------------------------------
+var baroSetUp = func ()
+{
+ baro_setting = baro_setting + 0.0025;
+ setprop (baro_setting_prop,baro_setting);
+ baro_timer = 5.0;
+}
 
+#----------------------------------------------------------------------
+var baroSetDn = func ()
+{
+ baro_setting = baro_setting - 0.0025;
+ setprop (baro_setting_prop,baro_setting);
+ baro_timer = 5.0;
+}
 
 #----------------------------------------------------------------------
 var animateBarel = func (value, unit, animation_margin)
@@ -43,21 +58,25 @@ var animateBarel = func (value, unit, animation_margin)
   return final_value * 36.0;
 }
 
-var baro_setting = 0;
-
 #----------------------------------------------------------------------
 var updateAltimeter = func
 {
     measured_altitude = measured_altitude_prop.getValue();
-    baro_setting = baro_setting_prop.getValue();
+    baro_setting = getprop(baro_setting_prop);
    
     BaroBarel1.setValue(animateBarel(baro_setting,0.01,0.1));
     BaroBarel2.setValue(animateBarel(baro_setting,0.1,0.1));
     BaroBarel3.setValue(animateBarel(baro_setting,1.0,0.1));
     BaroBarel4.setValue(animateBarel(baro_setting,10,0.01));
     
-    AltBarel100.setValue(animateBarel(measured_altitude,100,0.1));
-    AltBarel1k.setValue(animateBarel(measured_altitude,1000,0.01));
-    AltBarel10k.setValue(animateBarel(measured_altitude,10000,0.001));
+    if (measured_altitude>0)
+    {
+		AltBarel100.setValue(animateBarel(measured_altitude,100,0.1));
+		AltBarel1k.setValue(animateBarel(measured_altitude,1000,0.01));  
+		if (measured_altitude>10)  
+		AltBarel10k.setValue(animateBarel(measured_altitude,10000,0.001));
+	}
+
+    
 
 }

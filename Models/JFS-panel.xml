@@ -2,6 +2,7 @@
 
  <path>JFS-panel.ac</path>
  
+ <!-- JFS -->
   <animation>
   <type>pick</type>
    <object-name>JFSswitch</object-name>
@@ -84,6 +85,146 @@
 	   <blue>0.25</blue>
 	   <factor-prop>/f-20/JFS/ready</factor-prop>
 	  </emission>
-  </animation>			
+  </animation>		
+
+<!-- Radio altimeter-->
+ <animation>
+  <type>pick</type>
+   <object-name>RADALT</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <binding>
+		<command>nasal</command>
+		<script>f20.radAltToggle();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>rotate</type>
+    <object-name>RADALT</object-name>
+	<property>/controls/avionics/radalt-switch</property>    
+    <factor>40</factor>
+    <offset-deg>-20</offset-deg>
+  <center>
+   <x-m>-3.75746</x-m>
+   <y-m>0.40392</y-m>
+   <z-m>-0.07844</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>-1</y>
+   <z>0</z>
+  </axis>
+ </animation> 
+ 
+ <!-- Autopilot-->
+ <animation>
+  <type>pick</type>
+   <object-name>APalt</object-name>
+   <action>
+    <button>3</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.pitchSwitchUp();</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>pick</type>
+   <object-name>APalt</object-name>
+   <action>
+    <button>4</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.pitchSwitchDn();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>rotate</type>
+    <object-name>APalt</object-name>
+	<property>/controls/avionics/AP-pitch-switch</property>    
+    <factor>20</factor>
+    <offset-deg>-20</offset-deg>
+  <center>
+   <x-m>-3.89496</x-m>
+   <y-m>-0.32021</y-m>
+   <z-m>-0.07983</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>-1</y>
+   <z>0</z>
+  </axis>
+ </animation> 
+
+ <animation>
+  <type>pick</type>
+   <object-name>APhdg</object-name>
+   <action>
+    <button>3</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.rollSwitchUp();</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>pick</type>
+   <object-name>APhdg</object-name>
+   <action>
+    <button>4</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.rollSwitchDn();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+ <animation>
+  <type>rotate</type>
+    <object-name>APhdg</object-name>
+	<property>/controls/avionics/AP-roll-switch</property>    
+    <factor>20</factor>
+    <offset-deg>-20</offset-deg>
+  <center>
+   <x-m>-3.89496</x-m>
+   <y-m>-0.32021</y-m>
+   <z-m>-0.07983</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>-1</y>
+   <z>0</z>
+  </axis>
+ </animation> 
+
+<!-- misc effects -->
+
+<effect>
+  <name>JFS-panel-faces-lighting</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/panelFacesProtoLM</inherits-from>
+   <object-name>APUPanel</object-name>
+</effect>
+
+<effect>
+  <name>Sensors-panel-faces-lighting</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/panelFacesLM</inherits-from>
+   <object-name>APILS</object-name>
+   <object-name>Sensors</object-name>
+</effect>
  
 </PropertyList>

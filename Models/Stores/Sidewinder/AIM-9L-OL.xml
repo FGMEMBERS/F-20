@@ -1,0 +1,24 @@
+<PropertyList>
+
+  	<model>
+		<path>Aircraft/F-20/Models/Stores/AIM-9L.xml</path>
+	</model>
+ 
+ 	<model>
+		<name>flame-9-OL</name>
+		<path>Aircraft/F-20/Models/Stores/missile-flame.xml</path>
+		<offsets>
+			<x-m>1.3</x-m>
+		</offsets>
+	</model>
+
+  <animation>	
+	<type>select</type>
+	 <object-name>flame-9-OL</object-name>
+		<condition>		 
+			<property>/f-20/stores/OuterL9/burning</property>
+		</condition>
+  </animation>
+ 
+</PropertyList>
+ 

@@ -55,10 +55,12 @@ var toggleGear = func
      if (handle_command == handle_down)
       {
         handle_command = handle_up;
+        HUD_page.hideLandingSymbology();
       }
       else
       {
         handle_command = handle_down;
+        HUD_page.showLandingSymbology();
       }
       setprop (gear_commanded_down_prop,handle_command);
       interpolate (gear_handle_position_prop, handle_command, handle_transit_time);

@@ -597,7 +597,7 @@
    <!-- speed stability law -->      
    <pure_gain name = "cas-pitch-speed-stability-law">
     <input>accelerations/udot-ft_sec2</input>
-    <gain>-0.05</gain>
+    <gain>-0.025</gain>
       <clipto>
         <min> -0.2 </min>
         <max>  0.2 </max>

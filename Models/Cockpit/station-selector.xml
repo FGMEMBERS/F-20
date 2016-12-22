@@ -1,0 +1,608 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+<!-- Stores management panel *******************************************************-->
+
+<!-- buttons ****************************************************** -->
+
+<!-- Tip left -->
+
+ <animation>
+  <type>translate</type>
+	<object-name>TipL</object-name>
+    <property>/f-20/stores/management-panel/TipL/pressed</property>
+    <factor>-0.001</factor>
+  <axis>
+   <x>1.0</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+  <animation>
+  <type>pick</type>
+   <object-name>TipL</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.pressStationButton (0);</script>
+    </binding>
+   </action>
+ </animation>
+
+<animation>
+	
+  <type>texmultiple</type>
+  <object-name>TipL</object-name>
+
+  <transform>
+	<subtype>textranslate</subtype>
+	<property>/f-20/stores/management-panel/TipL/x-shift</property>
+	<factor>0.5</factor>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+	</axis>
+  </transform>
+
+  <transform>
+	<subtype>textranslate</subtype>
+	<property>/f-20/stores/management-panel/TipL/y-shift</property>
+	<factor>0.5</factor>
+	<axis>
+		<x>0</x>
+		<y>-1</y>
+	</axis>
+  </transform>
+
+</animation>
+
+<!-- Outer left -->
+
+ <animation>
+  <type>translate</type>
+	<object-name>OuterL</object-name>
+    <property>/f-20/stores/management-panel/OuterL/pressed</property>
+    <factor>-0.001</factor>
+  <axis>
+   <x>1.0</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+  <animation>
+  <type>pick</type>
+   <object-name>OuterL</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.pressStationButton (1);</script>
+    </binding>
+   </action>
+ </animation>
+
+<animation>
+	
+  <type>texmultiple</type>
+  <object-name>OuterL</object-name>
+
+  <transform>
+	<subtype>textranslate</subtype>
+	<property>/f-20/stores/management-panel/OuterL/x-shift</property>
+	<factor>0.5</factor>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+	</axis>
+  </transform>
+
+  <transform>
+	<subtype>textranslate</subtype>
+	<property>/f-20/stores/management-panel/OuterL/y-shift</property>
+	<factor>0.5</factor>
+	<axis>
+		<x>0</x>
+		<y>-1</y>
+	</axis>
+  </transform>
+
+</animation>
+  
+<!-- Inner left -->
+
+ <animation>
+  <type>translate</type>
+	<object-name>InnerL</object-name>
+    <property>/f-20/stores/management-panel/InnerL/pressed</property>
+    <factor>-0.001</factor>
+  <axis>
+   <x>1.0</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+  <animation>
+  <type>pick</type>
+   <object-name>InnerL</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.pressStationButton (2);</script>
+    </binding>
+   </action>
+ </animation>
+
+<animation>
+	
+  <type>texmultiple</type>
+  <object-name>InnerL</object-name>
+
+  <transform>
+	<subtype>textranslate</subtype>
+	<property>/f-20/stores/management-panel/InnerL/x-shift</property>
+	<factor>0.5</factor>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+	</axis>
+  </transform>
+
+  <transform>
+	<subtype>textranslate</subtype>
+	<property>/f-20/stores/management-panel/InnerL/y-shift</property>
+	<factor>0.5</factor>
+	<axis>
+		<x>0</x>
+		<y>-1</y>
+	</axis>
+  </transform>
+
+</animation>
+
+  
+<!-- Center -->
+
+ <animation>
+  <type>translate</type>
+	<object-name>CTR</object-name>
+    <property>/f-20/stores/management-panel/CTR/pressed</property>
+    <factor>-0.001</factor>
+  <axis>
+   <x>1.0</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+  <animation>
+  <type>pick</type>
+   <object-name>CTR</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.pressStationButton (3);</script>
+    </binding>
+   </action>
+ </animation>
+
+<animation>
+	
+  <type>texmultiple</type>
+  <object-name>CTR</object-name>
+
+  <transform>
+	<subtype>textranslate</subtype>
+	<property>/f-20/stores/management-panel/CTR/x-shift</property>
+	<factor>0.5</factor>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+	</axis>
+  </transform>
+
+  <transform>
+	<subtype>textranslate</subtype>
+	<property>/f-20/stores/management-panel/CTR/y-shift</property>
+	<factor>0.5</factor>
+	<axis>
+		<x>0</x>
+		<y>-1</y>
+	</axis>
+  </transform>
+
+</animation>
+
+  
+<!-- Inner right -->
+
+ <animation>
+  <type>translate</type>
+	<object-name>InnerR</object-name>
+    <property>/f-20/stores/management-panel/InnerR/pressed</property>
+    <factor>-0.001</factor>
+  <axis>
+   <x>1.0</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+  <animation>
+  <type>pick</type>
+   <object-name>InnerR</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.pressStationButton (4);</script>
+    </binding>
+   </action>
+ </animation>
+
+<animation>
+	
+  <type>texmultiple</type>
+  <object-name>InnerR</object-name>
+
+  <transform>
+	<subtype>textranslate</subtype>
+	<property>/f-20/stores/management-panel/InnerR/x-shift</property>
+	<factor>0.5</factor>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+	</axis>
+  </transform>
+
+  <transform>
+	<subtype>textranslate</subtype>
+	<property>/f-20/stores/management-panel/InnerR/y-shift</property>
+	<factor>0.5</factor>
+	<axis>
+		<x>0</x>
+		<y>-1</y>
+	</axis>
+  </transform>
+
+</animation>
+  
+<!-- Outer right -->
+
+ <animation>
+  <type>translate</type>
+	<object-name>OuterR</object-name>
+    <property>/f-20/stores/management-panel/OuterR/pressed</property>
+    <factor>-0.001</factor>
+  <axis>
+   <x>1.0</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+  <animation>
+  <type>pick</type>
+   <object-name>OuterR</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.pressStationButton (5);</script>
+    </binding>
+   </action>
+ </animation>
+
+<animation>
+	
+  <type>texmultiple</type>
+  <object-name>OuterR</object-name>
+
+  <transform>
+	<subtype>textranslate</subtype>
+	<property>/f-20/stores/management-panel/OuterR/x-shift</property>
+	<factor>0.5</factor>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+	</axis>
+  </transform>
+
+  <transform>
+	<subtype>textranslate</subtype>
+	<property>/f-20/stores/management-panel/OuterR/y-shift</property>
+	<factor>0.5</factor>
+	<axis>
+		<x>0</x>
+		<y>-1</y>
+	</axis>
+  </transform>
+
+</animation>
+
+  
+<!-- Tip right -->
+
+ <animation>
+  <type>translate</type>
+	<object-name>TipR</object-name>
+    <property>/f-20/stores/management-panel/TipR/pressed</property>
+    <factor>-0.001</factor>
+  <axis>
+   <x>1.0</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+  <animation>
+  <type>pick</type>
+   <object-name>TipR</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.pressStationButton (6);</script>
+    </binding>
+   </action>
+ </animation>
+
+<animation>
+	
+  <type>texmultiple</type>
+  <object-name>TipR</object-name>
+  
+  <transform>
+	<subtype>textranslate</subtype>
+	<property>/f-20/stores/management-panel/TipR/y-shift</property>
+	<factor>0.5</factor>
+	<axis>
+		<x>0</x>
+		<y>-1</y>
+	</axis>
+  </transform>  
+
+  <transform>
+	<subtype>textranslate</subtype>
+	<property>/f-20/stores/management-panel/TipR/x-shift</property>
+	<factor>0.5</factor>
+	<axis>
+		<x>1</x>
+		<y>0</y>
+	</axis>
+  </transform>
+
+</animation>
+
+ <effect>
+  <name>arm-switches</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/arm-switches</inherits-from>
+   <object-name>TipR</object-name>
+   <object-name>OuterR</object-name>
+   <object-name>InnerR</object-name>
+   <object-name>CTR</object-name>
+   <object-name>InnerL</object-name>
+   <object-name>OuterL</object-name>
+   <object-name>TipL</object-name>
+</effect>
+  
+  <!-- Master arm -->
+  <!-- Always off, no weapons system implemented -->
+  
+ <animation>
+  <type>rotate</type>
+    <object-name>MasterArm</object-name>
+	<offset-deg>15</offset-deg>
+  <center>
+   <x-m>-3.981</x-m>
+   <y-m>-0.18085</y-m>
+   <z-m>0.05919</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+ <!-- Jettison selector -->
+ <animation>
+  <type>pick</type>
+   <object-name>JettSelectSwitch</object-name>
+   <action>
+    <button>3</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.jettisonSwitchUp();</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>pick</type>
+   <object-name>JettSelectSwitch</object-name>
+   <action>
+    <button>4</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.jettisonSwitchDn();</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+    <object-name>JettSelectSwitch</object-name>
+	<property>/f-20/stores/management-panel/selector</property>
+	<factor>-20</factor>
+	<offset-deg>20</offset-deg>
+  <center>
+   <x-m>-3.981</x-m>
+   <y-m>-0.09733</y-m>
+   <z-m>0.05674</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+      
+<!-- Emer jettison cover -->
+  <animation>
+  <type>pick</type>
+   <object-name>EmerJettCover</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+	<binding>
+	  <command>property-toggle</command>
+	  <property>/f-20/stores/management-panel/emerJettCover</property>
+	</binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+    <object-name>EmerJettCover</object-name>
+	<property>/f-20/stores/management-panel/emerJettCover</property>
+	<factor>-120</factor>
+  <center>
+   <x-m>-3.96753</x-m>
+   <y-m>-0.10557</y-m>
+   <z-m>0.12945</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>    
+ 
+ <!-- Emergency jettison -->
+
+ <animation>
+  <type>translate</type>
+	<object-name>EmerJett</object-name>
+    <property>/f-20/stores/management-panel/emerJettButton</property>
+    <factor>-0.002</factor>
+  <axis>
+   <x>1.0</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+  <animation>
+  <type>pick</type>
+   <object-name>EmerJett</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.emerJettisonPress ();</script>
+    </binding>
+   </action>
+ </animation>
+ 
+  <!-- Jettison -->
+
+ <animation>
+  <type>translate</type>
+	<object-name>SelectJett</object-name>
+    <property>/f-20/stores/management-panel/jettButton</property>
+    <factor>-0.002</factor>
+  <axis>
+   <x>1.0</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+  <animation>
+  <type>pick</type>
+   <object-name>SelectJett</object-name>
+   <action>
+    <button>0</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.jettisonPress ();</script>
+    </binding>
+   </action>
+ </animation>
+
+ <!-- Brightness knob -->
+ <animation>
+  <type>pick</type>
+   <object-name>ArmBrightness</object-name>
+   <action>
+    <button>3</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.armBrtUp();</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>pick</type>
+   <object-name>ArmBrightness</object-name>
+   <action>
+    <button>4</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.armBrtDn();</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+    <object-name>ArmBrightness</object-name>
+	<property>/f-20/stores/management-panel/intensity</property>
+	<factor>320</factor>
+  <center>
+   <x-m>-3.98115</x-m>
+   <y-m>-0.35303</y-m>
+   <z-m>0.05949</z-m>
+  </center>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ </PropertyList>

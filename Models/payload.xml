@@ -1,20 +1,460 @@
 <?xml version="1.0"?>
 
 <PropertyList>
+
+<!-- 
+ Payload codes
+ Reminder : check consistency with payload.nas
+ 0 : Empty
+ 1 : Fuel tank
+ 2 : smoke generator
+ 3 : Sniper pod (ALQ-33)
+ 4 : ALQ-131 ECM pod
+ 5 : AIM-120A amraam
+ 6 : AIM-9L sidewinder
+-->  
   
+ <!-- Inner pylons ********************************************************-->
     <model>
         <name>wing pylons</name>
 		<path>Aircraft/F-20/Models/wing-pylons.xml</path>
 	</model>
-  
+	
    <animation>
 	<type>select</type>
 	<object-name>wing pylons</object-name>
 		<condition>
-				<property>/f-20/wing-pylons-present</property>			
+				<property>/f-20/external-load/wing-pylons-present</property>			
+		</condition>
+  </animation>  	
+	
+<!-- Outer pylons ********************************************************* -->	
+	
+    <model>
+        <name>wing outer pylons</name>
+		<path>Aircraft/F-20/Models/wing-outer-pylons.xml</path>
+	</model>
+	
+   <animation>
+	<type>select</type>
+	<object-name>wing outer pylons</object-name>
+		<condition>
+				<property>/f-20/external-load/wing-outer-pylons-present</property>			
+		</condition>
+  </animation>  	
+	
+<!-- ALQ-131 ************************************************************** -->	
+    <model>
+        <name>right-ALQ-131</name>
+		<path>Aircraft/F-20/Models/ALQ-131.xml</path>
+	</model>
+	
+    <model>
+        <name>center-ALQ-131</name>
+		<path>Aircraft/F-20/Models/ALQ-131.xml</path>
+		<offsets>
+			<x-m>-1.39</x-m>
+			<y-m>-3.025</y-m>
+			<z-m>-0.08</z-m>
+		</offsets>		
+	</model>
+	
+   <animation>
+	<type>select</type>
+	<object-name>center-ALQ-131</object-name>
+		<condition>
+			<equals>
+				<property>/f-20/external-load/center-payload</property>			
+				<value>4</value>
+            </equals>				
+		</condition>
+  </animation>
+  
+  <animation>
+	<type>select</type>
+	<object-name>right-ALQ-131</object-name>
+		<condition>
+			<equals>
+				<property>/f-20/external-load/outer-right-payload</property>			
+				<value>4</value>
+            </equals>				
+		</condition>
+  </animation> 	
+	
+<!-- Sniper ************************************************************** -->	
+    <model>
+        <name>left-sniper</name>
+		<path>Aircraft/F-20/Models/sniper.xml</path>
+		<offsets>
+			<x-m>-0.1</x-m>
+			<y-m>-3.02</y-m>
+			<z-m>-0.895</z-m>
+		</offsets>			
+	</model>
+	
+    <model>
+        <name>center-sniper</name>
+		<path>Aircraft/F-20/Models/sniper.xml</path>
+		<offsets>
+			<x-m>-1.5</x-m>
+			<y-m>0.0</y-m>
+			<z-m>-0.98</z-m>
+		</offsets>		
+	</model>
+	
+   <animation>
+	<type>select</type>
+	<object-name>center-sniper</object-name>
+		<condition>
+			<equals>
+				<property>/f-20/external-load/center-payload</property>			
+				<value>3</value>
+            </equals>				
+		</condition>
+  </animation>
+  
+  <animation>
+	<type>select</type>
+	<object-name>left-sniper</object-name>
+		<condition>
+			<equals>
+				<property>/f-20/external-load/outer-left-payload</property>			
+				<value>3</value>
+            </equals>				
 		</condition>
   </animation>  
+	
+<!-- Rail Launchers ******************************************************* -->		
+    <model>
+        <name>outer_left_rail</name>
+		<path>Aircraft/F-20/Models/LAU-127.xml</path>
+	</model>	
+	
+    <model>
+        <name>outer_right_rail</name>
+		<path>Aircraft/F-20/Models/LAU-127.xml</path>
+		<offsets>
+			<x-m>0.0</x-m>
+			<y-m>6.058</y-m>
+			<z-m>0.0</z-m>
+		</offsets>				
+	</model>	
+	
+   <animation>
+	<type>select</type>
+	<object-name>outer_left_rail</object-name>
+		<condition>
+				<property>/f-20/external-load/outer-left-rail</property>						
+		</condition>
+  </animation>	
   
+   <animation>
+	<type>select</type>
+	<object-name>outer_right_rail</object-name>
+		<condition>
+				<property>/f-20/external-load/outer-right-rail</property>						
+		</condition>
+  </animation>	  
+  
+   <animation>
+	<type>select</type>
+	<object-name>WingPylonsStandOutRight</object-name>
+	<object-name>WingRestraintsOutRight</object-name>
+		<condition>
+			<not>
+				<property>/f-20/external-load/outer-right-rail</property>						
+			</not>
+		</condition>
+  </animation>	
+  
+   <animation>
+	<type>select</type>
+	<object-name>WingPylonsStandOutLeft</object-name>
+	<object-name>WingRestraintsOutLeft</object-name>
+		<condition>
+			<not>
+				<property>/f-20/external-load/outer-left-rail</property>						
+			</not>
+		</condition>
+  </animation>  
+  	
+	<model>
+        <name>inner_left_rail</name>
+		<path>Aircraft/F-20/Models/LAU-127.xml</path>
+		<offsets>
+			<x-m>0.1</x-m>
+			<y-m>0.7103</y-m>
+			<z-m>0.0</z-m>
+		</offsets>		
+	</model>	
+	
+    <model>
+    <name>inner_right_rail</name>
+		<path>Aircraft/F-20/Models/LAU-127.xml</path>
+		<offsets>
+			<x-m>0.1</x-m>
+			<y-m>5.349</y-m>
+			<z-m>0.0</z-m>
+		</offsets>		
+	</model>		
+	
+   <animation>
+	<type>select</type>
+	<object-name>inner_left_rail</object-name>
+		<condition>
+				<property>/f-20/external-load/inner-left-rail</property>						
+		</condition>
+  </animation>	
+  
+   <animation>
+	<type>select</type>
+	<object-name>inner_right_rail</object-name>
+		<condition>
+				<property>/f-20/external-load/inner-right-rail</property>						
+		</condition>
+  </animation>	    	
+  
+   <animation>
+	<type>select</type>
+	<object-name>WingPylonsStandRight</object-name>
+	<object-name>WingRestraintsRight</object-name>
+		<condition>
+			<not>
+				<property>/f-20/external-load/inner-right-rail</property>						
+			</not>
+		</condition>
+  </animation>	
+  
+   <animation>
+	<type>select</type>
+	<object-name>WingPylonsStandLeft</object-name>
+	<object-name>WingRestraintsLeft</object-name>
+		<condition>
+			<not>
+				<property>/f-20/external-load/inner-left-rail</property>						
+			</not>
+		</condition>
+  </animation>    
+  
+<!-- AMRAAAM ************************************************************** -->
+    <model>
+        <name>outer_left_amraam</name>
+		<path>Aircraft/F-20/Models/AIM-120A.xml</path>
+	</model>
+
+    <model>
+        <name>outer_right_amraam</name>
+		<path>Aircraft/F-20/Models/AIM-120A.xml</path>
+		<offsets>
+			<x-m>0.0</x-m>
+			<y-m>6.058</y-m>
+			<z-m>0.0</z-m>
+		</offsets>			
+	</model>	
+	
+    <model>
+        <name>inner_left_amraam</name>
+		<path>Aircraft/F-20/Models/AIM-120A.xml</path>
+		<offsets>
+			<x-m>0.1</x-m>
+			<y-m>0.7103</y-m>
+			<z-m>0.0</z-m>
+		</offsets>			
+	</model>	
+	
+    <model>
+        <name>inner_right_amraam</name>
+		<path>Aircraft/F-20/Models/AIM-120A.xml</path>
+		<offsets>
+			<x-m>0.1</x-m>
+			<y-m>5.349</y-m>
+			<z-m>0.0</z-m>
+		</offsets>			
+	</model>-->
+	
+ <!-- Show/hide -->	
+	
+   <animation>
+	<type>select</type>
+	<object-name>outer_left_amraam</object-name>
+		<condition>
+			<equals>
+				<property>/f-20/external-load/outer-left-payload</property>			
+				<value>5</value>
+            </equals>				
+		</condition>
+  </animation>
+  
+  <animation>
+	<type>select</type>
+	<object-name>inner_left_amraam</object-name>
+		<condition>
+			<equals>
+				<property>/f-20/external-load/inner-left-payload</property>			
+				<value>5</value>
+            </equals>				
+		</condition>
+  </animation> 
+  
+  <animation>
+	<type>select</type>
+	<object-name>outer_right_amraam</object-name>
+		<condition>
+			<equals>
+				<property>/f-20/external-load/outer-right-payload</property>			
+				<value>5</value>
+            </equals>				
+		</condition>
+  </animation>
+  
+  <animation>
+	<type>select</type>
+	<object-name>inner_right_amraam</object-name>
+		<condition>
+			<equals>
+				<property>/f-20/external-load/inner-right-payload</property>			
+				<value>5</value>
+            </equals>				
+		</condition>
+  </animation> 
+	
+<!-- Sidewinder *********************************************************** -->
+	<!--
+    <model>	
+        <name>left_tip_sidewinder</name>
+		<path>Aircraft/F-20/Models/AIM-9L.xml</path>
+		<offsets>
+			<x-m>0.66</x-m>
+			<y-m>-4.039</y-m>
+			<z-m>-0.46</z-m>
+			<roll-deg>-90</roll-deg>
+		</offsets>			
+	</model>
+	-->
+
+    <model>
+        <name>outer_left_sidewinder</name>
+		<path>Aircraft/F-20/Models/AIM-9L.xml</path>
+		<offsets>
+			<x-m>0.1</x-m>
+			<y-m>-3.03</y-m>
+			<z-m>-0.9923</z-m>
+		</offsets>			
+	</model>
+
+    <model>
+        <name>outer_right_sidewinder</name>
+		<path>Aircraft/F-20/Models/AIM-9L.xml</path>
+		<offsets>
+			<x-m>0.1</x-m>
+			<y-m>3.03</y-m>
+			<z-m>-0.9923</z-m>
+		</offsets>			
+	</model>	
+	
+    <model>
+        <name>inner_left_sidewinder</name>
+		<path>Aircraft/F-20/Models/AIM-9L.xml</path>
+		<offsets>
+			<x-m>0.2</x-m>
+			<y-m>-2.32</y-m>
+			<z-m>-0.9923</z-m>
+		</offsets>		
+	</model>	
+	
+    <model>
+        <name>inner_right_sidewinder</name>
+		<path>Aircraft/F-20/Models/AIM-9L.xml</path>
+		<offsets>
+			<x-m>0.2</x-m>
+			<y-m>2.32</y-m>
+			<z-m>-0.9923</z-m>
+		</offsets>			
+	</model>	
+	
+    <model>
+        <name>right_tip_sidewinder</name>
+		<path>Aircraft/F-20/Models/AIM-9L.xml</path>
+		<offsets>
+			<x-m>0.66</x-m>
+			<y-m>4.039</y-m>
+			<z-m>-0.46</z-m>
+			<roll-deg>90</roll-deg>
+		</offsets>		
+	</model>		
+	
+	
+ <!-- Show/hide -->	
+	
+  <animation>
+	<type>select</type>
+	<object-name>outer_left_sidewinder</object-name>
+		<condition>
+			<equals>
+				<property>/f-20/external-load/outer-left-payload</property>			
+				<value>6</value>
+            </equals>				
+		</condition>
+  </animation> 
+  
+  <animation>
+	<type>select</type>
+	<object-name>inner_left_sidewinder</object-name>
+		<condition>
+			<equals>
+				<property>/f-20/external-load/inner-left-payload</property>			
+				<value>6</value>
+            </equals>				
+		</condition>
+  </animation>
+  
+  <animation>
+	<type>select</type>
+	<object-name>inner_right_sidewinder</object-name>
+		<condition>
+			<equals>
+				<property>/f-20/external-load/inner-right-payload</property>			
+				<value>6</value>
+            </equals>				
+		</condition>
+  </animation>
+  
+  <animation>
+	<type>select</type>
+	<object-name>outer_right_sidewinder</object-name>
+		<condition>
+			<equals>
+				<property>/f-20/external-load/outer-right-payload</property>			
+				<value>6</value>
+            </equals>				
+		</condition>
+  </animation>
+  <!--
+  <animation>
+	<type>select</type>
+	<object-name>left_tip_sidewinder</object-name>	
+		<condition>
+			<equals>
+				<property>/f-20/external-load/left-tip-payload</property>			
+				<value>6</value>
+            </equals>				
+		</condition>
+  </animation> 
+  -->
+  <animation>
+	<type>select</type>
+	<object-name>right_tip_sidewinder</object-name>
+		<condition>
+			<equals>
+				<property>/f-20/external-load/right-tip-payload</property>			
+				<value>6</value>
+            </equals>				
+		</condition>
+  </animation> 	   	  
+  
+  				
+
+<!-- Center pylon ********************************************************* -->  
     <model>
         <name>center pylon</name>
 		<path>Aircraft/F-20/Models/center-pylon.xml</path>
@@ -24,10 +464,11 @@
 	<type>select</type>
 	<object-name>center pylon</object-name>
 		<condition>
-				<property>/f-20/center-pylon-present</property>			
+				<property>/f-20/external-load/center-pylon-present</property>			
 		</condition>
   </animation>      
     
+<!-- Fuel tanks *********************************************************** -->    
     
     <model>
         <name>center tank</name>
@@ -38,7 +479,10 @@
 	<type>select</type>
 	<object-name>center tank</object-name>
 		<condition>
-				<property>/f-20/center-tank-present</property>			
+			<equals>				
+				<property>/f-20/external-load/center-payload</property>			
+				<value>1</value>
+            </equals>				
 		</condition>
   </animation>          
     
@@ -63,15 +507,29 @@
 		</offsets>
 	</model>      
     
-   <animation>
-	<type>select</type>
-	<object-name>left tank</object-name>
+  <animation>
+	<type>select</type>	
     <object-name>right tank</object-name>
 		<condition>
-				<property>/f-20/wing-tanks-present</property>			
+			<equals>				
+				<property>/f-20/external-load/inner-right-payload</property>			
+				<value>1</value>
+            </equals>			
 		</condition>
-  </animation>     
+  </animation>
   
+  <animation>
+	<type>select</type>
+	<object-name>left tank</object-name>
+		<condition>
+			<equals>				
+				<property>/f-20/external-load/inner-left-payload</property>			
+				<value>1</value>
+            </equals>			
+		</condition>
+  </animation>       
+  
+ <!-- Smoke Generators **************************************************** -->
     <model>
         <name>left smoke generator</name>
 		<path>Aircraft/F-20/Models/smoke-generator.xml</path>
@@ -90,16 +548,28 @@
 			<y-m>-8.086</y-m>
 			<z-m>0.0</z-m>
 		</offsets>
-	</model>          
-    
-   <animation>
+	</model>       
+     
+  <animation>
 	<type>select</type>
 	<object-name>right smoke generator</object-name>
-    <object-name>left smoke generator</object-name>
 		<condition>
-				<property>/f-20/smoke-generators-present</property>			
+			<equals>
+				<property>/f-20/external-load/right-tip-payload</property>			
+				<value>2</value>
+            </equals>				
 		</condition>
-  </animation>          
-
+  </animation> 	  
+  
+    <animation>
+	<type>select</type>
+	<object-name>left smoke generator</object-name>
+		<condition>
+			<equals>
+				<property>/f-20/external-load/left-tip-payload</property>			
+				<value>2</value>
+            </equals>				
+		</condition>
+  </animation> 
   
 </PropertyList>

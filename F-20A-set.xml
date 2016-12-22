@@ -12,7 +12,7 @@
   <aero>F-20</aero>
 
   <startup>
-   <splash-texture>Aircraft/F-20/splash.png</splash-texture>
+   <splash-texture>Aircraft/F-20/intro.png</splash-texture>
   </startup>
 
 <!--
@@ -113,51 +113,7 @@
    </key>
   </help>
 
-<!--
- <menubar>
-  <default>
-   <menu n="100">
-    <label>Tigershark</label>
-    <enabled type="bool">true</enabled>
-    <item n="1">
-        <label>Select Livery</label>
-		<binding>
-		   <command>nasal</command>
-			<script>aircraft.livery.dialog.toggle()</script>
-         </binding>
-    </item>
-    <item n="2">
-        <label>Repack drag chute</label>
-		<binding>
-		   <command>nasal</command>
-			<script>f20.repackChute()</script>
-         </binding>
-    </item>
-    <item n="3">
-        <label>Connect start cart</label>
-		<binding>
-		   <command>nasal</command>
-			<script>f20.connectStartCart()</script>
-         </binding>
-    </item>
-    <item n="4">
-        <label>Disconnect start cart</label>
-		<binding>
-		   <command>nasal</command>
-			<script>f20.disconnectStartCart()</script>
-         </binding>
-    </item>
-    <item n="5">
-        <label>Select stores</label>
-		<binding>
-		   <command>nasal</command>
-			<script>f20.showStoresDialog();</script>
-         </binding>
-    </item>
-   </menu>
-  </default>
- </menubar>
- -->
+<menubar include="gui/dialogs/f-20menu.xml"/>
 
     <rendering>
         <redout>
@@ -354,6 +310,11 @@
      <alt-barel-1k>0</alt-barel-1k>
      <alt-barel-10k>0</alt-barel-10k>
  </altimeter>
+ <aoa-indexer>
+	 <fast>0</fast>
+	 <on-speed>0</on-speed>
+	 <slow>0</slow>
+ </aoa-indexer> 
 </instrumentation>
 
 <!--Nasal ********************************************************-->
@@ -376,6 +337,7 @@
 	    <file>Aircraft/F-20/Nasal/Electrical/generic-load.nas</file>
 	   <file>Aircraft/F-20/Nasal/electrical.nas</file>
 	   <file>Aircraft/F-20/Nasal/alerting.nas</file>
+	   <file>Aircraft/F-20/Nasal/lights.nas</file>
 	   <file>Aircraft/F-20/Nasal/electrical-update.nas</file>
 
 	   <!-- Hydraulics -->
@@ -387,10 +349,16 @@
 	   <file>Aircraft/F-20/Nasal/Hydraulics/accumulator.nas</file>
 	   <file>Aircraft/F-20/Nasal/hydraulics.nas</file>
 
+       <!--external stores -->
+       <file>Aircraft/F-20/Nasal/submodel-helper.nas</file>
+       <file>Aircraft/F-20/Nasal/payload.nas</file>
+       <file>Aircraft/F-20/Nasal/launcher.nas</file>
+       <file>Aircraft/F-20/Nasal/jettison.nas</file>	   
+
        <!--GUI -->
         <file>Nasal/canvas/api.nas</file>
         <file>Nasal/canvas/PropertyElement.nas</file>
-        <file>Aircraft/F-20/Nasal/GUI/stores.nas</file>
+        <file>Aircraft/F-20/Nasal/GUI/storesA.nas</file>
         <file>Aircraft/F-20/Nasal/GUI/rounded-buttons.nas</file>
 	    <file>Aircraft/F-20/Nasal/chute.nas</file>
 	    <file>Aircraft/F-20/Nasal/ground-handling.nas</file>
@@ -398,17 +366,36 @@
 
 
        <file>Aircraft/F-20/Nasal/engines.nas</file>
-       <file>Aircraft/F-20/Nasal/payload.nas</file>
        <file>Aircraft/F-20/Nasal/counter-measures.nas</file>
 
        <file>Aircraft/F-20/Nasal/fuel.nas</file>
        <file>Aircraft/F-20/Nasal/spd-brk.nas</file>
        <file>Aircraft/F-20/Nasal/aau-34a.nas</file>
        <file>Aircraft/F-20/Nasal/enginstr.nas</file>
+       <file>Aircraft/F-20/Nasal/Instruments/aoa-indexer.nas</file>
        <file>Aircraft/F-20/Nasal/clock.nas</file>
-       <file>Aircraft/F-20/Nasal/HUD/HUD_main.nas</file>
+       
+       <!--Displays -->
+	   <file>Aircraft/F-20/Nasal/DDI/permanent_line.nas</file>
+       <file>Aircraft/F-20/Nasal/DDI/pages.nas</file>
+
+       <file>Aircraft/F-20/Nasal/Instruments/ins.nas</file>
+       <file>Aircraft/F-20/Nasal/Instruments/tacan.nas</file>
+
+       <file>Aircraft/F-20/Nasal/DDI/DDI.nas</file>
        <file>Aircraft/F-20/Nasal/DDI/IDX.nas</file>
+       <file>Aircraft/F-20/Nasal/DDI/INS_data.nas</file>
+       <file>Aircraft/F-20/Nasal/DDI/INS_align.nas</file>
+       <file>Aircraft/F-20/Nasal/DDI/WPT.nas</file>
+       <file>Aircraft/F-20/Nasal/DDI/COM.nas</file>
+       <file>Aircraft/F-20/Nasal/DDI/IFF.nas</file>
        <file>Aircraft/F-20/Nasal/DDI/HSI.nas</file>
+       <file>Aircraft/F-20/Nasal/HUD/HUD_main.nas</file>
+       <file>Aircraft/F-20/Nasal/HUD/HUD_ldg.nas</file>
+       <file>Aircraft/F-20/Nasal/HUD/HUD_nav.nas</file>
+       <file>Aircraft/F-20/Nasal/HUD/data_entry_panel.nas</file>
+       <file>Aircraft/F-20/Nasal/DDI/displays.nas</file>
+       
        <file>Aircraft/F-20/Nasal/gear.nas</file>
        <file>Aircraft/F-20/Nasal/flaps.nas</file>
        <file>Aircraft/F-20/Nasal/f-20.nas</file>
@@ -475,6 +462,7 @@
   <nozzle-pos-norm> 0.0</nozzle-pos-norm>
   <rotate-flame>1.0</rotate-flame>
   <nozzle-rotation>1.0</nozzle-rotation>
+  
   <CM>
    <chaff-selection>0</chaff-selection>
    <flare-selection>0</flare-selection>
@@ -487,22 +475,27 @@
    <button-depressed>false</button-depressed>
    <number-of-dispensers>4</number-of-dispensers>
   </CM>
+  
   <chute>
     <chute-elev-angle>0.0</chute-elev-angle>
     <chute-azim-angle>0.0</chute-azim-angle>
     <chute-decay-angle>0.0</chute-decay-angle>
     <canopy>0.0</canopy>
   </chute>
+  
   <start-cart>
 	  <visible>false</visible>
 	  <noise-on>false</noise-on>
 	  <engine-pitch>0.0</engine-pitch>
   </start-cart>
-  <wing-tanks-present>0</wing-tanks-present>
-  <wing-pylons-present>0</wing-pylons-present>
-  <center-pylon-present>0</center-pylon-present>
-  <center-tank-present>0</center-tank-present>
-  <smoke-generators-present>0</smoke-generators-present>
+  
+  <stores>
+	<management-panel>
+		<intensity>0.5</intensity>
+		<selector>1</selector>
+	</management-panel>
+  </stores>
+  
   <lights>
       <beacon>0</beacon>
       <flood>0</flood>
@@ -511,14 +504,29 @@
       <fuselage>0</fuselage>
       <DEP>0</DEP>
       <formation>0</formation>
-      <engine-instruments>0</engine-instruments>
       <flight-instruments>0</flight-instruments>
+      <eng-instr-knob>0.5</eng-instr-knob>
   </lights>
+  
+  <HUD>
+	  <intensity>50.0</intensity>
+  </HUD>  
+  
   <tuning>
       <fake-gear-compression>0.0</fake-gear-compression>
       <fake-gear-extension>0.0</fake-gear-extension>
       <fake-switch>0</fake-switch>
   </tuning>
+  
+  <HUD>
+	  <intensity>50.0</intensity>
+	  <stand-by-switch>0</stand-by-switch>
+  </HUD>
+  
+  <INS>
+	  <selector>0</selector>
+	  <ready>0</ready>
+  </INS>
 </f-20>
 
 <gear>

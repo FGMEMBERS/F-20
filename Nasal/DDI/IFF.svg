@@ -13,8 +13,8 @@
    height="512"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="HSI.svg">
+   inkscape:version="0.48.4 r"
+   sodipodi:docname="IFF.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -33,9 +33,9 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1027"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-height="1028"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,83 +56,6 @@
      transform="translate(0,-540.36218)">
     <text
        xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="89.351624"
-       y="1040.4786"
-       id="text2985-1-8-8-2"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="89.351624"
-         y="1040.4786"
-         id="tspan3072-9-5">RD1</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="89.519463"
-       y="1022.9259"
-       id="radio1_channel"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="89.519463"
-         y="1022.9259"
-         id="tspan3072-9-5-0">20</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="255.41071"
-       y="1040.4786"
-       id="text2985-1-8-8-2-1"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="255.41071"
-         y="1040.4786"
-         id="tspan3072-9-5-00">IDX</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="330.65518"
-       y="1040.4786"
-       id="text2985-1-8-8-2-1-9"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="330.65518"
-         y="1040.4786"
-         id="tspan3072-9-5-00-4">IFF</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="409.9137"
-       y="1040.4825"
-       id="text2985-1-8-8-2-1-9-2"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="409.9137"
-         y="1040.4825"
-         id="tspan3072-9-5-00-4-7">TCN</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="331.02814"
-       y="1022.9142"
-       id="IFF_code"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="331.02814"
-         y="1022.9142"
-         id="tspan3072-9-5-00-4-4">4327</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="409.12302"
-       y="1022.9259"
-       id="tacan_channel"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="409.12302"
-         y="1022.9259"
-         id="tspan3072-9-5-00-4-4-4">110X</tspan></text>
-    <text
-       xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        x="214.15234"
        y="114.50497"
@@ -141,34 +64,6 @@
        transform="translate(0,540.36218)"><tspan
          sodipodi:role="line"
          id="tspan3370" /></text>
-    <rect
-       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="radio_1_box"
-       width="39.234955"
-       height="19.617519"
-       x="69.924362"
-       y="1025.4004" />
-    <rect
-       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="tacan_box"
-       width="39.234955"
-       height="19.617519"
-       x="390.02396"
-       y="1025.4004" />
-    <rect
-       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="iff_box"
-       width="39.234955"
-       height="19.617519"
-       x="311.16824"
-       y="1025.4004" />
-    <rect
-       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="scratchpad_box"
-       width="116.37782"
-       height="19.617519"
-       x="197.8111"
-       y="578.98199" />
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -191,17 +86,6 @@
          x="419.46875"
          y="566.47412"
          id="tspan3283-2-3-6-1">MON</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="202.36511"
-       y="593.51007"
-       id="scratchpad"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5114"
-         x="202.36511"
-         y="593.51007">scratchpad</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"

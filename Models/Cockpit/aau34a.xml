@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<PropertyList>
+ 
+ <!-- Altimeter AAU 34/A ********************************************-->
+
+<animation>
+	<type>select</type>
+	<object-name>LoAltFlag</object-name>
+    <condition>
+    <less-than-equals>
+       <property>/instrumentation/altimeter/indicated-altitude-ft</property>
+	   <value>10000.0</value>
+    </less-than-equals>
+    </condition>
+</animation>
+
+ <animation>
+  <type>rotate</type>
+    <object-name>AltNeedle</object-name>
+	<property>/instrumentation/altimeter/indicated-altitude-ft</property>
+    <factor>-3.6</factor>
+  <center>
+   <x-m>-3.97692</x-m>
+   <y-m>-0.12227</y-m>
+   <z-m>0.20158</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+  <animation>
+  <type>rotate</type>
+    <object-name>AltDrum100</object-name>
+	<property>/instrumentation/altimeter/alt-barel-100</property>
+  <center>
+   <x-m>-3.98807</x-m>
+   <y-m>-0.13305</y-m>
+   <z-m>0.20229</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+    <object-name>AltDrum1000</object-name>
+	<property>/instrumentation/altimeter/alt-barel-1k</property>
+  <center>
+   <x-m>-3.99083</x-m>
+   <y-m>-0.14030</y-m>
+   <z-m>0.20246</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+  <animation>
+  <type>rotate</type>
+    <object-name>AltDrum10000</object-name>
+	<property>/instrumentation/altimeter/alt-barel-10k</property>
+  <center>
+   <x-m>-3.99083</x-m>
+   <y-m>-0.14708</y-m>
+   <z-m>0.20246</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+    <object-name>BaroDrum1</object-name>
+	<property>/instrumentation/altimeter/baro-barel-1</property>
+  <center>
+   <x-m>-3.98609</x-m>
+   <y-m>-0.10643</y-m>
+   <z-m>0.19101</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+    <object-name>BaroDrum2</object-name>
+	<property>/instrumentation/altimeter/baro-barel-2</property>
+  <center>
+   <x-m>-3.98609</x-m>
+   <y-m>-0.10643</y-m>
+   <z-m>0.19101</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+    <object-name>BaroDrum3</object-name>
+	<property>/instrumentation/altimeter/baro-barel-3</property>
+  <center>
+   <x-m>-3.98609</x-m>
+   <y-m>-0.10643</y-m>
+   <z-m>0.19101</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+    <object-name>BaroDrum4</object-name>
+	<property>/instrumentation/altimeter/baro-barel-4</property>
+  <center>
+   <x-m>-3.98609</x-m>
+   <y-m>-0.10643</y-m>
+   <z-m>0.19101</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+  <animation>
+  <type>pick</type>
+   <object-name>BaroKnob</object-name>
+   <action>
+    <button>3</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.baroSetUp();</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>pick</type>
+   <object-name>BaroKnob</object-name>
+   <action>
+    <button>4</button>
+    <repeatable>false</repeatable>
+    <interval-sec>0.2</interval-sec>
+    <binding>
+		<command>nasal</command>
+		<script>f20.baroSetDn();</script>
+    </binding>
+   </action>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+    <object-name>BaroKnob</object-name>
+	<property>/instrumentation/altimeter/setting-inhg</property>
+	<factor>-10</factor>
+  <center>
+   <x-m>-3.97466</x-m>
+   <y-m>-0.15127</y-m>
+   <z-m>0.17368</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+ <effect>
+  <name>aau34-lm</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/aau34LM</inherits-from>
+   <object-name>AltiBezel</object-name>
+   <object-name>AltiPlate</object-name>   
+</effect>   
+ 
+ <animation>
+	  <type>material</type>
+	  <object-name>BaroDrum4</object-name>
+	  <object-name>BaroDrum3</object-name>
+	  <object-name>BaroDrum2</object-name>
+	  <object-name>BaroDrum1</object-name>
+	  <object-name>AltDrum10000</object-name>
+	  <object-name>AltDrum1000</object-name>
+	  <object-name>AltDrum100</object-name>
+	  <object-name>AltNeedle</object-name>
+	  <object-name>LoAltFlag</object-name>
+	  <emission>
+		   <red>0.5</red>
+		   <green>0.5</green>
+		   <blue>0.4</blue>
+		   <factor-prop>/f-20/lights/instrument-intensity</factor-prop>
+	  </emission>
+  </animation>
+ 
+</PropertyList>

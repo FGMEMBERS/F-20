@@ -1,11 +1,25 @@
 <?xml version="1.0"?>
 <PropertyList>
-
  
  <path>f-20A-cockpit.ac</path>
  
- 
  <!-- Main artificial horizon -->
+
+    <animation>
+	  <type>material</type>
+      <object-name>Horizon</object-name>
+	  <object-name>Mockup</object-name>           
+	  <object-name>VerticalDeviation</object-name>
+	  <object-name>LateralDeviation</object-name>
+	  <object-name>RollPointer</object-name>
+	  <emission>
+		   <red>0.5</red>
+		   <green>0.5</green>
+		   <blue>0.4</blue>
+		   <factor-prop>/f-20/lights/instrument-intensity</factor-prop>
+	  </emission>
+  </animation>
+
    <animation>
   <type>rotate</type>
     <object-name>Horizon</object-name>
@@ -39,7 +53,13 @@
    <z>0</z>
   </axis>
  </animation>
- 
+  
+ <effect>
+  <name>horizon-lm</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/ARU32LM</inherits-from>
+   <object-name>HorizonBezel</object-name>
+</effect> 
+
   <!-- Counter measures panel -->
    <animation>
   <type>pick</type>
@@ -139,6 +159,19 @@
    <z>1</z>
   </axis>
  </animation>
- 
-         
+
+ <effect>
+  <name>knobs-lighting-A</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/knobsLM</inherits-from>
+   <object-name>FlareModeSelector</object-name>
+   <object-name>ChaffModeSelector</object-name> 
+</effect>   
+
+<effect>
+  <name>ECM-panel-faces-lighting</name>
+   <inherits-from>Aircraft/F-20/Effects/CockpitLightMaps/panelFacesLM</inherits-from>
+   <object-name>ECMpanel</object-name>
+</effect>
+
+
 </PropertyList>

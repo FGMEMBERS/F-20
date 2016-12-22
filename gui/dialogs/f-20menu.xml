@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <default>
+   <menu n="100">
+    <label>Tigershark</label>
+    <enabled type="bool">true</enabled>
+
+    <item n="1">
+        <label>Select Livery</label>
+		<binding>
+		   <command>nasal</command>
+			<script>aircraft.livery.dialog.toggle()</script>
+         </binding>
+    </item>
+    <item n="2">
+         <label>Ground service</label>
+           <binding>
+                    <command>dialog-show</command>
+                    <dialog-name>ground-services</dialog-name>
+           </binding>
+    </item>
+    <item n="3">
+         <label>Checklists</label>
+           <binding>
+             <command>dialog-show</command>
+             <dialog-name>ground-services</dialog-name>
+           </binding>
+    </item> 
+   </menu>
+  </default>
+</PropertyList>

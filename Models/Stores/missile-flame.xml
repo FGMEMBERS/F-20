@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+    <path>missile-flame.ac</path>-
+	<nopreview/>
+
+<animation>
+  <type>rotate</type>
+  <object-name>RocketFlame</object-name>
+  <property>/f-20/rotate-flame</property>
+  <factor>90.0</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>billboard</type>
+  <object-name>RocketFlame</object-name>
+  <spherical type="bool">false</spherical>
+ </animation>
+ 
+  	<animation>
+		<type>textranslate</type>
+		<object-name>RocketFlame</object-name>
+		<property>/f-20/flame-number</property>
+		<factor>-0.232</factor>
+		<axis>
+			<x>0</x>
+			<y>1</y>
+			<z>0</z>
+		</axis>
+	</animation>
+	
+ <model>
+  <name>smoke</name>
+  <path>Aircraft/F-20/Effects/flare-smoke.xml</path>
+  <offsets>
+   <x-m>1.5</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </offsets>
+ </model>
+	
+</PropertyList>

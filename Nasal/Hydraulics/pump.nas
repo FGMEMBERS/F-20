@@ -2,8 +2,8 @@
 #define a class for a generator
 var pump_efficiency = 0.9;
 
-var P_flow_rate = 5e-9;
-var I_flow_rate = 0;#1e-13;
+var P_flow_rate = 5e-10;
+var I_flow_rate = 5e-12;
 
 var Pump = {regulated_pressure : 3000,
 			 max_flow_rate : 0,
@@ -37,12 +37,24 @@ Pump.update = func (delta_t)
     var pressure_error = me.consumer_circuit.pressure - me.regulated_pressure;
     me.integral_term = me.integral_term  + pressure_error * delta_t;
 
+
     me.flow_rate = pressure_error * P_flow_rate
 				   +
-				   me.integral_term * I_flow_rate;
+				   me.integral_term * I_flow_rate;	
 
-   if (me.flow_rate < current_max_flow) me.flow_rate = current_max_flow;
-   if (me.flow_rate > 0) me.flow_rate = 0;
+   
+   
+   if (me.flow_rate < current_max_flow) 
+    {
+      me.flow_rate = current_max_flow;   
+      me.integral_term = 0;
+    }
+   if (me.flow_rate > 0) 
+   {
+     me.flow_rate = 0;
+     me.integral_term = 0;
+   }
+
    if (me.rpm < 2e-2 * me.nominal_rpm) me.flow_rate = 0;
  }
 

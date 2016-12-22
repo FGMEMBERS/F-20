@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+ 
+ <PropertyList>
+  <sim>
+   <model>
+    <livery>
+     <name type="string">NAVY agressors 24</name>
+     <F-20-texture>LiveriesF20C/Agressors24.png</F-20-texture>
+    </livery>
+   </model>
+  </sim>
+ </PropertyList>

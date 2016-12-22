@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<!-- 
+ Payload codes
+ Reminder : check consistency with payload.nas
+ 0 : Empty
+ 1 : Fuel tank
+ 2 : smoke generator
+ 3 : Sniper pod (ALQ-33)
+ 4 : ALQ-131 ECM pod
+ 5 : AIM-120A amraam
+ 6 : AIM-9L sidewinder
+-->  
+
+ <!-- Smoke Generators **************************************************** -->
+    <model>
+        <name>left smoke generator</name>
+		<path>Aircraft/F-20/Models/smoke-generator.xml</path>
+		<offsets>
+			<x-m>0.0</x-m>
+			<y-m>0.0</y-m>
+			<z-m>0.0</z-m>
+		</offsets>
+	</model>      
+    
+    <model>
+        <name>right smoke generator</name>
+		<path>Aircraft/F-20/Models/smoke-generator.xml</path>
+		<offsets>
+			<x-m>0.0</x-m>
+			<y-m>-8.086</y-m>
+			<z-m>0.0</z-m>
+		</offsets>
+	</model>       
+     
+  <animation>
+	<type>select</type>
+	<object-name>right smoke generator</object-name>
+		<condition>
+				<property>/f-20/stores/right-smoke-installed</property>			
+		</condition>
+  </animation> 	  
+  
+  <animation>
+	<type>select</type>
+	<object-name>left smoke generator</object-name>
+		<condition>
+				<property>/f-20/stores/left-smoke-installed</property>			
+		</condition>
+  </animation> 
+  
+   <model>
+  <name>Left Smoke</name>
+  <path>Aircraft/F-20/Effects/SmokeL.xml</path>
+  <offsets>
+   <x-m>2.0125</x-m>
+   <y-m>-3.9394</y-m>
+   <z-m>-0.55</z-m>   
+  </offsets>
+ </model>
+ 
+ <model>
+  <name>Right Smoke</name>
+  <path>Aircraft/F-20/Effects/SmokeR.xml</path>
+  <offsets>
+   <x-m>2.0125</x-m>
+   <y-m>3.9394</y-m>
+   <z-m>-0.4461</z-m>   
+  </offsets>
+ </model>
+  
+</PropertyList>

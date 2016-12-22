@@ -13,7 +13,7 @@
    height="512"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.4 r"
    sodipodi:docname="COMM.svg">
   <defs
      id="defs4" />
@@ -24,18 +24,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="194.22278"
-     inkscape:cy="252.64141"
+     inkscape:zoom="1.979899"
+     inkscape:cx="71.095381"
+     inkscape:cy="295.8632"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1027"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-height="1028"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -54,83 +54,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-540.36218)">
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="89.351624"
-       y="1040.4786"
-       id="text2985-1-8-8-2"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="89.351624"
-         y="1040.4786"
-         id="tspan3072-9-5">RD1</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="89.519463"
-       y="1022.9259"
-       id="radio1_channel"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="89.519463"
-         y="1022.9259"
-         id="tspan3072-9-5-0">20</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="255.41071"
-       y="1040.4786"
-       id="text2985-1-8-8-2-1"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="255.41071"
-         y="1040.4786"
-         id="tspan3072-9-5-00">IDX</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="330.65518"
-       y="1040.4786"
-       id="text2985-1-8-8-2-1-9"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="330.65518"
-         y="1040.4786"
-         id="tspan3072-9-5-00-4">IFF</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="409.9137"
-       y="1040.4825"
-       id="text2985-1-8-8-2-1-9-2"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="409.9137"
-         y="1040.4825"
-         id="tspan3072-9-5-00-4-7">TCN</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="331.02814"
-       y="1022.9142"
-       id="IFF_code"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="331.02814"
-         y="1022.9142"
-         id="tspan3072-9-5-00-4-4">4327</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="409.12302"
-       y="1022.9259"
-       id="tacan_channel"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="409.12302"
-         y="1022.9259"
-         id="tspan3072-9-5-00-4-4-4">110X</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -152,34 +75,6 @@
        transform="translate(0,540.36218)"><tspan
          sodipodi:role="line"
          id="tspan3370" /></text>
-    <rect
-       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="radio_1_box"
-       width="39.234955"
-       height="19.617519"
-       x="69.924362"
-       y="1025.4004" />
-    <rect
-       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="tacan_box"
-       width="39.234955"
-       height="19.617519"
-       x="390.02396"
-       y="1025.4004" />
-    <rect
-       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="iff_box"
-       width="39.234955"
-       height="19.617519"
-       x="311.16824"
-       y="1025.4004" />
-    <rect
-       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="scratchpad_box"
-       width="116.37782"
-       height="19.617519"
-       x="197.8111"
-       y="578.98199" />
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -191,17 +86,6 @@
          x="343.33704"
          y="566.47021"
          id="tspan3283-2-3-6">FRQ</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
-       x="202.36511"
-       y="593.51007"
-       id="scratchpad"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5114"
-         x="202.36511"
-         y="593.51007">scratchpad</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:18.68894005px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;font-family:Liberation Mono;-inkscape-font-specification:Liberation Mono Bold"
@@ -708,5 +592,152 @@
          x="288.35782"
          y="939.23615"
          id="tspan3283-2-3-6-0-3-8-3-0-9-9-1">250.12</tspan></text>
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_1"
+       width="18.520679"
+       height="20.331787"
+       x="91.811089"
+       y="657.55341" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_2"
+       width="18.520679"
+       height="20.331787"
+       x="91.811089"
+       y="681.95819" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_3"
+       width="18.520679"
+       height="20.331787"
+       x="91.811089"
+       y="706.36292" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_4"
+       width="18.520679"
+       height="20.331787"
+       x="91.811089"
+       y="730.7677" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_5"
+       width="18.520679"
+       height="20.331787"
+       x="91.811089"
+       y="755.17249" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_6"
+       width="18.520679"
+       height="20.331787"
+       x="91.811089"
+       y="779.57727" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_7"
+       width="18.520679"
+       height="20.331787"
+       x="91.811089"
+       y="803.98199" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_8"
+       width="18.520679"
+       height="20.331787"
+       x="91.811089"
+       y="828.38678" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_9"
+       width="18.520679"
+       height="20.331787"
+       x="91.811089"
+       y="852.7915" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_10"
+       width="28.877815"
+       height="20.331787"
+       x="81.453957"
+       y="877.19629" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_13"
+       width="28.877815"
+       height="20.331787"
+       x="306.66315"
+       y="706.94739" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_11"
+       width="28.877815"
+       height="20.331787"
+       x="306.66315"
+       y="658.05847" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_12"
+       width="28.877815"
+       height="20.331787"
+       x="306.66315"
+       y="682.50293" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_14"
+       width="28.877815"
+       height="20.331787"
+       x="306.66315"
+       y="731.39178" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_15"
+       width="28.877815"
+       height="20.331787"
+       x="306.66315"
+       y="755.83624" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_16"
+       width="28.877815"
+       height="20.331787"
+       x="306.66315"
+       y="780.2807" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_17"
+       width="28.877815"
+       height="20.331787"
+       x="306.66315"
+       y="804.7251" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_18"
+       width="28.877815"
+       height="20.331787"
+       x="306.66315"
+       y="829.16956" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_19"
+       width="28.877815"
+       height="20.331787"
+       x="306.66315"
+       y="853.61401" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect7655"
+       width="28.877815"
+       height="20.331787"
+       x="306.66315"
+       y="878.05847" />
+    <rect
+       style="color:#000000;fill:none;stroke:#008000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="box_21"
+       width="28.877815"
+       height="20.331787"
+       x="194.66266"
+       y="923.50336" />
   </g>
 </svg>

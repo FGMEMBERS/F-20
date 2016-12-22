@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<particlesystem>
+		<name>Vortex</name>
+		<texture>annulus.png</texture>
+		<emissive>false</emissive>
+		<lighting>true</lighting>
+
+		<offsets>
+			<x-m>0</x-m>
+			<y-m>0</y-m>
+			<z-m>0</z-m>
+		</offsets>
+
+  <condition>
+  <and>
+   <greater-than>
+	<property>/orientation/alpha-deg</property>
+	<value>20.0</value>
+   </greater-than> 
+   <less-than>	   
+	<property>/position/altitude-ft</property>
+	<value>10000.0</value>
+   </less-than>
+   <greater-than>
+	<property>/velocities/airspeed-kt</property>
+	<value>60.0</value>
+   </greater-than>
+  </and>
+  </condition>
+
+		<attach>world</attach>
+
+		<placer>
+			<type>point</type>
+		</placer>
+
+		<shooter>
+			<theta-min-deg>90</theta-min-deg>
+			<theta-max-deg>90</theta-max-deg>
+			<phi-min-deg>45</phi-min-deg>
+			<phi-max-deg>45</phi-max-deg>				
+			<speed-mps>
+				<value>50.0</value>
+                <spread>0.0</spread>
+			</speed-mps>		
+		</shooter>
+		
+
+		<counter>
+			<particles-per-sec>
+				<value> 500</value>
+				<spread>0</spread>
+			</particles-per-sec>
+		</counter>
+
+		<align>billboard</align>
+                
+		<particle>
+			<start>
+				<color>
+					<red>
+						<value>1.0</value>
+					</red>
+					<green>
+						<value>1.0</value>
+					</green>
+					<blue>
+						<value>1.0</value>
+					</blue>
+					<alpha>
+						<value>0.3</value>
+					</alpha>
+				</color>
+				<size>
+					<value>0.1</value>
+				</size>
+			</start>
+			<end>
+				<color>
+					<red>
+						<value>1.0</value>
+					</red>
+					<green>
+						<value>1.0</value>
+					</green>
+					<blue>
+						<value>1.0</value>
+					</blue>
+					<alpha>
+						<value>0.1</value>
+					</alpha>
+				</color>
+				<size>
+					<value>0.15</value>
+				</size>
+			</end>
+			<life-sec>
+              <value>0.3</value>
+			</life-sec>
+			<mass-kg>0.0001</mass-kg>
+			<radius-m>0.1</radius-m>
+		</particle>
+
+		<program>
+			<fluid>air</fluid>
+			<gravity>false</gravity>
+			<wind>true</wind>
+		</program>
+
+	</particlesystem>
+
+</PropertyList>

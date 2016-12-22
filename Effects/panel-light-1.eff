@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PropertyList>
+  <name>panel-light-1</name>
+  <inherits-from>Aircraft/F-20/Effects/ultra</inherits-from>
+<!--  <parameters>
+	<position type="vec4d">-3.64142 0.5 0.5 1.0</position>
+	<direction type="vec4d">0.0 0.0 -1.0 1.0</direction>
+	<ambient type="vec4d">0.0 0.0 0.0 1.0</ambient>
+	<diffuse type="vec4d">1.0 1.0 1.0 1.0</diffuse>
+	<specular type="vec4d">1.0 1.0 1.0 1.0</specular>
+	<exponent>1.0</exponent>
+	<cutoff>0.6</cutoff>
+	<cosCutoff>0.5</cosCutoff>
+	<near>0.1</near>
+	<far>0.7</far>
+  </parameters>-->
+</PropertyList>

@@ -7,7 +7,7 @@ var prop_IAS =  props.globals.getNode ("/velocities/airspeed-kt");
 var prop_alpha = props.globals.getNode ("orientation/alpha-deg");
 var prop_mach =  props.globals.getNode ("/velocities/mach");
 var prop_altitude_ft =  props.globals.getNode ("/position/altitude-ft");
-var prop_heading =  props.globals.getNode("/orientation/heading-deg");
+var prop_heading =  props.globals.getNode("/orientation/heading-magnetic-deg");
 var prop_track = props.globals.getNode("/orientation/track-deg");
 var prop_elevator_trim =  props.globals.getNode ("/controls/flight/elevator-trim");
 var prop_deltaT =  props.globals.getNode ("sim/time/delta-sec");
@@ -72,15 +72,18 @@ var updateF20 = func {
     updateEngine(deltaT);
     #updateSpeedBrakes(deltaT);
     updateGearIndicators(deltaT);
-    updateElectricalSystem (deltaT);
+    updateElectricalSystem (deltaT);    
     updateHydraulics(deltaT);
     updateEngineInstrument();
-    updateHud();
-    updateHSI();
+    INS.update(deltaT);
+    TACAN.update (deltaT);
+    AOA_indexer.update (deltaT);
+    updateDisplays(deltaT);
+    updateArmamentPanel(deltaT);
     updateClock();
     updateFlaps();
     updateAltimeter();
-    
+
     registerUpdate();    
 
 }
